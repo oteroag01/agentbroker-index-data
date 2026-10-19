@@ -377,8 +377,8 @@
       "Cursor"
     ],
     "capability": "place_orders",
-    "limits": "Official open-source Agent Skill (trading212-labs/agent-skills) wrapping the Public API (beta, v0): market, limit, stop and stop-limit orders, portfolio, history. API key + secret; demo and live environments; optional IP allow-list for keys. Invest and Stocks ISA accounts only. No per-order confirmation or caps documented. Trading 212's API Terms prohibit using the API for Algorithmic Trading (orders determined by an algorithm with limited or no human intervention).",
-    "limits_es": "Skill oficial de código abierto (trading212-labs/agent-skills) sobre la API pública (beta, v0): órdenes de mercado, limitadas, stop y stop-limit, cartera e historial. Clave y secreto API; entornos demo y real; lista opcional de IP permitidas. Solo cuentas Invest y Stocks ISA. No documenta confirmación por orden ni topes. Las condiciones de la API de Trading 212 prohíben usarla para trading algorítmico (órdenes decididas por un algoritmo con poca o ninguna intervención humana).",
+    "limits": "Safety: the skill defaults to the LIVE (real-money) environment. If T212_ENV is not set it uses live.trading212.com, so set T212_ENV=demo and use an API key created in your demo (practice) account before testing. API keys only work in the environment they were created in. Official open-source Agent Skill (trading212-labs/agent-skills) wrapping the Public API (beta, v0): market, limit, stop and stop-limit orders, portfolio, history. API key + secret; demo and live environments; optional IP allow-list for keys. Invest and Stocks ISA accounts only. No per-order confirmation or caps documented. Trading 212's API Terms prohibit using the API for Algorithmic Trading (orders determined by an algorithm with limited or no human intervention).",
+    "limits_es": "Seguridad: la skill usa por defecto el entorno REAL (dinero real). Si no defines T212_ENV, usa live.trading212.com; define T212_ENV=demo y usa una clave API creada en tu cuenta demo (práctica) antes de hacer pruebas. Cada clave API solo funciona en el entorno en el que se creó. Skill oficial de código abierto (trading212-labs/agent-skills) sobre la API pública (beta, v0): órdenes de mercado, limitadas, stop y stop-limit, cartera e historial. Clave y secreto API; entornos demo y real; lista opcional de IP permitidas. Solo cuentas Invest y Stocks ISA. No documenta confirmación por orden ni topes. Las condiciones de la API de Trading 212 prohíben usarla para trading algorítmico (órdenes decididas por un algoritmo con poca o ninguna intervención humana).",
     "availability": {
       "spain": "account_only",
       "eu": "account_only",
@@ -388,12 +388,14 @@
     "source_url": "https://community.trading212.com/t/trading-212s-api-can-now-integrate-with-ai/90278",
     "evidence_urls": [
       "https://github.com/trading212-labs/agent-skills",
+      "https://github.com/trading212-labs/agent-skills/blob/edd9dc870b16866d75e1778f9e5dfb89fcc74cb4/README.md",
+      "https://github.com/trading212-labs/agent-skills/blob/edd9dc870b16866d75e1778f9e5dfb89fcc74cb4/plugins/trading212-api/skills/trading212-api/SKILL.md",
       "https://docs.trading212.com/api",
       "https://www.trading212.com/legal-documentation/API-Terms_EN.pdf",
       "https://helpcentre.trading212.com/hc/en-us/articles/12933782261917-What-are-the-supported-countries"
     ],
-    "notes": "Announced 4 Feb 2026 by Trading 212 staff in its official community ('What's new'); the GitHub org trading212-labs links to trading212.com. Works with AgentSkills-compatible tools (Claude Code, OpenClaw, Codex, Cursor); no MCP server and no ChatGPT/Claude.ai app. Spain is served by Trading 212 EU GmbH (BaFin); the skill's own country list is not published. MCP servers for Trading 212 remain community projects.",
-    "notes_es": "Anunciado el 4 feb. 2026 por personal de Trading 212 en su comunidad oficial («What's new»); la organización de GitHub trading212-labs enlaza a trading212.com. Funciona con herramientas compatibles con AgentSkills (Claude Code, OpenClaw, Codex, Cursor); sin servidor MCP ni app en ChatGPT/Claude.ai. En España opera Trading 212 EU GmbH (BaFin); la skill no publica lista de países. Los servidores MCP para Trading 212 siguen siendo proyectos de la comunidad.",
+    "notes": "Announced 4 Feb 2026 by Trading 212 staff in its official community ('What's new'); the GitHub org trading212-labs links to trading212.com. Works with AgentSkills-compatible tools (Claude Code, OpenClaw, Codex, Cursor); no MCP server and no ChatGPT/Claude.ai app. Spain is served by Trading 212 EU GmbH (BaFin); the skill's own country list is not published. MCP servers for Trading 212 remain community projects. Live-by-default: the skill's README and SKILL.md (checked 19 Oct 2026) say T212_ENV is optional and defaults to \"live\"; the SKILL.md also tells the agent to ask whether you want LIVE or DEMO before making API calls.",
+    "notes_es": "Anunciado el 4 feb. 2026 por personal de Trading 212 en su comunidad oficial («What's new»); la organización de GitHub trading212-labs enlaza a trading212.com. Funciona con herramientas compatibles con AgentSkills (Claude Code, OpenClaw, Codex, Cursor); sin servidor MCP ni app en ChatGPT/Claude.ai. En España opera Trading 212 EU GmbH (BaFin); la skill no publica lista de países. Los servidores MCP para Trading 212 siguen siendo proyectos de la comunidad. Real por defecto: el README y el SKILL.md de la skill (revisados el 19 oct. 2026) indican que T212_ENV es opcional y vale \"live\" por defecto; el SKILL.md también pide al agente que pregunte si quieres LIVE o DEMO antes de llamar a la API.",
     "affiliate_url": "",
     "last_checked": "2026-10-19",
     "aliases": [
@@ -428,7 +430,7 @@
       "Codex",
       "Cursor"
     ],
-    "date_modified": "2026-10-16",
+    "date_modified": "2026-10-19",
     "license": "CC-BY-4.0"
   },
   {
@@ -1665,8 +1667,8 @@
       "Any MCP client"
     ],
     "capability": "place_orders",
-    "limits": "Scoped, revocable API key (read / trade). Public-API MCP can trade with Trade(Write) scope; Fusion MCP places/cancels orders with Trade scope. Stricter rate limits on order placement. No per-order size cap documented.",
-    "limits_es": "Clave API limitada y revocable (lectura / trading). El MCP de la API pública puede operar con el permiso Trade(Write); el MCP de Fusion coloca/cancela órdenes con el permiso Trade. Límites de frecuencia más estrictos para órdenes. Sin límite de tamaño por orden documentado.",
+    "limits": "Scoped, revocable API key (read / trade). Public-API MCP can trade with Trade(Write) scope; Fusion MCP places/cancels orders with Trade scope. Stricter rate limits on order placement. Optional daily buy and sell volume limits per Public-API key, enforced by Bitpanda server-side (set via the MCP; permanent for that key). No per-order size cap documented.",
+    "limits_es": "Clave API limitada y revocable (lectura / trading). El MCP de la API pública puede operar con el permiso Trade(Write); el MCP de Fusion coloca/cancela órdenes con el permiso Trade. Límites de frecuencia más estrictos para órdenes. Límites diarios opcionales de volumen de compra y de venta por clave de la API pública, aplicados por Bitpanda en el servidor (se fijan desde el MCP y son permanentes para esa clave). Sin límite de tamaño por orden documentado.",
     "availability": {
       "spain": "unknown",
       "eu": "yes",
@@ -1675,11 +1677,12 @@
     "source_url": "https://www.bitpanda.com/en/fusion/mcp",
     "evidence_urls": [
       "https://docs.bitpanda.com/mcp-server-371916m0",
+      "https://www.bitpanda.com/skill.md",
       "https://github.com/bitpanda-labs/bitpanda-mcp",
       "https://fensory.com/best/agentic-trading-platforms-non-us"
     ],
-    "notes": "Endpoints https://mcp.public.bitpanda.com and https://mcp.fusion.bitpanda.com. MiCAR-licensed European provider (per Fensory). The GitHub bitpanda-mcp is read-only.",
-    "notes_es": "Endpoints https://mcp.public.bitpanda.com y https://mcp.fusion.bitpanda.com. Proveedor europeo con licencia MiCAR (según Fensory). El repositorio bitpanda-mcp de GitHub es de solo lectura.",
+    "notes": "Endpoints https://mcp.public.bitpanda.com and https://mcp.fusion.bitpanda.com. Both are hosted by Bitpanda (nothing to install; key sent in the x-api-key header); setup guide for agents at bitpanda.com/skill.md. MiCAR-licensed European provider (per Fensory). The older self-hosted, read-only GitHub repo bitpanda-labs/bitpanda-mcp is archived (read-only on GitHub since Aug 2026) and marked no longer maintained; its README points to the hosted MCP and docs.bitpanda.com instead.",
+    "notes_es": "Endpoints https://mcp.public.bitpanda.com y https://mcp.fusion.bitpanda.com. Ambos los aloja Bitpanda (no hay que instalar nada; la clave se envía en la cabecera x-api-key); guía de configuración para agentes en bitpanda.com/skill.md. Proveedor europeo con licencia MiCAR (según Fensory). El antiguo repositorio autoalojado y de solo lectura bitpanda-labs/bitpanda-mcp está archivado en GitHub (desde ago. 2026) y marcado como sin mantenimiento; su README remite al MCP alojado y a docs.bitpanda.com.",
     "affiliate_url": "",
     "launch_date": "unknown",
     "last_checked": "2026-10-19",
@@ -1716,7 +1719,7 @@
       "Cursor",
       "Cualquier cliente MCP"
     ],
-    "date_modified": "2026-10-16",
+    "date_modified": "2026-10-19",
     "license": "CC-BY-4.0"
   },
   {

@@ -9,6 +9,8 @@ Dated changes to the providers tracked. Each entry is backed by the source linke
 ## Provider events (newest first)
 - 2026-10-19: Revolut X's revx CLI documents stop (conditional) and take-profit/stop-loss orders. ([source](https://github.com/revolut-engineering/revolut-x-api/blob/master/README.md))
 - 2026-10-19: MetaMask docs: switching an Agent Wallet to Beast Mode now needs 2FA approval; Beast Mode has no allowlists or outflow limit. ([source](https://docs.metamask.io/agent-wallet/reference/trading-modes/))
+- 2026-10-19: Bitpanda archives its self-hosted GitHub MCP (bitpanda-labs/bitpanda-mcp, no longer maintained); the official hosted MCP servers (Public API and Fusion) remain and now document optional server-side daily trading limits per API key. ([source](https://github.com/bitpanda-labs/bitpanda-mcp))
+- 2026-10-19: Safety note: Trading 212's official Agent Skill defaults to the LIVE (real-money) environment when T212_ENV is not set; set T212_ENV=demo with a demo-account key to test first. ([source](https://github.com/trading212-labs/agent-skills/blob/edd9dc870b16866d75e1778f9e5dfb89fcc74cb4/README.md))
 - 2026-10-19: Added Questrade (Canada): hosted MCP; each order needs Questrade Push Approval. ([source](https://www.questrade.com/learning/using-questrade/connect-your-questrade-account-to-ai))
 - 2026-10-19: Added Gate for AI (hosted + local MCP, 400+ trading tools via OAuth2; fund operations need confirmation). ([source](https://github.com/gate/gate-mcp))
 - 2026-10-19: Added Bitget Agent Hub (local MCP, isolated Agentic account; no Bitget entity in the ESMA MiCA register). ([source](https://www.bitget.com/docs/uta/agent-hub))

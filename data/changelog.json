@@ -201,6 +201,22 @@
   },
   {
     "date": "2026-10-19",
+    "provider_id": "bitpanda",
+    "title_en": "Bitpanda archives its self-hosted GitHub MCP (bitpanda-labs/bitpanda-mcp, no longer maintained); the official hosted MCP servers (Public API and Fusion) remain and now document optional server-side daily trading limits per API key.",
+    "title_es": "Bitpanda archiva su MCP autoalojado de GitHub (bitpanda-labs/bitpanda-mcp, sin mantenimiento); siguen los servidores MCP oficiales alojados (API pública y Fusion), que ahora documentan límites diarios opcionales de trading por clave API aplicados en el servidor.",
+    "source_url": "https://github.com/bitpanda-labs/bitpanda-mcp",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-10-19",
+    "provider_id": "trading-212",
+    "title_en": "Safety note: Trading 212's official Agent Skill defaults to the LIVE (real-money) environment when T212_ENV is not set; set T212_ENV=demo with a demo-account key to test first.",
+    "title_es": "Aviso de seguridad: la skill oficial de Trading 212 usa por defecto el entorno REAL (dinero real) si no se define T212_ENV; define T212_ENV=demo con una clave de la cuenta demo para probar primero.",
+    "source_url": "https://github.com/trading212-labs/agent-skills/blob/edd9dc870b16866d75e1778f9e5dfb89fcc74cb4/README.md",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-10-19",
     "provider_id": "questrade",
     "title_en": "Added Questrade (Canada): hosted MCP; each order needs Questrade Push Approval.",
     "title_es": "Añadido Questrade (Canadá): MCP alojado; cada orden requiere Questrade Push Approval.",
