@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "AgentBroker Index dataset: AI-agent access to brokers, banks and crypto exchanges"
+abstract: "Sourced records of which brokers, banks and crypto exchanges let AI agents read accounts, draft or place orders, with Spanish/EU authorisation status (CNMV, Banco de España, ESMA)."
+authors:
+  - name: "AgentBroker Index"
+    website: "https://agentbrokerindex.com/"
+version: "2026-10-19"
+date-released: "2026-10-19"
+license: CC-BY-4.0
+url: "https://agentbrokerindex.com/"
+repository: "https://github.com/oteroag01/agentbroker-index-data"
+keywords: [AI agents, MCP, brokers, crypto exchanges, MiCA, CNMV, Spain, EU, open data]

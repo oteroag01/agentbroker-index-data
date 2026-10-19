@@ -1,0 +1,41 @@
+# Changelog
+
+Dated changes to the providers tracked. Each entry is backed by the source linked in `data/changelog.json`.
+
+## Dataset 2026-10-19
+- 64 providers. Licence and authorisation checks dated 2026-10-19. ESMA MiCA register: 373 CASPs.
+- Added `date_modified` (content-change date), `cfd_only` and `license` fields. The data is now licensed CC BY 4.0.
+
+## Provider events (newest first)
+- 2026-10-19: Revolut X's revx CLI documents stop (conditional) and take-profit/stop-loss orders. ([source](https://github.com/revolut-engineering/revolut-x-api/blob/master/README.md))
+- 2026-10-19: MetaMask docs: switching an Agent Wallet to Beast Mode now needs 2FA approval; Beast Mode has no allowlists or outflow limit. ([source](https://docs.metamask.io/agent-wallet/reference/trading-modes/))
+- 2026-10-19: Added Questrade (Canada): hosted MCP; each order needs Questrade Push Approval. ([source](https://www.questrade.com/learning/using-questrade/connect-your-questrade-account-to-ai))
+- 2026-10-19: Added Gate for AI (hosted + local MCP, 400+ trading tools via OAuth2; fund operations need confirmation). ([source](https://github.com/gate/gate-mcp))
+- 2026-10-19: Added Bitget Agent Hub (local MCP, isolated Agentic account; no Bitget entity in the ESMA MiCA register). ([source](https://www.bitget.com/docs/uta/agent-hub))
+- 2026-10-19: Added LCX (local MCP); LCX does not serve the EEA while its MiCA application is pending. ([source](https://lcx.com/en/info/faq/about-lcx/is-lcx-regulated-what-is-the-legal-setup-of-lcx))
+- 2026-10-19: Added Phantom MCP server (self-custody; the agent gets its own dedicated wallet). ([source](https://docs.phantom.com/phantom-mcp-server))
+- 2026-10-19: Added Senpi (AI agent for Hyperliquid perpetuals, connectors for Claude, ChatGPT and Grok). ([source](https://senpi.ai/connectors))
+- 2026-10-19: Added Composer (US only): official API; its earlier official MCP repository no longer loads. ([source](https://help.composer.trade/article/236-getting-started-with-your-composer-api))
+- 2026-10-08: eToro launches MCP connectors for Claude, ChatGPT, Grok and Grok Bot (read-only or read-and-act; every action needs approval; not in the US, Australia or Singapore). ([source](https://www.etoro.com/news-and-analysis/press-releases/your-ai-already-runs-your-day-now-it-knows-your-portfolio/))
+- 2026-10: TradeStation drops its $10k minimum and paid-AI requirement for MCP access. ([source](https://www.stockbrokers.com/guides/ai-agent-brokers))
+- 2026-09-09: NinjaTrader announces an MCP server (beta) for futures trading with Claude and ChatGPT. ([source](https://ninjatrader.com/news/ninjatrader-launches-ninjatrader-innovation-lab-to-power-dedicated-futures-focused-ai-tools-for-retail-traders/))
+- 2026-09: tastytrade releases its official MCP server. ([source](https://www.stockbrokers.com/guides/ai-agent-brokers))
+- 2026-08-27: IOL invertironline (Argentina) launches a hosted MCP for ChatGPT, Claude, Gemini and Grok; every operation needs your confirmation. ([source](https://www.invertironline.com/mcp))
+- 2026-08-25: Scalable Capital launches Agentic Investing: first EU broker letting ChatGPT/Claude place orders (with approval). ([source](https://fensory.com/best/agentic-trading-platforms-non-us))
+- 2026-08-20: Binance launches Agent OS with an MCP server and agentic sub-accounts. ([source](https://www.prnewswire.com/news-releases/binance-introduces-agent-os-to-connect-ai-applications-to-financial-infrastructure-302856306.html))
+- 2026-08-06: MetaMask Agent Wallet launches (self-custodial, Guard Mode). ([source](https://metamask.io/news/introducing-metamask-agent-wallet))
+- 2026-08: Webull adds native ChatGPT, Claude and Grok connectors. ([source](https://www.stockbrokers.com/guides/ai-agent-brokers))
+- 2026-07-28: Interactive Brokers opens its AI integration to any MCP tool (drafts only). ([source](https://www.interactivebrokers.com/en/general/about/mediaRelations/7-28-26.php))
+- 2026-06-26: Revolut X connects to Claude, Gemini, OpenClaw, Cursor and Codex. ([source](https://www.revolut.com/blog/post/revolut-x-connects-with-your-ai-assistant-uk/))
+- 2026-06-08: Capital.com releases an official open-source MCP server (CFD provider; trades need preview and confirmation). ([source](https://capital.com/en-ae/press/we-enable-mcp-server-plugin-giving-traders-real-time-account-access-from-within-their-ai-research-environments))
+- 2026-06: Coinbase launches Coinbase for Agents. ([source](https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/))
+- 2026-06: MyInvestor puts its fund catalogue in ChatGPT, Claude and Perplexity (read-only). ([source](https://www.extractobancario.com/2026/06/13/tecnologia/puedes-conectar-myinvestor-a-tu-agente-de-ia-favorita/974/))
+- 2026-05-14: cTrader launches AI Agent Connect (remote + local MCP). ([source](https://www.spotware.com/news/ctrader-launches-official-mcp-servers/))
+- 2026-04-27: Gemini (exchange) launches Agentic Trading via MCP. ([source](https://www.gemini.com/blog/introducing-agentic-trading-on-gemini-the-future-of-crypto-is-autonomous))
+- 2026-03-26: eToro launches Agent Portfolios (beta): ring-fenced portfolios for AI agents. ([source](https://www.etoro.com/news-and-analysis/etoro-updates/agent-portfolios-let-your-ai-agent-trade-for-you/))
+- 2026-03-23: Montrose (Sweden) lets customers connect their portfolio to Claude/ChatGPT via MCP; orders need approval in Montrose. ([source](https://news.cision.com/dnb-carnegie/r/montrose-first-in-europe-to-let-customers-connect-their-portfolio-to-their-own-ai-interface,c4325064))
+- 2026-03-10: OKX launches Agent Trade Kit (MCP + CLI). ([source](https://www.okx.com/en-us/learn/agent-trade-kit))
+- 2026-03: Kraken releases kraken-cli with a built-in MCP server for agents. ([source](https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/))
+- 2026-02-24: BBVA launches its app inside ChatGPT (Italy and Germany only). ([source](https://www.bbva.com/en/innovation/bbvas-app-is-now-available-on-chatgpt-in-germany-and-italy/))
+- 2026-02-04: Trading 212 releases an official Agent Skill for its API (Claude Code, OpenClaw, Codex). ([source](https://community.trading212.com/t/trading-212s-api-can-now-integrate-with-ai/90278))
+- 2026-01: TradeStation ships the first MCP server at a US broker. ([source](https://www.stockbrokers.com/guides/ai-agent-brokers))

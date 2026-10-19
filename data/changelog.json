@@ -1,0 +1,258 @@
+[
+  {
+    "date": "2026-01",
+    "provider_id": "tradestation",
+    "title_en": "TradeStation ships the first MCP server at a US broker.",
+    "title_es": "TradeStation lanza el primer servidor MCP de un broker de EE. UU.",
+    "source_url": "https://www.stockbrokers.com/guides/ai-agent-brokers",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-02-04",
+    "provider_id": "trading-212",
+    "title_en": "Trading 212 releases an official Agent Skill for its API (Claude Code, OpenClaw, Codex).",
+    "title_es": "Trading 212 publica una skill oficial para su API (Claude Code, OpenClaw, Codex).",
+    "source_url": "https://community.trading212.com/t/trading-212s-api-can-now-integrate-with-ai/90278",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-02-24",
+    "provider_id": "bbva",
+    "title_en": "BBVA launches its app inside ChatGPT (Italy and Germany only).",
+    "title_es": "BBVA lanza su app dentro de ChatGPT (solo Italia y Alemania).",
+    "source_url": "https://www.bbva.com/en/innovation/bbvas-app-is-now-available-on-chatgpt-in-germany-and-italy/",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-03",
+    "provider_id": "kraken",
+    "title_en": "Kraken releases kraken-cli with a built-in MCP server for agents.",
+    "title_es": "Kraken publica kraken-cli con servidor MCP integrado.",
+    "source_url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-03-10",
+    "provider_id": "okx",
+    "title_en": "OKX launches Agent Trade Kit (MCP + CLI).",
+    "title_es": "OKX lanza Agent Trade Kit (MCP + CLI).",
+    "source_url": "https://www.okx.com/en-us/learn/agent-trade-kit",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-03-23",
+    "provider_id": "montrose",
+    "title_en": "Montrose (Sweden) lets customers connect their portfolio to Claude/ChatGPT via MCP; orders need approval in Montrose.",
+    "title_es": "Montrose (Suecia) permite conectar la cartera a Claude/ChatGPT vía MCP; las órdenes se aprueban en Montrose.",
+    "source_url": "https://news.cision.com/dnb-carnegie/r/montrose-first-in-europe-to-let-customers-connect-their-portfolio-to-their-own-ai-interface,c4325064",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-03-26",
+    "provider_id": "etoro",
+    "title_en": "eToro launches Agent Portfolios (beta): ring-fenced portfolios for AI agents.",
+    "title_es": "eToro lanza Agent Portfolios (beta): carteras aisladas para agentes.",
+    "source_url": "https://www.etoro.com/news-and-analysis/etoro-updates/agent-portfolios-let-your-ai-agent-trade-for-you/",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-04-27",
+    "provider_id": "gemini-exchange",
+    "title_en": "Gemini (exchange) launches Agentic Trading via MCP.",
+    "title_es": "El exchange Gemini lanza Agentic Trading vía MCP.",
+    "source_url": "https://www.gemini.com/blog/introducing-agentic-trading-on-gemini-the-future-of-crypto-is-autonomous",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-05-14",
+    "provider_id": "ctrader",
+    "title_en": "cTrader launches AI Agent Connect (remote + local MCP).",
+    "title_es": "cTrader lanza AI Agent Connect (MCP remoto y local).",
+    "source_url": "https://www.spotware.com/news/ctrader-launches-official-mcp-servers/",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-06",
+    "provider_id": "coinbase",
+    "title_en": "Coinbase launches Coinbase for Agents.",
+    "title_es": "Coinbase lanza Coinbase for Agents.",
+    "source_url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-06",
+    "provider_id": "myinvestor",
+    "title_en": "MyInvestor puts its fund catalogue in ChatGPT, Claude and Perplexity (read-only).",
+    "title_es": "MyInvestor lleva su catálogo de fondos a ChatGPT, Claude y Perplexity (solo lectura).",
+    "source_url": "https://www.extractobancario.com/2026/06/13/tecnologia/puedes-conectar-myinvestor-a-tu-agente-de-ia-favorita/974/",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-06-08",
+    "provider_id": "capital-com",
+    "title_en": "Capital.com releases an official open-source MCP server (CFD provider; trades need preview and confirmation).",
+    "title_es": "Capital.com publica un servidor MCP oficial de código abierto (proveedor de CFD; las operaciones requieren vista previa y confirmación).",
+    "source_url": "https://capital.com/en-ae/press/we-enable-mcp-server-plugin-giving-traders-real-time-account-access-from-within-their-ai-research-environments",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-06-26",
+    "provider_id": "revolut-x",
+    "title_en": "Revolut X connects to Claude, Gemini, OpenClaw, Cursor and Codex.",
+    "title_es": "Revolut X se conecta con Claude, Gemini, OpenClaw, Cursor y Codex.",
+    "source_url": "https://www.revolut.com/blog/post/revolut-x-connects-with-your-ai-assistant-uk/",
+    "source_http_status": "200*"
+  },
+  {
+    "date": "2026-07-28",
+    "provider_id": "interactive-brokers",
+    "title_en": "Interactive Brokers opens its AI integration to any MCP tool (drafts only).",
+    "title_es": "Interactive Brokers abre su integración a cualquier herramienta MCP (solo borradores).",
+    "source_url": "https://www.interactivebrokers.com/en/general/about/mediaRelations/7-28-26.php",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-08",
+    "provider_id": "webull",
+    "title_en": "Webull adds native ChatGPT, Claude and Grok connectors.",
+    "title_es": "Webull añade conectores nativos para ChatGPT, Claude y Grok.",
+    "source_url": "https://www.stockbrokers.com/guides/ai-agent-brokers",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-08-06",
+    "provider_id": "metamask",
+    "title_en": "MetaMask Agent Wallet launches (self-custodial, Guard Mode).",
+    "title_es": "Lanza MetaMask Agent Wallet (autocustodia, modo Guard).",
+    "source_url": "https://metamask.io/news/introducing-metamask-agent-wallet",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-08-20",
+    "provider_id": "binance",
+    "title_en": "Binance launches Agent OS with an MCP server and agentic sub-accounts.",
+    "title_es": "Binance lanza Agent OS con servidor MCP y subcuentas para agentes.",
+    "source_url": "https://www.prnewswire.com/news-releases/binance-introduces-agent-os-to-connect-ai-applications-to-financial-infrastructure-302856306.html",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-08-25",
+    "provider_id": "scalable-capital",
+    "title_en": "Scalable Capital launches Agentic Investing: first EU broker letting ChatGPT/Claude place orders (with approval).",
+    "title_es": "Scalable Capital lanza Agentic Investing: primer broker de la UE que permite a ChatGPT/Claude colocar órdenes (con aprobación).",
+    "source_url": "https://fensory.com/best/agentic-trading-platforms-non-us",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-08-27",
+    "provider_id": "iol",
+    "title_en": "IOL invertironline (Argentina) launches a hosted MCP for ChatGPT, Claude, Gemini and Grok; every operation needs your confirmation.",
+    "title_es": "IOL invertironline (Argentina) lanza un MCP alojado para ChatGPT, Claude, Gemini y Grok; cada operación requiere tu confirmación.",
+    "source_url": "https://www.invertironline.com/mcp",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-09",
+    "provider_id": "tastytrade",
+    "title_en": "tastytrade releases its official MCP server.",
+    "title_es": "tastytrade publica su servidor MCP oficial.",
+    "source_url": "https://www.stockbrokers.com/guides/ai-agent-brokers",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-09-09",
+    "provider_id": "ninjatrader",
+    "title_en": "NinjaTrader announces an MCP server (beta) for futures trading with Claude and ChatGPT.",
+    "title_es": "NinjaTrader anuncia un servidor MCP (beta) para operar futuros con Claude y ChatGPT.",
+    "source_url": "https://ninjatrader.com/news/ninjatrader-launches-ninjatrader-innovation-lab-to-power-dedicated-futures-focused-ai-tools-for-retail-traders/",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-10",
+    "provider_id": "tradestation",
+    "title_en": "TradeStation drops its $10k minimum and paid-AI requirement for MCP access.",
+    "title_es": "TradeStation elimina el mínimo de 10.000 $ y el requisito de IA de pago.",
+    "source_url": "https://www.stockbrokers.com/guides/ai-agent-brokers",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-10-08",
+    "provider_id": "etoro",
+    "title_en": "eToro launches MCP connectors for Claude, ChatGPT, Grok and Grok Bot (read-only or read-and-act; every action needs approval; not in the US, Australia or Singapore).",
+    "title_es": "eToro lanza conectores MCP para Claude, ChatGPT, Grok y Grok Bot (solo lectura o lectura y acción; cada acción requiere aprobación; no disponible en EE. UU., Australia ni Singapur).",
+    "source_url": "https://www.etoro.com/news-and-analysis/press-releases/your-ai-already-runs-your-day-now-it-knows-your-portfolio/",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-10-19",
+    "provider_id": "revolut-x",
+    "title_en": "Revolut X's revx CLI documents stop (conditional) and take-profit/stop-loss orders.",
+    "title_es": "La CLI revx de Revolut X documenta órdenes stop (condicionales) y take-profit/stop-loss.",
+    "source_url": "https://github.com/revolut-engineering/revolut-x-api/blob/master/README.md",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-10-19",
+    "provider_id": "metamask",
+    "title_en": "MetaMask docs: switching an Agent Wallet to Beast Mode now needs 2FA approval; Beast Mode has no allowlists or outflow limit.",
+    "title_es": "Docs de MetaMask: pasar un Agent Wallet a modo Beast requiere aprobación 2FA; el modo Beast no tiene listas de permitidos ni límite de salidas.",
+    "source_url": "https://docs.metamask.io/agent-wallet/reference/trading-modes/",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-10-19",
+    "provider_id": "questrade",
+    "title_en": "Added Questrade (Canada): hosted MCP; each order needs Questrade Push Approval.",
+    "title_es": "Añadido Questrade (Canadá): MCP alojado; cada orden requiere Questrade Push Approval.",
+    "source_url": "https://www.questrade.com/learning/using-questrade/connect-your-questrade-account-to-ai",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-10-19",
+    "provider_id": "gate",
+    "title_en": "Added Gate for AI (hosted + local MCP, 400+ trading tools via OAuth2; fund operations need confirmation).",
+    "title_es": "Añadido Gate for AI (MCP alojado y local, más de 400 herramientas de trading con OAuth2; las operaciones con fondos requieren confirmación).",
+    "source_url": "https://github.com/gate/gate-mcp",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-10-19",
+    "provider_id": "bitget",
+    "title_en": "Added Bitget Agent Hub (local MCP, isolated Agentic account; no Bitget entity in the ESMA MiCA register).",
+    "title_es": "Añadido Bitget Agent Hub (MCP local, cuenta Agentic aislada; ninguna entidad de Bitget en el registro MiCA de ESMA).",
+    "source_url": "https://www.bitget.com/docs/uta/agent-hub",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-10-19",
+    "provider_id": "lcx",
+    "title_en": "Added LCX (local MCP); LCX does not serve the EEA while its MiCA application is pending.",
+    "title_es": "Añadido LCX (MCP local); LCX no opera en el EEE mientras su solicitud MiCA está pendiente.",
+    "source_url": "https://lcx.com/en/info/faq/about-lcx/is-lcx-regulated-what-is-the-legal-setup-of-lcx",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-10-19",
+    "provider_id": "phantom",
+    "title_en": "Added Phantom MCP server (self-custody; the agent gets its own dedicated wallet).",
+    "title_es": "Añadido el servidor MCP de Phantom (autocustodia; el agente recibe su propio wallet dedicado).",
+    "source_url": "https://docs.phantom.com/phantom-mcp-server",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-10-19",
+    "provider_id": "senpi",
+    "title_en": "Added Senpi (AI agent for Hyperliquid perpetuals, connectors for Claude, ChatGPT and Grok).",
+    "title_es": "Añadido Senpi (agente de IA para perpetuos de Hyperliquid, conectores para Claude, ChatGPT y Grok).",
+    "source_url": "https://senpi.ai/connectors",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-10-19",
+    "provider_id": "composer",
+    "title_en": "Added Composer (US only): official API; its earlier official MCP repository no longer loads.",
+    "title_es": "Añadido Composer (solo EE. UU.): API oficial; el repositorio de su MCP oficial anterior ya no carga.",
+    "source_url": "https://help.composer.trade/article/236-getting-started-with-your-composer-api",
+    "source_http_status": "200"
+  }
+]

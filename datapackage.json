@@ -1,0 +1,47 @@
+{
+  "name": "agentbroker-index",
+  "title": "AgentBroker Index: AI-agent access to brokers, banks and crypto exchanges",
+  "homepage": "https://agentbrokerindex.com/",
+  "version": "2026-10-19",
+  "last_modified": "2026-10-19",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "AgentBroker Index",
+      "path": "https://agentbrokerindex.com/",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "providers",
+      "path": "data/providers.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "name": "providers-csv",
+      "path": "data/providers.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "changelog",
+      "path": "data/changelog.json",
+      "format": "json",
+      "mediatype": "application/json"
+    }
+  ],
+  "sources": [
+    {
+      "title": "AgentBroker Index",
+      "path": "https://agentbrokerindex.com/"
+    }
+  ]
+}
