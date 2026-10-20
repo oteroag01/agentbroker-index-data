@@ -139,7 +139,7 @@
     "date": "2026-08-25",
     "provider_id": "scalable-capital",
     "title_en": "Scalable Capital launches Agentic Investing: first EU broker letting ChatGPT/Claude place orders (with approval).",
-    "title_es": "Scalable Capital lanza Agentic Investing: primer broker de la UE que permite a ChatGPT/Claude colocar órdenes (con aprobación).",
+    "title_es": "Scalable Capital lanza Agentic Investing: es el primer broker de la UE que deja operar a ChatGPT y Claude (con tu aprobación).",
     "source_url": "https://fensory.com/best/agentic-trading-platforms-non-us",
     "source_http_status": "200"
   },
@@ -147,7 +147,7 @@
     "date": "2026-08-27",
     "provider_id": "iol",
     "title_en": "IOL invertironline (Argentina) launches a hosted MCP for ChatGPT, Claude, Gemini and Grok, with read-only, confirm-each-operation and automatic modes.",
-    "title_es": "IOL invertironline (Argentina) lanza un MCP alojado para ChatGPT, Claude, Gemini y Grok, con modos de solo lectura, confirmación de cada operación y automático.",
+    "title_es": "IOL invertironline (Argentina) lanza un MCP en la nube para ChatGPT, Claude, Gemini y Grok, con modos de solo lectura, confirmación de cada operación y automático.",
     "source_url": "https://www.invertironline.com/mcp",
     "source_http_status": "200"
   },
@@ -195,7 +195,7 @@
     "date": "2026-10-19",
     "provider_id": "metamask",
     "title_en": "MetaMask docs: switching an Agent Wallet to Beast Mode now needs 2FA approval; Beast Mode has no allowlists or outflow limit.",
-    "title_es": "Docs de MetaMask: pasar un Agent Wallet a modo Beast requiere aprobación 2FA; el modo Beast no tiene listas de permitidos ni límite de salidas.",
+    "title_es": "Según la documentación de MetaMask, pasar un Agent Wallet a modo Beast requiere aprobación 2FA; el modo Beast no tiene listas de permitidos ni límite de salidas.",
     "source_url": "https://docs.metamask.io/agent-wallet/reference/trading-modes/",
     "source_http_status": "200"
   },
@@ -203,7 +203,7 @@
     "date": "2026-10-19",
     "provider_id": "bitpanda",
     "title_en": "Bitpanda archives its self-hosted GitHub MCP (bitpanda-labs/bitpanda-mcp, no longer maintained); the official hosted MCP servers (Public API and Fusion) remain and now document optional server-side daily trading limits per API key.",
-    "title_es": "Bitpanda archiva su MCP autoalojado de GitHub (bitpanda-labs/bitpanda-mcp, sin mantenimiento); siguen los servidores MCP oficiales alojados (API pública y Fusion), que ahora documentan límites diarios opcionales de trading por clave API aplicados en el servidor.",
+    "title_es": "Bitpanda archiva su MCP local de GitHub (bitpanda-labs/bitpanda-mcp, sin mantenimiento); siguen los servidores MCP oficiales en la nube (API pública y Fusion), que ahora documentan límites diarios opcionales de trading por clave API aplicados en el servidor.",
     "source_url": "https://github.com/bitpanda-labs/bitpanda-mcp",
     "source_http_status": "200"
   },
@@ -219,7 +219,7 @@
     "date": "2026-10-19",
     "provider_id": "questrade",
     "title_en": "Added Questrade (Canada): hosted MCP; each order needs Questrade Push Approval.",
-    "title_es": "Añadido Questrade (Canadá): MCP alojado; cada orden requiere Questrade Push Approval.",
+    "title_es": "Añadido Questrade (Canadá): MCP en la nube; cada orden requiere Questrade Push Approval.",
     "source_url": "https://www.questrade.com/learning/using-questrade/connect-your-questrade-account-to-ai",
     "source_http_status": "200"
   },
@@ -227,7 +227,7 @@
     "date": "2026-10-19",
     "provider_id": "gate",
     "title_en": "Added Gate for AI (hosted + local MCP, 400+ trading tools via OAuth2; fund operations need confirmation).",
-    "title_es": "Añadido Gate for AI (MCP alojado y local, más de 400 herramientas de trading con OAuth2; las operaciones con fondos requieren confirmación).",
+    "title_es": "Añadido Gate for AI (MCP en la nube y local, más de 400 herramientas de trading con OAuth2; las operaciones con fondos requieren confirmación).",
     "source_url": "https://github.com/gate/gate-mcp",
     "source_http_status": "200"
   },
@@ -283,7 +283,7 @@
     "date": "2026-10-20",
     "provider_id": "ripio",
     "title_en": "Added Ripio (Argentina/LATAM crypto exchange): hosted MCP with read-only, operate and full presets; the full preset includes withdrawals.",
-    "title_es": "Añadido Ripio (exchange cripto de Argentina/LATAM): MCP alojado con perfiles de solo lectura, operar y completo; el completo incluye retiros.",
+    "title_es": "Añadido Ripio (exchange de crypto de Argentina/LATAM): MCP en la nube con perfiles de solo lectura, operar y completo; el completo incluye retiros.",
     "source_url": "https://apidocs.ripio.com/static/mcp/overview",
     "source_http_status": "200"
   },
@@ -299,7 +299,7 @@
     "date": "2026-10-20",
     "provider_id": "webull-mexico",
     "title_en": "Added Webull México: official local MCP for the Mexico region; the hosted Cloud MCP is US-only.",
-    "title_es": "Añadido Webull México: MCP local oficial para la región México; el Cloud MCP alojado es solo para EE. UU.",
+    "title_es": "Añadido Webull México: MCP local oficial para la región México; el Cloud MCP (en la nube) es solo para EE. UU.",
     "source_url": "https://github.com/webull-inc/webull-openapi-mcp",
     "source_http_status": "200"
   },
@@ -307,7 +307,7 @@
     "date": "2026-10-20",
     "provider_id": "zesty",
     "title_en": "Added Zesty (Chile): hosted MCP where you confirm every order; no withdrawals.",
-    "title_es": "Añadido Zesty (Chile): MCP alojado en el que confirmas cada orden; sin retiros.",
+    "title_es": "Añadido Zesty (Chile): MCP en la nube en el que confirmas cada orden; sin retiros.",
     "source_url": "https://www.zestyfinance.com/conecta-tu-agente",
     "source_http_status": "200"
   }
