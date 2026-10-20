@@ -11,6 +11,7 @@ Which brokers, banks and crypto exchanges let an AI agent (ChatGPT, Claude, Grok
 | Authorised to serve Spain | 38 (checked against CNMV, Banco de España and ESMA registers) |
 | ESMA interim MiCA register | 373 authorised CASPs (checked 2026-10-19) |
 | Argentina / Mexico (pilot) | 3 providers with Argentina data, 3 with Mexico data (IOL invertironline, Ripio, Bitso, Webull México) |
+| Asset types (new) | 41 of 43 official providers with at least one sourced asset cell; 431 of 602 cells still unconfirmed |
 | Data version | 2026-10-20 (records last re-checked 2026-10-20) |
 
 ## Files
@@ -31,6 +32,10 @@ Which brokers, banks and crypto exchanges let an AI agent (ChatGPT, Claude, Grok
 | `availability` | spain / eu / us / ar (Argentina) / mx (Mexico): yes, account_only, no, unknown |
 | `licence.latam` | ar / mx local registration: status (cnv_agent, cnv_psav = CNV virtual-asset registration, not a licence; cnbv_casa_de_bolsa, crypto_not_cnbv = crypto platform, no CNBV/Banxico financial authorisation found; unknown), entity, register_no, register_url, note_en/es, source, checked |
 | `licence` | Legal entity, regulator, es_status, es_authorised, register_url, mica_status, cfd, cfd_only, leveraged, authorisation_checked |
+| `assets` | Per asset type (stocks, etfs, funds, pension_plans, bonds, options, futures, crypto_spot, perps, cfds, tokenized, fx, commodities, cash_savings): agent = trade | read | no | unknown (what the official agent connection can do), platform = true | false | null (whether the platform offers it), source (required unless unknown), note / note_es |
+| `fractional, fractional_meta` | Fractional orders documented for the agent: true | false | null, with source and note |
+| `assets_checked` | Date the asset types were last checked (null for providers without an official agent product) |
+| `CSV: assets_trade, assets_read, assets_no, asset_<key>` | Flattened asset layer: `;`-joined keys per state, plus one column per asset with its agent state |
 | `source_url, evidence_urls, source_http_status` | Primary sources and their HTTP status at last check |
 | `last_checked` | Date the record was last re-checked |
 | `date_modified` | Date the record's content last changed (not just re-checked) |
@@ -41,6 +46,7 @@ Which brokers, banks and crypto exchanges let an AI agent (ChatGPT, Claude, Grok
 - **Licence status:** checked by hand against the CNMV, Banco de España and ESMA registers. The date is in `licence.authorisation_checked`.
 - **Argentina / Mexico:** local registration as each provider publishes it, plus the CNV or CNBV register where one exists (`licence.latam.*.checked`). A CNV PSAV (virtual-asset) registration is anti-money-laundering only and is **not** a licence; Mexican crypto platforms are marked `crypto_not_cnbv`, never "authorised". Guides: https://agentbrokerindex.com/es/latinoamerica/argentina/ and https://agentbrokerindex.com/es/latinoamerica/mexico/.
 - **Updates:** records are re-checked weekly. `date_modified` changes only when the content changes, which a content fingerprint detects.
+- **Asset types (since 2026-10-20):** a cell is `trade` or `read` only when the provider's official documentation shows the agent doing it, and `no` only when the provider says so or the asset is missing from its complete published tool catalogue. Everything else stays `unknown`; we never infer from the provider's general product range. `platform` is recorded separately, because many brokers sell products their agent connection can't reach. Explained at https://agentbrokerindex.com/about/#assets.
 - **CFD providers** are flagged (`licence.cfd`, `licence.cfd_only`). CFDs are high risk; most retail accounts lose money with them.
 
 **Not financial advice.** This is information only. No provider pays to be listed, and there are no affiliate links. Corrections: open an issue, citing a source.

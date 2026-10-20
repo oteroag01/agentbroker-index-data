@@ -88,7 +88,94 @@
       "Grok",
       "Codex"
     ],
-    "date_modified": "2026-10-16",
+    "assets": {
+      "stocks": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://de.scalable.capital/en/agentic-investing",
+        "note": "Scalable's own example: changing the limit of a Siemens buy order. You approve every order.",
+        "note_es": "Ejemplo de la propia Scalable: cambiar el límite de una orden de compra de Siemens. Cada orden la apruebas tú."
+      },
+      "etfs": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://de.scalable.capital/en/agentic-investing",
+        "note": "Includes preparing ETF savings plans (for example, the Scalable World ETF).",
+        "note_es": "Incluye preparar planes de ahorro en ETF (por ejemplo, el Scalable World ETF)."
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": true,
+        "source": null,
+        "note": "The CLI can set price alerts on crypto; trading crypto through the agent isn't documented.",
+        "note_es": "La CLI permite crear alertas de precio sobre crypto; operar crypto con el agente no está documentado."
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "read",
+        "platform": true,
+        "source": "https://github.com/ScalableCapital/scalable-cli",
+        "note": "The CLI reads the Overnight and fixed-term savings accounts; it has no command to move money into them.",
+        "note_es": "La CLI consulta la cuenta Overnight y los depósitos a plazo; no tiene comandos para mover dinero a ellos."
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": "https://github.com/ScalableCapital/scalable-cli",
+      "note": "The official CLI accepts orders by amount but rejects fractional share quantities; Scalable doesn't say whether amount orders fill as fractions.",
+      "note_es": "La CLI oficial admite órdenes por importe, pero rechaza cantidades fraccionadas de acciones; Scalable no aclara si las órdenes por importe se ejecutan en fracciones."
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -179,7 +266,92 @@
       "Claude",
       "Perplexity"
     ],
-    "date_modified": "2026-10-16",
+    "assets": {
+      "stocks": {
+        "agent": "read",
+        "platform": true,
+        "source": "https://mcp.myinvestor.es/es",
+        "note": "Public catalogue only.",
+        "note_es": "Solo el catálogo público."
+      },
+      "etfs": {
+        "agent": "read",
+        "platform": true,
+        "source": "https://mcp.myinvestor.es/es",
+        "note": "Public catalogue only.",
+        "note_es": "Solo el catálogo público."
+      },
+      "funds": {
+        "agent": "read",
+        "platform": true,
+        "source": "https://mcp.myinvestor.es/es",
+        "note": "Public catalogue (2,000+ funds), not your account. You can start a purchase from the chat, but you finish it on myinvestor.es.",
+        "note_es": "Catálogo público (más de 2.000 fondos), no tu cuenta. Puedes iniciar la compra desde el chat, pero la terminas en myinvestor.es."
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": true,
+        "source": null,
+        "note": "MyInvestor sells pension plans, but the connector's page only mentions funds, ETFs, stocks and portfolios.",
+        "note_es": "MyInvestor comercializa planes de pensiones, pero la página del conector solo habla de fondos, ETF, acciones y carteras."
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -263,6 +435,83 @@
     "assistants_es": [
       "Cualquier agente capaz de llamar a una API REST"
     ],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -342,6 +591,83 @@
     },
     "hq_es": "Alemania",
     "assistants_es": [],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -422,6 +748,83 @@
     },
     "hq_es": "Países Bajos",
     "assistants_es": [],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -501,6 +904,83 @@
     },
     "hq_es": "Polonia",
     "assistants_es": [],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -598,7 +1078,94 @@
       "Codex",
       "Cursor"
     ],
-    "date_modified": "2026-10-19",
+    "assets": {
+      "stocks": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://docs.trading212.com/api",
+        "note": "Invest and Stocks ISA accounts only.",
+        "note_es": "Solo cuentas Invest y Stocks ISA."
+      },
+      "etfs": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/trading212-labs/agent-skills",
+        "note": "The official skill lists ETFs among the tradable instrument types.",
+        "note_es": "La skill oficial incluye los ETF entre los tipos de instrumento operables."
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null,
+        "note": "Crypto appears as an instrument type, but Trading 212 doesn't say whether the agent can trade it.",
+        "note_es": "Crypto aparece como tipo de instrumento, pero Trading 212 no aclara si el agente puede operarla."
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "no",
+        "platform": true,
+        "source": "https://docs.trading212.com/api",
+        "note": "The API works only with Invest and Stocks ISA accounts, not with the CFD account.",
+        "note_es": "La API solo funciona con las cuentas Invest y Stocks ISA, no con la cuenta de CFD."
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": true,
+    "fractional_meta": {
+      "source": "https://docs.trading212.com/api/orders/placemarketorder",
+      "note": "Order quantities accept decimals (the docs use 0.1 shares as an example). Orders by cash value aren't supported.",
+      "note_es": "Las órdenes admiten decimales (la documentación usa 0,1 acciones como ejemplo). No admite órdenes por importe."
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -691,7 +1258,86 @@
       "Codex",
       "Windsurf"
     ],
-    "date_modified": "2026-10-16",
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "read",
+        "platform": true,
+        "source": "https://mcp.tradernet.com/tools",
+        "note": "Quotes include options. The order tools don't say which instruments they accept.",
+        "note_es": "Las cotizaciones incluyen opciones. Las herramientas de órdenes no indican qué instrumentos admiten."
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -776,6 +1422,83 @@
     "assistants_es": [
       "Cualquier agente capaz de llamar a una API REST"
     ],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -880,7 +1603,88 @@
       "Windsurf",
       "Cualquier cliente MCP"
     ],
-    "date_modified": "2026-10-16",
+    "assets": {
+      "stocks": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://www.interactivebrokers.com/en/trading/ai-integrations.php",
+        "note": "Prepares only: the agent writes the order instruction (e.g. 'buy 50 shares of AAPL') and you submit it from an IBKR platform.",
+        "note_es": "Solo prepara: el agente deja lista la instrucción (p. ej., «compra 50 acciones de AAPL») y tú la envías desde una plataforma de IBKR."
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": true,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "read",
+        "platform": true,
+        "source": "https://www.interactivebrokers.com/en/trading/ai-integrations.php",
+        "note": "The agent reads option chains. IBKR's example prompts also mention options strategies, but order preparation is only shown for stocks.",
+        "note_es": "El agente consulta cadenas de opciones. Los ejemplos de IBKR también hablan de estrategias con opciones, pero solo muestran órdenes preparadas de acciones."
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -985,7 +1789,90 @@
       "Claude Code",
       "Cursor"
     ],
-    "date_modified": "2026-10-19",
+    "assets": {
+      "stocks": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://www.etoro.com/wp-content/uploads/agent-portfolios/SKILL.md",
+        "note": "eToro's agent skill uses a portfolio of US tech stocks, crypto and ETFs as its example.",
+        "note_es": "La skill de eToro pone como ejemplo una cartera de acciones tecnológicas de EE. UU., crypto y ETF."
+      },
+      "etfs": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://www.etoro.com/wp-content/uploads/agent-portfolios/SKILL.md"
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://www.etoro.com/wp-content/uploads/agent-portfolios/SKILL.md"
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://www.etoro.com/wp-content/uploads/agent-portfolios/SKILL.md",
+        "note": "Orders take a leverage parameter and can be short (IsBuy: false). At eToro, leveraged and short positions are CFDs.",
+        "note_es": "Las órdenes aceptan apalancamiento y pueden ser en corto (IsBuy: false). En eToro, las posiciones apalancadas y en corto son CFD."
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": true,
+    "fractional_meta": {
+      "source": "https://builders.etoro.com/products/trading.md",
+      "note": "Positions can be opened by cash amount or by units.",
+      "note_es": "Puedes abrir posiciones por importe o por unidades."
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -1065,7 +1952,90 @@
     "assistants_es": [
       "Cualquier cliente MCP"
     ],
-    "date_modified": "2026-10-19",
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://fensory.com/mcp",
+        "note": "Hyperliquid spot pairs.",
+        "note_es": "Pares spot de Hyperliquid."
+      },
+      "perps": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://fensory.com/mcp",
+        "note": "Hyperliquid perpetuals on crypto and also on stocks, commodities, indices and currencies, with leverage.",
+        "note_es": "Perpetuos de Hyperliquid sobre crypto y también sobre acciones, materias primas, índices y divisas, con apalancamiento."
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "no",
+        "platform": true,
+        "source": "https://fensory.com/mcp",
+        "note": "Tokenized stocks and ETFs are in the Fensory app only, not in the MCP.",
+        "note_es": "Las acciones y ETF tokenizados solo están en la app de Fensory, no en el MCP."
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -1148,7 +2118,86 @@
     "assistants_es": [
       "ChatGPT"
     ],
-    "date_modified": "2026-10-16",
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "read",
+        "platform": true,
+        "source": "https://www.bbva.com/en/innovation/bbvas-app-is-now-available-on-chatgpt-in-germany-and-italy/",
+        "note": "Product information only (accounts, cards and savings of BBVA's digital banks in Italy and Germany), not your account.",
+        "note_es": "Solo información de producto (cuentas, tarjetas y ahorro de los bancos digitales de BBVA en Italia y Alemania), no tu cuenta."
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -1229,6 +2278,83 @@
     },
     "hq_es": "España",
     "assistants_es": [],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -1311,6 +2437,83 @@
     },
     "hq_es": "España",
     "assistants_es": [],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -1391,6 +2594,83 @@
     },
     "hq_es": "España",
     "assistants_es": [],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -1471,6 +2751,83 @@
     },
     "hq_es": "España",
     "assistants_es": [],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -1552,6 +2909,83 @@
     },
     "hq_es": "España",
     "assistants_es": [],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -1632,6 +3066,83 @@
     },
     "hq_es": "España",
     "assistants_es": [],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -1713,6 +3224,83 @@
     },
     "hq_es": "España",
     "assistants_es": [],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -1791,6 +3379,83 @@
     },
     "hq_es": "Reino Unido/Lituania",
     "assistants_es": [],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -1871,6 +3536,83 @@
     },
     "hq_es": "Alemania",
     "assistants_es": [],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -1949,6 +3691,83 @@
     },
     "hq_es": "Reino Unido",
     "assistants_es": [],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -2027,6 +3846,83 @@
     },
     "hq_es": "Reino Unido",
     "assistants_es": [],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -2114,7 +4010,86 @@
       "Claude",
       "ChatGPT"
     ],
-    "date_modified": "2026-10-16",
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "read",
+        "platform": null,
+        "source": "https://apidocs.mybanx.io/docs/mybanx-for-claude",
+        "note": "Read-only access to the balances and transactions of the bank accounts you connect.",
+        "note_es": "Acceso de solo lectura a saldos y movimientos de las cuentas bancarias que conectes."
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -2206,7 +4181,86 @@
       "Codex",
       "Cualquier cliente MCP"
     ],
-    "date_modified": "2026-10-16",
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "read",
+        "platform": null,
+        "source": "https://bankbridge.money/guides/mcp-servers-for-personal-finance",
+        "note": "Read-only bank data: checking, savings, cards and investment accounts.",
+        "note_es": "Datos bancarios de solo lectura: cuentas corrientes, de ahorro, tarjetas y cuentas de inversión."
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -2295,7 +4349,112 @@
       "Cursor",
       "Cualquier cliente MCP"
     ],
-    "date_modified": "2026-10-16",
+    "assets": {
+      "stocks": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://api.bit2me.com/docs/ai/tools",
+        "note": "Not in the official tool catalogue.",
+        "note_es": "No figura en el catálogo oficial de herramientas."
+      },
+      "etfs": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://api.bit2me.com/docs/ai/tools",
+        "note": "Not in the official tool catalogue.",
+        "note_es": "No figura en el catálogo oficial de herramientas."
+      },
+      "funds": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://api.bit2me.com/docs/ai/tools",
+        "note": "Not in the official tool catalogue.",
+        "note_es": "No figura en el catálogo oficial de herramientas."
+      },
+      "pension_plans": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://api.bit2me.com/docs/ai/tools",
+        "note": "Not in the official tool catalogue.",
+        "note_es": "No figura en el catálogo oficial de herramientas."
+      },
+      "bonds": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://api.bit2me.com/docs/ai/tools",
+        "note": "Not in the official tool catalogue.",
+        "note_es": "No figura en el catálogo oficial de herramientas."
+      },
+      "options": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://api.bit2me.com/docs/ai/tools",
+        "note": "Not in the official tool catalogue.",
+        "note_es": "No figura en el catálogo oficial de herramientas."
+      },
+      "futures": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://api.bit2me.com/docs/ai/tools",
+        "note": "Not in the official tool catalogue.",
+        "note_es": "No figura en el catálogo oficial de herramientas."
+      },
+      "crypto_spot": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://api.bit2me.com/docs/ai/tools",
+        "note": "Simple buy, sell and swap (on a quote you confirm) and limit, market and stop orders on Bit2Me Pro. No withdrawals to external addresses.",
+        "note_es": "Compra, venta e intercambio sencillos (sobre un presupuesto que confirmas) y órdenes limitadas, a mercado y stop en Bit2Me Pro. Sin retiradas a direcciones externas."
+      },
+      "perps": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://api.bit2me.com/docs/ai/tools",
+        "note": "Not in the official tool catalogue.",
+        "note_es": "No figura en el catálogo oficial de herramientas."
+      },
+      "cfds": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://api.bit2me.com/docs/ai/tools",
+        "note": "Not in the official tool catalogue.",
+        "note_es": "No figura en el catálogo oficial de herramientas."
+      },
+      "tokenized": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://api.bit2me.com/docs/ai/tools",
+        "note": "Not in the official tool catalogue.",
+        "note_es": "No figura en el catálogo oficial de herramientas."
+      },
+      "fx": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://api.bit2me.com/docs/ai/tools",
+        "note": "Not in the official tool catalogue.",
+        "note_es": "No figura en el catálogo oficial de herramientas."
+      },
+      "commodities": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://api.bit2me.com/docs/ai/tools",
+        "note": "Not in the official tool catalogue.",
+        "note_es": "No figura en el catálogo oficial de herramientas."
+      },
+      "cash_savings": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://api.bit2me.com/docs/ai/tools",
+        "note": "Not in the official tool catalogue.",
+        "note_es": "No figura en el catálogo oficial de herramientas."
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -2391,7 +4550,92 @@
       "Cursor",
       "Cualquier cliente MCP"
     ],
-    "date_modified": "2026-10-19",
+    "assets": {
+      "stocks": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://docs.public.bitpanda.com/create-a-trading-quote-4375763e0.md",
+        "note": "The trading-quote endpoint covers securities (identified by ISIN) as well as crypto.",
+        "note_es": "El endpoint de presupuestos cubre valores (identificados por ISIN), además de crypto."
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": true,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://docs.public.bitpanda.com/create-a-trading-quote-4375763e0.md",
+        "note": "Trades run on a quote that you confirm.",
+        "note_es": "Las operaciones se hacen sobre un presupuesto que confirmas."
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": true,
+        "source": null,
+        "note": "Bitpanda sells precious metals; the docs don't say whether the agent can trade them.",
+        "note_es": "Bitpanda vende metales preciosos; la documentación no aclara si el agente puede operarlos."
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": true,
+    "fractional_meta": {
+      "source": "https://docs.public.bitpanda.com/create-a-trading-quote-4375763e0.md",
+      "note": "Quantities accept up to 8 decimals, and you can also order by amount.",
+      "note_es": "Las cantidades admiten hasta 8 decimales, y también puedes comprar por importe."
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -2489,7 +4733,112 @@
       "Cursor",
       "Codex"
     ],
-    "date_modified": "2026-10-19",
+    "assets": {
+      "stocks": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/revolut-engineering/revolut-x-api/blob/master/README.md",
+        "note": "Crypto-only exchange.",
+        "note_es": "Exchange solo de crypto."
+      },
+      "etfs": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/revolut-engineering/revolut-x-api/blob/master/README.md",
+        "note": "Crypto-only exchange.",
+        "note_es": "Exchange solo de crypto."
+      },
+      "funds": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/revolut-engineering/revolut-x-api/blob/master/README.md",
+        "note": "Crypto-only exchange.",
+        "note_es": "Exchange solo de crypto."
+      },
+      "pension_plans": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/revolut-engineering/revolut-x-api/blob/master/README.md",
+        "note": "Crypto-only exchange.",
+        "note_es": "Exchange solo de crypto."
+      },
+      "bonds": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/revolut-engineering/revolut-x-api/blob/master/README.md",
+        "note": "Crypto-only exchange.",
+        "note_es": "Exchange solo de crypto."
+      },
+      "options": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/revolut-engineering/revolut-x-api/blob/master/README.md",
+        "note": "Crypto-only exchange.",
+        "note_es": "Exchange solo de crypto."
+      },
+      "futures": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/revolut-engineering/revolut-x-api/blob/master/README.md",
+        "note": "Crypto-only exchange.",
+        "note_es": "Exchange solo de crypto."
+      },
+      "crypto_spot": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/revolut-engineering/revolut-x-api/blob/master/README.md",
+        "note": "Market and limit orders on Revolut X crypto pairs.",
+        "note_es": "Órdenes a mercado y limitadas en los pares de crypto de Revolut X."
+      },
+      "perps": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/revolut-engineering/revolut-x-api/blob/master/README.md",
+        "note": "Crypto-only exchange.",
+        "note_es": "Exchange solo de crypto."
+      },
+      "cfds": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/revolut-engineering/revolut-x-api/blob/master/README.md",
+        "note": "Crypto-only exchange.",
+        "note_es": "Exchange solo de crypto."
+      },
+      "tokenized": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/revolut-engineering/revolut-x-api/blob/master/README.md",
+        "note": "Crypto-only exchange.",
+        "note_es": "Exchange solo de crypto."
+      },
+      "fx": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/revolut-engineering/revolut-x-api/blob/master/README.md",
+        "note": "Crypto-only exchange.",
+        "note_es": "Exchange solo de crypto."
+      },
+      "commodities": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/revolut-engineering/revolut-x-api/blob/master/README.md",
+        "note": "Crypto-only exchange.",
+        "note_es": "Exchange solo de crypto."
+      },
+      "cash_savings": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/revolut-engineering/revolut-x-api/blob/master/README.md",
+        "note": "Crypto-only exchange.",
+        "note_es": "Exchange solo de crypto."
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -2581,7 +4930,88 @@
       "Codex",
       "Cursor"
     ],
-    "date_modified": "2026-10-16",
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": true,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/binance/binance-skills-hub/tree/main/skills/binance/binance",
+        "note": "Spot, margin and Convert, inside a dedicated Agentic sub-account.",
+        "note_es": "Spot, margen y Convert, dentro de una subcuenta Agentic exclusiva."
+      },
+      "perps": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/binance/binance-skills-hub/tree/main/skills/binance/binance",
+        "note": "USDⓈ-M futures (perpetual contracts), with leverage.",
+        "note_es": "Futuros USDⓈ-M (contratos perpetuos), con apalancamiento."
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": true,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -2682,7 +5112,110 @@
       "OpenClaw",
       "Cualquier cliente MCP"
     ],
-    "date_modified": "2026-10-16",
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": true,
+        "source": null,
+        "note": "Kraken sells US stocks in its app; the CLI only trades stocks in tokenized form (xStocks).",
+        "note_es": "Kraken vende acciones de EE. UU. en su app; la CLI solo opera acciones en formato tokenizado (xStocks)."
+      },
+      "etfs": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/krakenfx/kraken-cli",
+        "note": "Not in the official tool catalogue.",
+        "note_es": "No figura en el catálogo oficial de herramientas."
+      },
+      "funds": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/krakenfx/kraken-cli",
+        "note": "Not in the official tool catalogue.",
+        "note_es": "No figura en el catálogo oficial de herramientas."
+      },
+      "pension_plans": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/krakenfx/kraken-cli",
+        "note": "Not in the official tool catalogue.",
+        "note_es": "No figura en el catálogo oficial de herramientas."
+      },
+      "bonds": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/krakenfx/kraken-cli",
+        "note": "Not in the official tool catalogue.",
+        "note_es": "No figura en el catálogo oficial de herramientas."
+      },
+      "options": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/krakenfx/kraken-cli",
+        "note": "Not in the official tool catalogue.",
+        "note_es": "No figura en el catálogo oficial de herramientas."
+      },
+      "futures": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/krakenfx/kraken-cli",
+        "note": "Fixed-date futures.",
+        "note_es": "Futuros con fecha de vencimiento."
+      },
+      "crypto_spot": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/krakenfx/kraken-cli"
+      },
+      "perps": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/krakenfx/kraken-cli",
+        "note": "Perpetual contracts with leverage.",
+        "note_es": "Contratos perpetuos con apalancamiento."
+      },
+      "cfds": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/krakenfx/kraken-cli",
+        "note": "Not in the official tool catalogue.",
+        "note_es": "No figura en el catálogo oficial de herramientas."
+      },
+      "tokenized": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/krakenfx/kraken-cli",
+        "note": "xStocks: tokenized US stocks and ETFs (not available in the US).",
+        "note_es": "xStocks: acciones y ETF de EE. UU. tokenizados (no disponibles en EE. UU.)."
+      },
+      "fx": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/krakenfx/kraken-cli",
+        "note": "Fiat currency pairs.",
+        "note_es": "Pares de divisas fiat."
+      },
+      "commodities": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/krakenfx/kraken-cli",
+        "note": "Not in the official tool catalogue.",
+        "note_es": "No figura en el catálogo oficial de herramientas."
+      },
+      "cash_savings": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/krakenfx/kraken-cli",
+        "note": "Not in the official tool catalogue.",
+        "note_es": "No figura en el catálogo oficial de herramientas."
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -2779,7 +5312,88 @@
       "Codex CLI",
       "Perplexity"
     ],
-    "date_modified": "2026-10-16",
+    "assets": {
+      "stocks": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://docs.cdp.coinbase.com/coinbase-for-agents/overview",
+        "note": "Eligible US stocks.",
+        "note_es": "Acciones de EE. UU. elegibles."
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://docs.cdp.coinbase.com/coinbase-for-agents/overview",
+        "note": "US-regulated dated futures (Coinbase Financial Markets), in your default portfolio only.",
+        "note_es": "Futuros con vencimiento regulados en EE. UU. (Coinbase Financial Markets), solo en tu cartera principal."
+      },
+      "crypto_spot": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://docs.cdp.coinbase.com/coinbase-for-agents/overview"
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -2875,7 +5489,86 @@
       "OpenClaw",
       "Windsurf"
     ],
-    "date_modified": "2026-10-16",
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/crypto-com/crypto-agent-trading"
+      },
+      "perps": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/crypto-com/crypto-agent-trading",
+        "note": "Perpetuals on Crypto.com Exchange, including some on stock indices (e.g. SPYUSD-PERP).",
+        "note_es": "Perpetuos en Crypto.com Exchange, incluidos algunos sobre índices bursátiles (p. ej., SPYUSD-PERP)."
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -2966,7 +5659,90 @@
       "Cursor",
       "Cualquier cliente MCP"
     ],
-    "date_modified": "2026-10-16",
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/okx/agent-trade-kit"
+      },
+      "futures": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/okx/agent-trade-kit",
+        "note": "Delivery (dated) futures.",
+        "note_es": "Futuros con entrega (con vencimiento)."
+      },
+      "crypto_spot": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/okx/agent-trade-kit"
+      },
+      "perps": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/okx/agent-trade-kit",
+        "note": "Perpetual swaps, with leverage.",
+        "note_es": "Swaps perpetuos, con apalancamiento."
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": true,
+        "source": null,
+        "note": "The kit reads market data on stock tokens; it doesn't say whether the agent can trade them.",
+        "note_es": "El kit consulta datos de mercado de tokens de acciones; no aclara si el agente puede operarlos."
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -3048,7 +5824,88 @@
     "assistants_es": [
       "Cualquier cliente MCP"
     ],
-    "date_modified": "2026-10-16",
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/bybit-exchange/trading-mcp"
+      },
+      "futures": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/bybit-exchange/trading-mcp",
+        "note": "Dated futures within the linear and inverse categories.",
+        "note_es": "Futuros con vencimiento dentro de las categorías lineal e inversa."
+      },
+      "crypto_spot": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/bybit-exchange/trading-mcp"
+      },
+      "perps": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/bybit-exchange/trading-mcp",
+        "note": "Linear and inverse perpetuals, with leverage.",
+        "note_es": "Perpetuos lineales e inversos, con apalancamiento."
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -3138,7 +5995,86 @@
       "ChatGPT",
       "Cualquier cliente MCP"
     ],
-    "date_modified": "2026-10-16",
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/gemini/developer-platform"
+      },
+      "perps": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://developer.gemini.com/rest/orders",
+        "note": "Perpetuals, with leverage.",
+        "note_es": "Perpetuos, con apalancamiento."
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -3233,7 +6169,88 @@
       "OpenCode",
       "Cursor"
     ],
-    "date_modified": "2026-10-19",
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://docs.metamask.io/agent-wallet/reference/trading-modes/",
+        "note": "Token swaps from your self-custody wallet.",
+        "note_es": "Intercambios de tokens desde tu wallet de autocustodia."
+      },
+      "perps": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://docs.metamask.io/agent-wallet/guides/trade-perpetuals",
+        "note": "Hyperliquid perpetuals.",
+        "note_es": "Perpetuos de Hyperliquid."
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -3326,7 +6343,88 @@
       "Cursor",
       "Gemini CLI"
     ],
-    "date_modified": "2026-10-16",
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "trade",
+        "platform": null,
+        "source": "https://help.ctrader.com/ctrader-ai-agent-connect/",
+        "note": "Depends on the cTrader broker you connect.",
+        "note_es": "Depende del bróker de cTrader que conectes."
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "trade",
+        "platform": null,
+        "source": "https://help.ctrader.com/ctrader-ai-agent-connect/",
+        "note": "Depends on the cTrader broker you connect.",
+        "note_es": "Depende del bróker de cTrader que conectes."
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -3419,7 +6517,112 @@
       "Grok",
       "Cualquier cliente MCP"
     ],
-    "date_modified": "2026-10-16",
+    "assets": {
+      "stocks": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://robinhood.com/us/en/support/articles/trading-with-your-agent/",
+        "note": "Long positions only.",
+        "note_es": "Solo posiciones largas."
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": true,
+        "source": null
+      },
+      "funds": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://robinhood.com/us/en/support/articles/trading-with-your-agent/",
+        "note": "Robinhood lists only stocks, options and crypto for agents.",
+        "note_es": "Robinhood solo habilita acciones, opciones y crypto para agentes."
+      },
+      "pension_plans": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://robinhood.com/us/en/support/articles/trading-with-your-agent/",
+        "note": "Robinhood lists only stocks, options and crypto for agents.",
+        "note_es": "Robinhood solo habilita acciones, opciones y crypto para agentes."
+      },
+      "bonds": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://robinhood.com/us/en/support/articles/trading-with-your-agent/",
+        "note": "Robinhood lists only stocks, options and crypto for agents.",
+        "note_es": "Robinhood solo habilita acciones, opciones y crypto para agentes."
+      },
+      "options": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://robinhood.com/us/en/support/articles/trading-with-your-agent/",
+        "note": "Single-leg only; multi-leg orders stay in the app.",
+        "note_es": "Solo de una pata; las órdenes de varias patas siguen en la app."
+      },
+      "futures": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://robinhood.com/us/en/support/articles/trading-with-your-agent/",
+        "note": "Robinhood lists only stocks, options and crypto for agents.",
+        "note_es": "Robinhood solo habilita acciones, opciones y crypto para agentes."
+      },
+      "crypto_spot": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://robinhood.com/us/en/support/articles/trading-with-your-agent/",
+        "note": "Needs a Robinhood Crypto account.",
+        "note_es": "Requiere una cuenta de Robinhood Crypto."
+      },
+      "perps": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://robinhood.com/us/en/support/articles/trading-with-your-agent/",
+        "note": "Robinhood lists only stocks, options and crypto for agents.",
+        "note_es": "Robinhood solo habilita acciones, opciones y crypto para agentes."
+      },
+      "cfds": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://robinhood.com/us/en/support/articles/trading-with-your-agent/",
+        "note": "Robinhood lists only stocks, options and crypto for agents.",
+        "note_es": "Robinhood solo habilita acciones, opciones y crypto para agentes."
+      },
+      "tokenized": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://robinhood.com/us/en/support/articles/trading-with-your-agent/",
+        "note": "Robinhood lists only stocks, options and crypto for agents.",
+        "note_es": "Robinhood solo habilita acciones, opciones y crypto para agentes."
+      },
+      "fx": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://robinhood.com/us/en/support/articles/trading-with-your-agent/",
+        "note": "Robinhood lists only stocks, options and crypto for agents.",
+        "note_es": "Robinhood solo habilita acciones, opciones y crypto para agentes."
+      },
+      "commodities": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://robinhood.com/us/en/support/articles/trading-with-your-agent/",
+        "note": "Robinhood lists only stocks, options and crypto for agents.",
+        "note_es": "Robinhood solo habilita acciones, opciones y crypto para agentes."
+      },
+      "cash_savings": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://robinhood.com/us/en/support/articles/trading-with-your-agent/",
+        "note": "Robinhood lists only stocks, options and crypto for agents.",
+        "note_es": "Robinhood solo habilita acciones, opciones y crypto para agentes."
+      }
+    },
+    "fractional": true,
+    "fractional_meta": {
+      "source": "https://robinhood.com/us/en/support/articles/trading-with-your-agent/",
+      "note": "Dollar-based market orders.",
+      "note_es": "Órdenes a mercado por importe en dólares."
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -3512,7 +6715,94 @@
       "Grok",
       "Cualquier cliente MCP"
     ],
-    "date_modified": "2026-10-16",
+    "assets": {
+      "stocks": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://developer.webull.com/apis/docs/AI-friendly-Resources/mcp",
+        "note": "Order instructions you confirm in the Webull app.",
+        "note_es": "Instrucciones de orden que confirmas en la app de Webull."
+      },
+      "etfs": {
+        "agent": "read",
+        "platform": true,
+        "source": "https://developer.webull.com/apis/docs/AI-friendly-Resources/mcp",
+        "note": "Reads ETF information; order tools only name stocks.",
+        "note_es": "Consulta información de ETF; las herramientas de órdenes solo hablan de acciones."
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://developer.webull.com/apis/docs/AI-friendly-Resources/mcp",
+        "note": "Single-leg option instructions.",
+        "note_es": "Instrucciones de opciones de una pata."
+      },
+      "futures": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://developer.webull.com/apis/docs/AI-friendly-Resources/mcp",
+        "note": "Futures order instructions.",
+        "note_es": "Instrucciones de orden de futuros."
+      },
+      "crypto_spot": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://developer.webull.com/apis/docs/AI-friendly-Resources/mcp",
+        "note": "Crypto order instructions.",
+        "note_es": "Instrucciones de orden de crypto."
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -3598,6 +6888,83 @@
     "assistants_es": [
       "Cualquier cliente MCP (HTTP con streaming)"
     ],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -3691,7 +7058,102 @@
       "Grok",
       "Muse"
     ],
-    "date_modified": "2026-10-16",
+    "assets": {
+      "stocks": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://public.com/mcp-trading"
+      },
+      "etfs": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://public.com/mcp-trading"
+      },
+      "funds": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://public.com/mcp-trading",
+        "note": "Public lists only US-listed stocks, ETFs, options, crypto and bonds.",
+        "note_es": "Public solo habilita acciones y ETF cotizados en EE. UU., opciones, crypto y bonos."
+      },
+      "pension_plans": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://public.com/mcp-trading",
+        "note": "Public lists only US-listed stocks, ETFs, options, crypto and bonds.",
+        "note_es": "Public solo habilita acciones y ETF cotizados en EE. UU., opciones, crypto y bonos."
+      },
+      "bonds": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://public.com/mcp-trading"
+      },
+      "options": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://public.com/mcp-trading"
+      },
+      "futures": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://public.com/mcp-trading",
+        "note": "Public lists only US-listed stocks, ETFs, options, crypto and bonds.",
+        "note_es": "Public solo habilita acciones y ETF cotizados en EE. UU., opciones, crypto y bonos."
+      },
+      "crypto_spot": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://public.com/mcp-trading"
+      },
+      "perps": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://public.com/mcp-trading",
+        "note": "Public lists only US-listed stocks, ETFs, options, crypto and bonds.",
+        "note_es": "Public solo habilita acciones y ETF cotizados en EE. UU., opciones, crypto y bonos."
+      },
+      "cfds": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://public.com/mcp-trading",
+        "note": "Public lists only US-listed stocks, ETFs, options, crypto and bonds.",
+        "note_es": "Public solo habilita acciones y ETF cotizados en EE. UU., opciones, crypto y bonos."
+      },
+      "tokenized": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://public.com/mcp-trading",
+        "note": "Public lists only US-listed stocks, ETFs, options, crypto and bonds.",
+        "note_es": "Public solo habilita acciones y ETF cotizados en EE. UU., opciones, crypto y bonos."
+      },
+      "fx": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://public.com/mcp-trading",
+        "note": "Public lists only US-listed stocks, ETFs, options, crypto and bonds.",
+        "note_es": "Public solo habilita acciones y ETF cotizados en EE. UU., opciones, crypto y bonos."
+      },
+      "commodities": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://public.com/mcp-trading",
+        "note": "Public lists only US-listed stocks, ETFs, options, crypto and bonds.",
+        "note_es": "Public solo habilita acciones y ETF cotizados en EE. UU., opciones, crypto y bonos."
+      },
+      "cash_savings": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://public.com/mcp-trading",
+        "note": "Public lists only US-listed stocks, ETFs, options, crypto and bonds.",
+        "note_es": "Public solo habilita acciones y ETF cotizados en EE. UU., opciones, crypto y bonos."
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -3779,6 +7241,83 @@
       "Claude",
       "ChatGPT"
     ],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -3872,7 +7411,86 @@
       "Gemini CLI",
       "Perplexity"
     ],
-    "date_modified": "2026-10-16",
+    "assets": {
+      "stocks": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/tastytrade/tastytrade-mcp"
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/tastytrade/tastytrade-mcp"
+      },
+      "futures": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/tastytrade/tastytrade-mcp"
+      },
+      "crypto_spot": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/tastytrade/tastytrade-mcp"
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": true,
+    "fractional_meta": {
+      "source": "https://github.com/tastytrade/tastytrade-mcp",
+      "note": "Fractional quantities for stocks and crypto.",
+      "note_es": "Cantidades fraccionadas en acciones y crypto."
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -3963,7 +7581,88 @@
       "Cursor",
       "Cualquier cliente MCP"
     ],
-    "date_modified": "2026-10-16",
+    "assets": {
+      "stocks": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/alpacahq/alpaca-mcp-server"
+      },
+      "etfs": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/alpacahq/alpaca-mcp-server"
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "read",
+        "platform": null,
+        "source": "https://github.com/alpacahq/alpaca-mcp-server",
+        "note": "Fixed-income market data only.",
+        "note_es": "Solo datos de mercado de renta fija."
+      },
+      "options": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/alpacahq/alpaca-mcp-server"
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/alpacahq/alpaca-mcp-server"
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": true,
+    "fractional_meta": {
+      "source": "https://github.com/alpacahq/alpaca-mcp-server",
+      "note": "Orders by amount (notional).",
+      "note_es": "Órdenes por importe (nocional)."
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -4043,6 +7742,83 @@
     },
     "hq_es": "EE. UU.",
     "assistants_es": [],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -4123,6 +7899,83 @@
     },
     "hq_es": "EE. UU.",
     "assistants_es": [],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -4201,6 +8054,83 @@
     },
     "hq_es": "EE. UU.",
     "assistants_es": [],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -4279,6 +8209,83 @@
     },
     "hq_es": "EE. UU.",
     "assistants_es": [],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -4358,6 +8365,83 @@
     },
     "hq_es": "EE. UU.",
     "assistants_es": [],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -4434,6 +8518,83 @@
     },
     "hq_es": "EE. UU.",
     "assistants_es": [],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -4512,6 +8673,83 @@
     },
     "hq_es": "EE. UU.",
     "assistants_es": [],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-16",
     "license": "CC-BY-4.0"
   },
@@ -4599,7 +8837,88 @@
       "ChatGPT",
       "Cualquier cliente MCP"
     ],
-    "date_modified": "2026-10-16",
+    "assets": {
+      "stocks": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://www.montrose.io/mcp",
+        "note": "Prepares only: you approve every order in Montrose.",
+        "note_es": "Solo prepara: cada orden la apruebas tú en Montrose."
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "read",
+        "platform": true,
+        "source": "https://www.montrose.io/mcp",
+        "note": "Reads your fund holdings.",
+        "note_es": "Consulta tus posiciones en fondos."
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -4689,7 +9008,86 @@
       "Gemini CLI",
       "Cursor"
     ],
-    "date_modified": "2026-10-16",
+    "assets": {
+      "stocks": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://docs.tradier.com/docs/tradier-mcp"
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://docs.tradier.com/docs/tradier-mcp",
+        "note": "Including multi-leg orders.",
+        "note_es": "Incluye órdenes de varias patas."
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -4787,7 +9185,84 @@
       "Cursor",
       "Cualquier cliente MCP"
     ],
-    "date_modified": "2026-10-16",
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://docs.ninjatrader.com/mcp.md"
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -4880,7 +9355,112 @@
       "Windsurf",
       "Codex"
     ],
-    "date_modified": "2026-10-19",
+    "assets": {
+      "stocks": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/capital-com-sv/capital-mcp",
+        "note": "Only as CFDs.",
+        "note_es": "Solo como CFD."
+      },
+      "etfs": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/capital-com-sv/capital-mcp",
+        "note": "Only as CFDs.",
+        "note_es": "Solo como CFD."
+      },
+      "funds": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/capital-com-sv/capital-mcp",
+        "note": "Only as CFDs.",
+        "note_es": "Solo como CFD."
+      },
+      "pension_plans": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/capital-com-sv/capital-mcp",
+        "note": "Only as CFDs.",
+        "note_es": "Solo como CFD."
+      },
+      "bonds": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/capital-com-sv/capital-mcp",
+        "note": "Only as CFDs.",
+        "note_es": "Solo como CFD."
+      },
+      "options": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/capital-com-sv/capital-mcp",
+        "note": "Only as CFDs.",
+        "note_es": "Solo como CFD."
+      },
+      "futures": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/capital-com-sv/capital-mcp",
+        "note": "Only as CFDs.",
+        "note_es": "Solo como CFD."
+      },
+      "crypto_spot": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/capital-com-sv/capital-mcp",
+        "note": "Only as CFDs.",
+        "note_es": "Solo como CFD."
+      },
+      "perps": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/capital-com-sv/capital-mcp",
+        "note": "Only as CFDs.",
+        "note_es": "Solo como CFD."
+      },
+      "cfds": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/capital-com-sv/capital-mcp",
+        "note": "Every Capital.com instrument is a CFD, whatever the underlying (shares, indices, FX, commodities or crypto).",
+        "note_es": "Todos los instrumentos de Capital.com son CFD, sea cual sea el subyacente (acciones, índices, divisas, materias primas o crypto)."
+      },
+      "tokenized": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/capital-com-sv/capital-mcp",
+        "note": "Only as CFDs.",
+        "note_es": "Solo como CFD."
+      },
+      "fx": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/capital-com-sv/capital-mcp",
+        "note": "Only as CFDs.",
+        "note_es": "Solo como CFD."
+      },
+      "commodities": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/capital-com-sv/capital-mcp",
+        "note": "Only as CFDs.",
+        "note_es": "Solo como CFD."
+      },
+      "cash_savings": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/capital-com-sv/capital-mcp",
+        "note": "Only as CFDs.",
+        "note_es": "Solo como CFD."
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -4977,7 +9557,84 @@
       "Copilot",
       "Gemini"
     ],
-    "date_modified": "2026-10-19",
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/tech-lcx/lcx-exchange-mcp"
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -5069,7 +9726,88 @@
       "VS Code",
       "Codex CLI"
     ],
-    "date_modified": "2026-10-19",
+    "assets": {
+      "stocks": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://www.questrade.com/learning/using-questrade/connect-your-questrade-account-to-ai",
+        "note": "Prepares only: every order needs Questrade Push Approval.",
+        "note_es": "Solo prepara: cada orden requiere Questrade Push Approval."
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "read",
+        "platform": true,
+        "source": "https://www.questrade.com/learning/using-questrade/connect-your-questrade-account-to-ai",
+        "note": "Reads option chains.",
+        "note_es": "Consulta cadenas de opciones."
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -5165,6 +9903,91 @@
       "Grok",
       "OpenCode"
     ],
+    "assets": {
+      "stocks": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://mcp.invertironline.com/documentacion-tecnica",
+        "note": "The order tool buys and sells listed securities; IOL doesn't break it down by type.",
+        "note_es": "La herramienta de órdenes compra y vende valores cotizados; IOL no detalla por tipo."
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://mcp.invertironline.com/documentacion-tecnica",
+        "note": "Subscribes to and redeems mutual funds (FCI).",
+        "note_es": "Suscribe y rescata fondos comunes de inversión (FCI)."
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://mcp.invertironline.com/documentacion-tecnica",
+        "note": "Via the same order tool; it also includes bond analytics and simulations.",
+        "note_es": "Con la misma herramienta de órdenes; incluye además análisis y simulaciones de bonos."
+      },
+      "options": {
+        "agent": "read",
+        "platform": true,
+        "source": "https://mcp.invertironline.com/documentacion-tecnica",
+        "note": "Reads option chains.",
+        "note_es": "Consulta cadenas de opciones."
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
     "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
@@ -5258,7 +10081,88 @@
       "Codex",
       "Cualquier cliente MCP"
     ],
-    "date_modified": "2026-10-19",
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://www.bitget.com/docs/uta/agent-hub"
+      },
+      "perps": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://www.bitget.com/docs/uta/agent-hub",
+        "note": "Futures with leverage.",
+        "note_es": "Futuros con apalancamiento."
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://www.bitget.com/docs/uta/agent-hub",
+        "note": "Bitget says its Agent Hub trades crypto and tokenized stocks.",
+        "note_es": "Bitget indica que su Agent Hub opera crypto y acciones tokenizadas."
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -5357,7 +10261,90 @@
       "Codex",
       "Windsurf"
     ],
-    "date_modified": "2026-10-19",
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/gate/gate-mcp"
+      },
+      "futures": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/gate/gate-mcp",
+        "note": "Delivery futures.",
+        "note_es": "Futuros con entrega."
+      },
+      "crypto_spot": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/gate/gate-mcp"
+      },
+      "perps": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/gate/gate-mcp",
+        "note": "Perpetual futures, with leverage.",
+        "note_es": "Futuros perpetuos, con apalancamiento."
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null,
+        "note": "A TradFi module places orders on an MT5 account; Gate doesn't say which instruments.",
+        "note_es": "Un módulo TradFi coloca órdenes en una cuenta MT5; Gate no detalla qué instrumentos."
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -5444,6 +10431,83 @@
     "assistants_es": [
       "Cualquier agente capaz de llamar a una API REST"
     ],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-19",
     "license": "CC-BY-4.0"
   },
@@ -5532,7 +10596,88 @@
       "Claude Code",
       "Cursor"
     ],
-    "date_modified": "2026-10-19",
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://docs.phantom.com/phantom-mcp-server",
+        "note": "Token swaps from the agent's own wallet.",
+        "note_es": "Intercambios de tokens desde el wallet propio del agente."
+      },
+      "perps": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://docs.phantom.com/phantom-mcp-server",
+        "note": "Hyperliquid perpetuals.",
+        "note_es": "Perpetuos de Hyperliquid."
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -5627,7 +10772,86 @@
       "Muse",
       "Hermes"
     ],
-    "date_modified": "2026-10-19",
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://senpi.ai",
+        "note": "Hyperliquid perpetuals on crypto and also on tokenized stocks, oil, gold and indices.",
+        "note_es": "Perpetuos de Hyperliquid sobre crypto y también sobre acciones tokenizadas, petróleo, oro e índices."
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -5719,6 +10943,85 @@
       "ChatGPT",
       "VS Code"
     ],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://apidocs.ripio.com/static/mcp/overview",
+        "note": "Ripio Trade orders and currency swaps, depending on the permissions you grant.",
+        "note_es": "Órdenes en Ripio Trade e intercambios entre monedas, según los permisos que concedas."
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
     "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
@@ -5804,6 +11107,83 @@
     "assistants_es": [
       "Cualquier agente capaz de llamar a una API REST"
     ],
+    "assets": {
+      "stocks": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": null,
     "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
@@ -5900,6 +11280,91 @@
       "Cursor",
       "Cualquier cliente MCP"
     ],
+    "assets": {
+      "stocks": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://github.com/webull-inc/webull-openapi-mcp",
+        "note": "US stocks.",
+        "note_es": "Acciones de EE. UU."
+      },
+      "etfs": {
+        "agent": "unknown",
+        "platform": true,
+        "source": null
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "no",
+        "platform": true,
+        "source": "https://github.com/webull-inc/webull-openapi-mcp",
+        "note": "The MCP's region table excludes options for Mexico, although Webull México offers them through its API.",
+        "note_es": "La tabla de regiones del MCP excluye las opciones en México, aunque Webull México las ofrece por su API."
+      },
+      "futures": {
+        "agent": "no",
+        "platform": true,
+        "source": "https://github.com/webull-inc/webull-openapi-mcp",
+        "note": "The MCP's region table excludes futures for Mexico, although Webull México offers them through its API.",
+        "note_es": "La tabla de regiones del MCP excluye los futuros en México, aunque Webull México los ofrece por su API."
+      },
+      "crypto_spot": {
+        "agent": "no",
+        "platform": null,
+        "source": "https://github.com/webull-inc/webull-openapi-mcp",
+        "note": "Not available in the Mexico region.",
+        "note_es": "No disponible en la región de México."
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
     "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
@@ -5993,6 +11458,89 @@
       "Cursor",
       "Grok"
     ],
+    "assets": {
+      "stocks": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://www.zestyfinance.com/conecta-tu-agente",
+        "note": "Chilean and US stocks; you confirm every order.",
+        "note_es": "Acciones chilenas y de EE. UU.; confirmas cada orden."
+      },
+      "etfs": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://www.zestyfinance.com/conecta-tu-agente",
+        "note": "US ETFs.",
+        "note_es": "ETF de EE. UU."
+      },
+      "funds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "pension_plans": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "bonds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "options": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "futures": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "crypto_spot": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "perps": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cfds": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "tokenized": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "fx": {
+        "agent": "trade",
+        "platform": true,
+        "source": "https://www.zestyfinance.com/conecta-tu-agente",
+        "note": "Buying and selling US dollars against Chilean pesos.",
+        "note_es": "Compra y venta de dólares contra pesos chilenos."
+      },
+      "commodities": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      },
+      "cash_savings": {
+        "agent": "unknown",
+        "platform": null,
+        "source": null
+      }
+    },
+    "fractional": null,
+    "fractional_meta": {
+      "source": null
+    },
+    "assets_checked": "2026-10-20",
     "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   }
