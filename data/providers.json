@@ -21,7 +21,9 @@
     "availability": {
       "spain": "account_only",
       "eu": "account_only",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "launch_date": "2026-08-25",
     "source_url": "https://de.scalable.capital/en/agentic-investing",
@@ -55,7 +57,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "BaFin (Alemania)",
       "legal_entity_es": "Scalable Capital Bank GmbH",
-      "mica_entity_es": "Scalable Capital Bank GmbH — Federal Financial Supervisory Authority (BaFin) (DE)"
+      "mica_entity_es": "Scalable Capital Bank GmbH — Federal Financial Supervisory Authority (BaFin) (DE)",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Alemania",
     "assistants_es": [
@@ -89,7 +113,9 @@
     "availability": {
       "spain": "yes",
       "eu": "unknown",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "launch_date": "2026-06",
     "source_url": "https://www.fundssociety.com/es/noticias/negocio/myinvestor-integra-su-catalogo-de-productos-de-inversion-en-chatgpt-claude-y-perplexity/",
@@ -123,7 +149,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "Banco de España / CNMV",
       "legal_entity_es": "MyInvestor Banco, S.A.",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "España",
     "assistants_es": [
@@ -152,7 +200,9 @@
     "availability": {
       "spain": "yes",
       "eu": "unknown",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://indexacapital.com/en/api-rest-v1",
     "evidence_urls": [
@@ -185,7 +235,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "CNMV",
       "legal_entity_es": "Indexa Capital A.V., S.A.",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "España",
     "assistants_es": [
@@ -210,7 +282,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://finolia.de/broker-mit-ki-anbindung-mcp/",
     "notes": "Status per finolia.de comparison (third-party). Watch for an official launch.",
@@ -242,7 +316,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "BaFin (Alemania)",
       "legal_entity_es": "Trade Republic Bank GmbH (Sucursal en España)",
-      "mica_entity_es": "Trade Republic Bank GmbH — Federal Financial Supervisory Authority (BaFin) (DE)"
+      "mica_entity_es": "Trade Republic Bank GmbH — Federal Financial Supervisory Authority (BaFin) (DE)",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Alemania",
     "assistants_es": [],
@@ -265,7 +361,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://fortunest.ai/guides/degiro-mcp-claude-chatgpt.html",
     "evidence_urls": [
@@ -298,7 +396,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "BaFin (Alemania)",
       "legal_entity_es": "flatexDEGIRO Bank SE",
-      "mica_entity_es": "flatexDEGIRO Bank AG — Federal Financial Supervisory Authority (BaFin) (DE)"
+      "mica_entity_es": "flatexDEGIRO Bank AG — Federal Financial Supervisory Authority (BaFin) (DE)",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Países Bajos",
     "assistants_es": [],
@@ -321,7 +441,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://www.xtb.com/int/help-center/our-platforms/does-xtb-offer-investment-automation-tools",
     "notes": "Any 'XTB MCP' projects online rely on the retired API.",
@@ -353,7 +475,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "KNF (Polonia)",
       "legal_entity_es": "XTB S.A. (Sucursal en España)",
-      "mica_entity_es": "XTB Limited — Comisión de Bolsa y Valores de Chipre (CySEC) (CY)"
+      "mica_entity_es": "XTB Limited — Comisión de Bolsa y Valores de Chipre (CySEC) (CY)",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Polonia",
     "assistants_es": [],
@@ -382,7 +526,9 @@
     "availability": {
       "spain": "account_only",
       "eu": "account_only",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "launch_date": "2026-02-04",
     "source_url": "https://community.trading212.com/t/trading-212s-api-can-now-integrate-with-ai/90278",
@@ -421,7 +567,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "CySEC (Chipre)",
       "legal_entity_es": "Trading 212 Markets Ltd",
-      "mica_entity_es": "Trading 212 Markets Ltd — Comisión de Bolsa y Valores de Chipre (CySEC) (CY)"
+      "mica_entity_es": "Trading 212 Markets Ltd — Comisión de Bolsa y Valores de Chipre (CySEC) (CY)",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Reino Unido/Bulgaria",
     "assistants_es": [
@@ -454,7 +622,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "unknown"
+      "us": "unknown",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://mcp.tradernet.com/tools",
     "evidence_urls": [
@@ -490,7 +660,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "CySEC (Chipre)",
       "legal_entity_es": "Freedom Finance Europe Ltd",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Chipre",
     "assistants_es": [
@@ -520,7 +712,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://developer.saxobank.com/",
     "evidence_urls": [
@@ -554,7 +748,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "Finanstilsynet (Dinamarca)",
       "legal_entity_es": "Saxo Bank A/S",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Dinamarca",
     "assistants_es": [
@@ -590,7 +806,9 @@
     "availability": {
       "spain": "yes",
       "eu": "yes",
-      "us": "yes"
+      "us": "yes",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "launch_date": "2026-07-28",
     "source_url": "https://www.interactivebrokers.com/en/general/about/mediaRelations/7-28-26.php",
@@ -627,7 +845,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "Banco Central de Irlanda",
       "legal_entity_es": "Interactive Brokers Ireland Limited",
-      "mica_entity_es": "Interactive Brokers Ireland Limited — Banco Central de Irlanda (CBI) (IE)"
+      "mica_entity_es": "Interactive Brokers Ireland Limited — Banco Central de Irlanda (CBI) (IE)",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "EE. UU.",
     "assistants_es": [
@@ -671,7 +911,9 @@
     "availability": {
       "spain": "account_only",
       "eu": "account_only",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "launch_date": "2026-03-26",
     "source_url": "https://www.etoro.com/news-and-analysis/etoro-updates/agent-portfolios-let-your-ai-agent-trade-for-you/",
@@ -689,7 +931,7 @@
     "aliases": [
       "e toro"
     ],
-    "source_http_status": "200",
+    "source_http_status": "503",
     "licence": {
       "legal_entity": "eToro (Europe) Ltd",
       "regulator": "CySEC (Cyprus)",
@@ -708,7 +950,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "CySEC (Chipre)",
       "legal_entity_es": "eToro (Europe) Ltd",
-      "mica_entity_es": "eToro (Europe) Ltd — Comisión de Bolsa y Valores de Chipre (CySEC) (CY)"
+      "mica_entity_es": "eToro (Europe) Ltd — Comisión de Bolsa y Valores de Chipre (CySEC) (CY)",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Israel/Chipre",
     "assistants_es": [
@@ -742,7 +1006,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://fensory.com/best/agentic-trading-platforms-non-us",
     "notes": "Hyperliquid spot/perps via MCP; tokenized equities in app. Self-described in its own comparison page; not available to US persons.",
@@ -771,7 +1037,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "—",
       "legal_entity_es": "Fensory (Suiza)",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Suiza",
     "assistants_es": [
@@ -798,7 +1086,9 @@
     "availability": {
       "spain": "no",
       "eu": "yes",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "launch_date": "2026-02-24",
     "source_url": "https://www.bbva.com/en/innovation/bbvas-app-is-now-available-on-chatgpt-in-germany-and-italy/",
@@ -830,7 +1120,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "Banco de España / CNMV",
       "legal_entity_es": "Banco Bilbao Vizcaya Argentaria, S.A.",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "España",
     "assistants_es": [
@@ -855,7 +1167,9 @@
     "availability": {
       "spain": "no",
       "eu": "no",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://www.bancosantander.es/",
     "evidence_urls": [
@@ -889,7 +1203,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "Banco de España / CNMV",
       "legal_entity_es": "Banco Santander, S.A.",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "España",
     "assistants_es": [],
@@ -912,7 +1248,9 @@
     "availability": {
       "spain": "no",
       "eu": "no",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://www.caixabank.es/",
     "evidence_urls": [
@@ -947,7 +1285,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "Banco de España / CNMV",
       "legal_entity_es": "CaixaBank, S.A.",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "España",
     "assistants_es": [],
@@ -970,7 +1330,9 @@
     "availability": {
       "spain": "no",
       "eu": "no",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://www.bancsabadell.com/",
     "evidence_urls": [
@@ -1003,7 +1365,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "Banco de España / CNMV",
       "legal_entity_es": "Banco de Sabadell, S.A.",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "España",
     "assistants_es": [],
@@ -1026,7 +1410,9 @@
     "availability": {
       "spain": "no",
       "eu": "no",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://www.bankinter.com/",
     "evidence_urls": [
@@ -1059,7 +1445,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "Banco de España / CNMV",
       "legal_entity_es": "Bankinter, S.A.",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "España",
     "assistants_es": [],
@@ -1082,7 +1490,9 @@
     "availability": {
       "spain": "no",
       "eu": "no",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://www.ing.es/",
     "evidence_urls": [
@@ -1116,7 +1526,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "DNB / BCE (Países Bajos)",
       "legal_entity_es": "ING Bank, N.V. (Sucursal en España)",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "España",
     "assistants_es": [],
@@ -1139,7 +1571,9 @@
     "availability": {
       "spain": "no",
       "eu": "no",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://www.openbank.es/",
     "evidence_urls": [
@@ -1172,7 +1606,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "Banco de España / CNMV",
       "legal_entity_es": "Open Bank, S.A.",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "España",
     "assistants_es": [],
@@ -1195,7 +1651,9 @@
     "availability": {
       "spain": "no",
       "eu": "no",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://www.r4.com/",
     "evidence_urls": [
@@ -1229,7 +1687,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "Banco de España / CNMV",
       "legal_entity_es": "Renta 4 Banco, S.A.",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "España",
     "assistants_es": [],
@@ -1252,7 +1732,9 @@
     "availability": {
       "spain": "no",
       "eu": "no",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://cryptobriefing.com/revolut-ai-crypto-trading-integration/",
     "notes": "AIR mention per Crypto Briefing (third-party).",
@@ -1283,7 +1765,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "Banco de Lituania",
       "legal_entity_es": "Revolut Securities Europe UAB (investment services)",
-      "mica_entity_es": "Revolut Digital Assets (Europe) Ltd — Comisión de Bolsa y Valores de Chipre (CySEC) (CY)"
+      "mica_entity_es": "Revolut Digital Assets (Europe) Ltd — Comisión de Bolsa y Valores de Chipre (CySEC) (CY)",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Reino Unido/Lituania",
     "assistants_es": [],
@@ -1306,7 +1810,9 @@
     "availability": {
       "spain": "no",
       "eu": "no",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://n26.com/",
     "evidence_urls": [
@@ -1339,7 +1845,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "BaFin (Alemania)",
       "legal_entity_es": "N26 Bank SE",
-      "mica_entity_es": "N26 Bank SE — Federal Financial Supervisory Authority (BaFin) (DE)"
+      "mica_entity_es": "N26 Bank SE — Federal Financial Supervisory Authority (BaFin) (DE)",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Alemania",
     "assistants_es": [],
@@ -1362,7 +1890,9 @@
     "availability": {
       "spain": "no",
       "eu": "no",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://wise.com/",
     "notes": "Re-check weekly.",
@@ -1393,7 +1923,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "Finantsinspektsioon (Estonia)",
       "legal_entity_es": "Wise Assets Europe AS (investment services)",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Reino Unido",
     "assistants_es": [],
@@ -1416,7 +1968,9 @@
     "availability": {
       "spain": "no",
       "eu": "no",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://docs.monzo.com/open-banking/",
     "evidence_urls": [
@@ -1447,7 +2001,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "PRA/FCA (Reino Unido)",
       "legal_entity_es": "Monzo Bank Ltd (Reino Unido)",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Reino Unido",
     "assistants_es": [],
@@ -1473,7 +2049,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "yes",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://www.mybanx.io/Home/StartWithAIStepByStep",
     "evidence_urls": [
@@ -1507,7 +2085,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "—",
       "legal_entity_es": "mybanx.io",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "UE",
     "assistants_es": [
@@ -1540,7 +2140,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "unknown"
+      "us": "unknown",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://bankbridge.money/guides/mcp-servers-for-personal-finance",
     "notes": "Country coverage not stated on the source page.",
@@ -1571,7 +2173,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "—",
       "legal_entity_es": "BankBridge",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "desconocida",
     "assistants_es": [
@@ -1605,7 +2229,9 @@
     "availability": {
       "spain": "account_only",
       "eu": "unknown",
-      "us": "unknown"
+      "us": "unknown",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://mcp.bit2me.com/",
     "evidence_urls": [
@@ -1639,7 +2265,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "CNMV (MiCA CASP)",
       "legal_entity_es": "Bitcoinforme S.L. (Bit2Me)",
-      "mica_entity_es": "Bitcoinforme S.L. — Comision Nacional del Mercado de Valores (CNMV) (ES)"
+      "mica_entity_es": "Bitcoinforme S.L. — Comision Nacional del Mercado de Valores (CNMV) (ES)",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "España",
     "assistants_es": [
@@ -1672,7 +2320,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "yes",
-      "us": "unknown"
+      "us": "unknown",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://www.bitpanda.com/en/fusion/mcp",
     "evidence_urls": [
@@ -1709,7 +2359,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "FMA (Austria)",
       "legal_entity_es": "Bitpanda GmbH",
-      "mica_entity_es": "Bitpanda GmbH — Austrian Financial Market Authority (FMA) (AT)"
+      "mica_entity_es": "Bitpanda GmbH — Austrian Financial Market Authority (FMA) (AT)",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Austria",
     "assistants_es": [
@@ -1747,7 +2419,9 @@
     "availability": {
       "spain": "account_only",
       "eu": "account_only",
-      "us": "unknown"
+      "us": "unknown",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "launch_date": "2026-06-26",
     "source_url": "https://www.revolut.com/blog/post/revolut-x-connects-with-your-ai-assistant-uk/",
@@ -1783,7 +2457,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "CySEC (Chipre)",
       "legal_entity_es": "Revolut Digital Assets (Europe) Ltd",
-      "mica_entity_es": "Revolut Digital Assets (Europe) Ltd — Comisión de Bolsa y Valores de Chipre (CySEC) (CY)"
+      "mica_entity_es": "Revolut Digital Assets (Europe) Ltd — Comisión de Bolsa y Valores de Chipre (CySEC) (CY)",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Reino Unido/Lituania",
     "assistants_es": [
@@ -1818,7 +2514,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "launch_date": "2026-08-20",
     "source_url": "https://www.prnewswire.com/news-releases/binance-introduces-agent-os-to-connect-ai-applications-to-financial-infrastructure-302856306.html",
@@ -1852,7 +2550,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "—",
       "legal_entity_es": "Binance",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Global",
     "assistants_es": [
@@ -1890,7 +2610,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "unknown"
+      "us": "unknown",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "launch_date": "2026-03",
     "source_url": "https://docs.kraken.com/home/mcp",
@@ -1925,7 +2647,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "Banco Central de Irlanda",
       "legal_entity_es": "Payward Europe Solutions Limited (Kraken)",
-      "mica_entity_es": "Payward Europe Solutions Limited — Banco Central de Irlanda (CBI) (IE)"
+      "mica_entity_es": "Payward Europe Solutions Limited — Banco Central de Irlanda (CBI) (IE)",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "EE. UU.",
     "assistants_es": [
@@ -1966,7 +2710,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "yes"
+      "us": "yes",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "launch_date": "2026-06",
     "source_url": "https://docs.cdp.coinbase.com/coinbase-for-agents/overview",
@@ -2000,7 +2746,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "CSSF (Luxemburgo)",
       "legal_entity_es": "Coinbase Luxembourg S.A.",
-      "mica_entity_es": "Coinbase Luxembourg S.A. — Commission de Surveillance du Secteur Financier (CSSF) (LU)"
+      "mica_entity_es": "Coinbase Luxembourg S.A. — Commission de Surveillance du Secteur Financier (CSSF) (LU)",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "EE. UU.",
     "assistants_es": [
@@ -2038,7 +2806,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "unknown"
+      "us": "unknown",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://crypto.com/en/ai-trading",
     "evidence_urls": [
@@ -2073,7 +2843,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "MFSA (Malta)",
       "legal_entity_es": "Foris DAX MT Limited (Crypto.com)",
-      "mica_entity_es": "Foris DAX MT Limited — Malta Financial Services Authority (MFSA) (MT)"
+      "mica_entity_es": "Foris DAX MT Limited — Malta Financial Services Authority (MFSA) (MT)",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Global",
     "assistants_es": [
@@ -2108,7 +2900,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "unknown"
+      "us": "unknown",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "launch_date": "2026-03-10",
     "source_url": "https://www.okx.com/en-us/learn/agent-trade-kit",
@@ -2141,7 +2935,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "MFSA (Malta)",
       "legal_entity_es": "OKX Europe Limited",
-      "mica_entity_es": "OKX Europe Limited — Malta Financial Services Authority (MFSA) (MT)"
+      "mica_entity_es": "OKX Europe Limited — Malta Financial Services Authority (MFSA) (MT)",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Global",
     "assistants_es": [
@@ -2171,7 +2987,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "unknown"
+      "us": "unknown",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://github.com/bybit-exchange/trading-mcp/",
     "notes": "Country availability of the agent tooling not stated on the source page.",
@@ -2202,7 +3020,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "FMA (Austria)",
       "legal_entity_es": "Bybit EU GmbH",
-      "mica_entity_es": "Bybit EU GmbH — Austrian Financial Market Authority (FMA) (AT)"
+      "mica_entity_es": "Bybit EU GmbH — Austrian Financial Market Authority (FMA) (AT)",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Global",
     "assistants_es": [
@@ -2233,7 +3073,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "yes"
+      "us": "yes",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "launch_date": "2026-04-27",
     "source_url": "https://www.gemini.com/blog/introducing-agentic-trading-on-gemini-the-future-of-crypto-is-autonomous",
@@ -2266,7 +3108,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "MFSA (Malta)",
       "legal_entity_es": "Gemini Intergalactic EU Ltd",
-      "mica_entity_es": "Gemini Intergalactic EU Ltd — Malta Financial Services Authority (MFSA) (MT)"
+      "mica_entity_es": "Gemini Intergalactic EU Ltd — Malta Financial Services Authority (MFSA) (MT)",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "EE. UU.",
     "assistants_es": [
@@ -2300,7 +3164,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "unknown"
+      "us": "unknown",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "launch_date": "2026-08-06",
     "source_url": "https://metamask.io/news/introducing-metamask-agent-wallet",
@@ -2334,7 +3200,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "—",
       "legal_entity_es": "MetaMask (Consensys) — software de wallet de autocustodia",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "EE. UU.",
     "assistants_es": [
@@ -2371,7 +3259,9 @@
     "availability": {
       "spain": "account_only",
       "eu": "account_only",
-      "us": "unknown"
+      "us": "unknown",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "launch_date": "2026-05-14",
     "source_url": "https://www.spotware.com/news/ctrader-launches-official-mcp-servers/",
@@ -2405,7 +3295,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "—",
       "legal_entity_es": "Spotware Systems Ltd — proveedor de plataforma, no es un broker",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Chipre",
     "assistants_es": [
@@ -2439,7 +3351,9 @@
     "availability": {
       "spain": "no",
       "eu": "no",
-      "us": "yes"
+      "us": "yes",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://robinhood.com/us/en/support/articles/onboarding-an-external-agent/",
     "evidence_urls": [
@@ -2473,7 +3387,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "Banco de Lituania",
       "legal_entity_es": "Robinhood Europe, UAB (EU entity)",
-      "mica_entity_es": "Robinhood Europe UAB — Banco de Lituania (LSC) (LT)"
+      "mica_entity_es": "Robinhood Europe UAB — Banco de Lituania (LSC) (LT)",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "EE. UU.",
     "assistants_es": [
@@ -2511,7 +3447,9 @@
     "availability": {
       "spain": "no",
       "eu": "unknown",
-      "us": "yes"
+      "us": "yes",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "launch_date": "2026-08",
     "source_url": "https://developer.webull.com/apis/docs/AI-friendly-Resources/mcp",
@@ -2543,7 +3481,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "AFM (Países Bajos)",
       "legal_entity_es": "Webull Securities (Europe) B.V. (EU entity)",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "EE. UU.",
     "assistants_es": [
@@ -2574,7 +3534,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "yes"
+      "us": "yes",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://open.moomoo.com/mcp-docs/overview",
     "evidence_urls": [
@@ -2608,7 +3570,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "—",
       "legal_entity_es": "Moomoo (Futu group)",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "EE. UU./Global",
     "assistants_es": [
@@ -2639,7 +3623,9 @@
     "availability": {
       "spain": "no",
       "eu": "no",
-      "us": "yes"
+      "us": "yes",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://public.com/mcp-trading",
     "evidence_urls": [
@@ -2673,7 +3659,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "SEC/FINRA (EE. UU.)",
       "legal_entity_es": "Public.com (EE. UU.)",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "EE. UU.",
     "assistants_es": [
@@ -2707,7 +3715,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "yes"
+      "us": "yes",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "launch_date": "2026-01",
     "source_url": "https://www.tradestation.com/platforms-and-tools/mcp/",
@@ -2740,7 +3750,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "AFM (Países Bajos)",
       "legal_entity_es": "TradeStation Europe B.V. (EU entity)",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "EE. UU.",
     "assistants_es": [
@@ -2772,7 +3804,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "yes"
+      "us": "yes",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "launch_date": "2026-09",
     "source_url": "https://developer.tastytrade.com/docs/sdks-and-tools/mcp-server/",
@@ -2806,7 +3840,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "SEC/FINRA (EE. UU.)",
       "legal_entity_es": "tastytrade (EE. UU.)",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "EE. UU.",
     "assistants_es": [
@@ -2839,7 +3895,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "yes"
+      "us": "yes",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://docs.alpaca.markets/us/docs/alpaca-mcp-server",
     "evidence_urls": [
@@ -2875,7 +3933,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "CNMV",
       "legal_entity_es": "Alpaca Europe, A.V., S.L.U. (EU entity)",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "EE. UU.",
     "assistants_es": [
@@ -2902,7 +3982,9 @@
     "availability": {
       "spain": "no",
       "eu": "no",
-      "us": "yes"
+      "us": "yes",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://www.stockbrokers.com/guides/ai-agent-brokers",
     "notes": "Status per StockBrokers.com / Fensory testing (third-party).",
@@ -2935,7 +4017,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "SEC/FINRA (EE. UU.)",
       "legal_entity_es": "Charles Schwab (EE. UU.)",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "EE. UU.",
     "assistants_es": [],
@@ -2958,7 +4062,9 @@
     "availability": {
       "spain": "no",
       "eu": "no",
-      "us": "yes"
+      "us": "yes",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://www.stockbrokers.com/guides/ai-agent-brokers",
     "notes": "Status per StockBrokers.com / Fensory testing (third-party).",
@@ -2991,7 +4097,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "SEC/FINRA (EE. UU.)",
       "legal_entity_es": "E*TRADE (Morgan Stanley, US)",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "EE. UU.",
     "assistants_es": [],
@@ -3014,7 +4142,9 @@
     "availability": {
       "spain": "no",
       "eu": "no",
-      "us": "yes"
+      "us": "yes",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://www.stockbrokers.com/guides/ai-agent-brokers",
     "notes": "Status per StockBrokers.com / Fensory testing (third-party).",
@@ -3045,7 +4175,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "SEC/FINRA (EE. UU.)",
       "legal_entity_es": "Fidelity Investments (EE. UU.)",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "EE. UU.",
     "assistants_es": [],
@@ -3068,7 +4220,9 @@
     "availability": {
       "spain": "no",
       "eu": "no",
-      "us": "yes"
+      "us": "yes",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://www.stockbrokers.com/guides/ai-agent-brokers",
     "notes": "Status per StockBrokers.com / Fensory testing (third-party).",
@@ -3099,7 +4253,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "SEC/FINRA (EE. UU.)",
       "legal_entity_es": "Ally Invest (EE. UU.)",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "EE. UU.",
     "assistants_es": [],
@@ -3122,7 +4298,9 @@
     "availability": {
       "spain": "no",
       "eu": "no",
-      "us": "yes"
+      "us": "yes",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://www.stockbrokers.com/guides/ai-agent-brokers",
     "notes": "Status per StockBrokers.com / Fensory testing (third-party).",
@@ -3154,7 +4332,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "SEC/FINRA (EE. UU.)",
       "legal_entity_es": "Merrill Edge (Bank of America, EE. UU.)",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "EE. UU.",
     "assistants_es": [],
@@ -3177,7 +4377,9 @@
     "availability": {
       "spain": "no",
       "eu": "no",
-      "us": "yes"
+      "us": "yes",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://www.stockbrokers.com/guides/ai-agent-brokers",
     "notes": "Status per StockBrokers.com / Fensory testing (third-party).",
@@ -3206,7 +4408,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "SEC/FINRA (EE. UU.)",
       "legal_entity_es": "Firstrade Securities (EE. UU.)",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "EE. UU.",
     "assistants_es": [],
@@ -3229,7 +4453,9 @@
     "availability": {
       "spain": "no",
       "eu": "no",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://fensory.com/best/agentic-trading-platforms-non-us",
     "notes": "Status per StockBrokers.com / Fensory testing (third-party).",
@@ -3260,7 +4486,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "SEC/FINRA (EE. UU.)",
       "legal_entity_es": "SoFi Invest (EE. UU.)",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "EE. UU.",
     "assistants_es": [],
@@ -3287,7 +4535,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "yes",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "launch_date": "2026-03-23",
     "source_url": "https://www.montrose.io/mcp",
@@ -3319,7 +4569,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "—",
       "legal_entity_es": "Montrose (Suecia)",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Suecia",
     "assistants_es": [
@@ -3352,7 +4624,9 @@
     "availability": {
       "spain": "account_only",
       "eu": "account_only",
-      "us": "yes"
+      "us": "yes",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://docs.tradier.com/docs/tradier-mcp",
     "evidence_urls": [
@@ -3383,7 +4657,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "SEC/FINRA (EE. UU.)",
       "legal_entity_es": "Tradier Brokerage (EE. UU.)",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "EE. UU.",
     "assistants_es": [
@@ -3420,7 +4716,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "account_only",
-      "us": "account_only"
+      "us": "account_only",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "launch_date": "2026-09-09",
     "source_url": "https://docs.ninjatrader.com/mcp/authentication.md",
@@ -3456,7 +4754,29 @@
       "authorisation_checked": "2026-10-16",
       "regulator_es": "CySEC (Chipre)",
       "legal_entity_es": "Payward Europe Digital Solutions (CY) Limited (EU entity)",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "EE. UU.",
     "assistants_es": [
@@ -3491,7 +4811,9 @@
     "availability": {
       "spain": "account_only",
       "eu": "account_only",
-      "us": "unknown"
+      "us": "unknown",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "launch_date": "2026-06-08",
     "source_url": "https://capital.com/en-int/trading-platforms/ai-integration",
@@ -3527,7 +4849,29 @@
       "authorisation_checked": "2026-10-19",
       "regulator_es": "CySEC (Chipre)",
       "legal_entity_es": "Capital Com SV Investments Ltd",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Chipre",
     "assistants_es": [
@@ -3563,7 +4907,9 @@
     "availability": {
       "spain": "no",
       "eu": "no",
-      "us": "no"
+      "us": "no",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://lcx.com/en/ai-trading",
     "evidence_urls": [
@@ -3598,7 +4944,29 @@
       "authorisation_checked": "2026-10-19",
       "regulator_es": "—",
       "legal_entity_es": "LCX AG (Liechtenstein)",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Liechtenstein",
     "assistants_es": [
@@ -3635,7 +5003,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "unknown"
+      "us": "unknown",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://www.questrade.com/learning/using-questrade/connect-your-questrade-account-to-ai",
     "evidence_urls": [
@@ -3666,7 +5036,29 @@
       "authorisation_checked": "2026-10-19",
       "regulator_es": "CIRO (Canadá)",
       "legal_entity_es": "Questrade, Inc. (Canadá)",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Canadá",
     "assistants_es": [
@@ -3697,22 +5089,26 @@
       "OpenCode"
     ],
     "capability": "place_orders",
-    "limits": "Hosted remote MCP with OAuth sign-in (27 tools: 15 read-only, 4 validation, 8 operational such as orders, caución, mutual funds and stop-loss/take-profit). Optional read-only mode. Every real operation needs a validation step and your explicit confirmation; IOL says no order is sent to the market automatically by the AI.",
-    "limits_es": "MCP remoto alojado con inicio de sesión OAuth (27 herramientas: 15 de solo lectura, 4 de validación y 8 operativas como órdenes, caución, FCI y stop-loss/take-profit). Modo de solo lectura opcional. Cada operación real requiere un paso de validación y tu confirmación explícita; IOL indica que la IA no envía ninguna orden al mercado de forma automática.",
+    "limits": "Hosted remote MCP with OAuth sign-in (27 tools: 15 read-only, 4 validation, 8 operational such as orders, caución, mutual funds and stop-loss/take-profit). Three access modes you choose and can change later through a single-use link: 'Solo lectura' (read tools only), 'Confirmar operaciones' (orders, caución and mutual-fund subscriptions/redemptions only execute when you open a single-use, expiring confirmation link; the direct-execution tools are hidden) and 'Automático' (the MCP executes operations on its own after validating them). Every operation goes through a validation step first.",
+    "limits_es": "MCP remoto alojado con inicio de sesión OAuth (27 herramientas: 15 de solo lectura, 4 de validación y 8 operativas como órdenes, caución, FCI y stop-loss/take-profit). Tres modos de acceso que eliges y puedes cambiar después mediante un enlace de un solo uso: 'Solo lectura' (solo herramientas de consulta), 'Confirmar operaciones' (órdenes, cauciones y suscripciones/rescates de FCI solo se ejecutan cuando abres un enlace de confirmación de un solo uso y con caducidad; las herramientas de ejecución directa quedan ocultas) y 'Automático' (el MCP ejecuta las operaciones de forma autónoma tras validarlas). Toda operación pasa antes por un paso de validación.",
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "unknown"
+      "us": "unknown",
+      "ar": "yes",
+      "mx": "unknown"
     },
     "launch_date": "2026-08-27",
     "source_url": "https://www.invertironline.com/mcp",
     "evidence_urls": [
-      "https://mcp.invertironline.com/documentacion-tecnica"
+      "https://mcp.invertironline.com/documentacion-tecnica",
+      "https://www.cronista.com/finanzas-mercados/la-ia-empieza-a-operar-en-el-mercado-argentino-asi-es-el-cambio-que-transformara-a-las-sociedades-de-bolsa/",
+      "https://www.invertironline.com/tyc-mcp"
     ],
-    "notes": "Argentine broker (InvertirOnline S.A.U., ALyC no. 273 registered with the CNV of Argentina). MCP URL https://mcp.invertironline.com. Reported as the first Argentine broker with an MCP; launch date per the Argentine press (late August 2026). IOL has a non-resident section, but we found no statement covering residents of Spain.",
-    "notes_es": "Broker argentino (InvertirOnline S.A.U., ALyC n.º 273 registrado en la CNV de Argentina). URL del MCP: https://mcp.invertironline.com. Primer broker argentino con MCP según la prensa; fecha de lanzamiento según la prensa argentina (finales de agosto de 2026). IOL tiene una sección para no residentes, pero no hemos encontrado información que cubra a residentes en España.",
+    "notes": "Corrected 20 Oct 2026: we had described every operation as needing your confirmation; IOL's technical documentation also offers an 'Automático' mode. IOL's own texts are not consistent: the documentation's tool table and the connector's privacy policy (section 9.5) say no order is placed without your explicit confirmation, while the mode description says 'Automático' executes after validation; we report both. Some operations also require you to accept a sworn statement (DDJJ). Available to all IOL clients from launch (El Cronista). Argentine broker (InvertirOnline S.A.U., ALyC no. 273 registered with the CNV of Argentina). MCP URL https://mcp.invertironline.com. Reported as the first Argentine broker with an MCP; launch date per the Argentine press (late August 2026). IOL has a non-resident section, but we found no statement covering residents of Spain.",
+    "notes_es": "Corregido el 20-10-2026: habíamos indicado que toda operación requería tu confirmación; la documentación técnica de IOL también ofrece un modo 'Automático'. Los textos de IOL no son coherentes entre sí: la tabla de herramientas de la documentación y la política de privacidad del conector (apartado 9.5) dicen que ninguna orden se cursa sin tu confirmación explícita, mientras que la descripción del modo 'Automático' indica que ejecuta tras validar; recogemos ambas. Algunas operaciones requieren además aceptar una declaración jurada (DDJJ). Disponible para todos los clientes de IOL desde el lanzamiento (El Cronista). Broker argentino (InvertirOnline S.A.U., ALyC n.º 273 registrado en la CNV de Argentina). URL del MCP: https://mcp.invertironline.com. Primer broker argentino con MCP según la prensa; fecha de lanzamiento según la prensa argentina (finales de agosto de 2026). IOL tiene una sección para no residentes, pero no hemos encontrado información que cubra a residentes en España.",
     "affiliate_url": "",
-    "last_checked": "2026-10-19",
+    "last_checked": "2026-10-20",
     "aliases": [
       "invertironline",
       "invertir online",
@@ -3737,7 +5133,29 @@
       "authorisation_checked": "2026-10-19",
       "regulator_es": "CNV (Argentina)",
       "legal_entity_es": "InvertirOnline S.A.U. (Argentina)",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "cnv_agent",
+          "entity": "InvertirOnline S.A.U.",
+          "register_no": "ALyC 273",
+          "register_url": "https://www.cnv.gov.ar/SitioWeb/",
+          "note_en": "Settlement and clearing agent (ALyC) registered with the CNV.",
+          "note_es": "Agente de liquidación y compensación (ALyC) registrado en la CNV.",
+          "source": "https://www.invertironline.com/mcp",
+          "checked": "2026-10-20"
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Argentina",
     "assistants_es": [
@@ -3747,7 +5165,7 @@
       "Grok",
       "OpenCode"
     ],
-    "date_modified": "2026-10-19",
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   },
   {
@@ -3773,7 +5191,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "unknown"
+      "us": "unknown",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://www.bitget.com/docs/uta/agent-hub",
     "evidence_urls": [
@@ -3807,7 +5227,29 @@
       "authorisation_checked": "2026-10-19",
       "regulator_es": "—",
       "legal_entity_es": "Bitget",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Global",
     "assistants_es": [
@@ -3845,7 +5287,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "unknown"
+      "us": "unknown",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://www.gate.com/docs/developers/agent/en/",
     "evidence_urls": [
@@ -3880,7 +5324,29 @@
       "authorisation_checked": "2026-10-19",
       "regulator_es": "MFSA (Malta)",
       "legal_entity_es": "Gate Technology Limited (Gate EU)",
-      "mica_entity_es": "Gate Technology Limited — Malta Financial Services Authority (MFSA) (MT)"
+      "mica_entity_es": "Gate Technology Limited — Malta Financial Services Authority (MFSA) (MT)",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "Global",
     "assistants_es": [
@@ -3912,7 +5378,9 @@
     "availability": {
       "spain": "no",
       "eu": "no",
-      "us": "yes"
+      "us": "yes",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://help.composer.trade/article/236-getting-started-with-your-composer-api",
     "evidence_urls": [
@@ -3948,7 +5416,29 @@
       "authorisation_checked": "2026-10-19",
       "regulator_es": "SEC/FINRA (EE. UU.)",
       "legal_entity_es": "Composer Securities LLC (EE. UU.)",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "EE. UU.",
     "assistants_es": [
@@ -3977,7 +5467,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "unknown"
+      "us": "unknown",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://docs.phantom.com/phantom-mcp-server",
     "evidence_urls": [
@@ -4010,7 +5502,29 @@
       "authorisation_checked": "2026-10-19",
       "regulator_es": "—",
       "legal_entity_es": "Phantom — software de wallet de autocustodia",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "EE. UU.",
     "assistants_es": [
@@ -4045,7 +5559,9 @@
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
-      "us": "unknown"
+      "us": "unknown",
+      "ar": "unknown",
+      "mx": "unknown"
     },
     "source_url": "https://senpi.ai/connectors",
     "evidence_urls": [
@@ -4078,7 +5594,29 @@
       "authorisation_checked": "2026-10-19",
       "regulator_es": "—",
       "legal_entity_es": "Senpi",
-      "mica_entity_es": ""
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
     },
     "hq_es": "desconocida",
     "assistants_es": [
@@ -4090,6 +5628,372 @@
       "Hermes"
     ],
     "date_modified": "2026-10-19",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "id": "ripio",
+    "name": "Ripio",
+    "type": "crypto_exchange",
+    "hq": "Argentina",
+    "integration": [
+      "mcp_hosted"
+    ],
+    "official": true,
+    "assistants": [
+      "Claude",
+      "Claude Code",
+      "ChatGPT",
+      "VS Code"
+    ],
+    "capability": "place_orders",
+    "limits": "Hosted MCP (https://api.ripio.com/mcp) with OAuth sign-in on Ripio's page, where you pick a preset: Read-only (balances, order history), Operate (place and cancel orders), Full (adds withdrawals) or Custom. With the matching permissions the assistant can send crypto to an address and make withdrawals (e.g. PIX or bank transfers), so a Full preset lets an agent move money out. You accept a liability disclaimer and can revoke access.",
+    "limits_es": "MCP alojado (https://api.ripio.com/mcp) con inicio de sesión OAuth en la página de Ripio, donde eliges un perfil: Solo lectura (saldos, historial de órdenes), Operar (colocar y cancelar órdenes), Completo (añade retiros) o Personalizado. Con los permisos correspondientes el asistente puede enviar cripto a una dirección y hacer retiros (por ejemplo PIX o transferencias bancarias), así que el perfil Completo permite a un agente sacar dinero. Aceptas un descargo de responsabilidad y puedes revocar el acceso.",
+    "availability": {
+      "spain": "unknown",
+      "eu": "unknown",
+      "us": "unknown",
+      "ar": "account_only",
+      "mx": "account_only"
+    },
+    "launch_date": "2026-09-16",
+    "source_url": "https://apidocs.ripio.com/static/mcp/overview",
+    "evidence_urls": [
+      "https://launchpad.ripio.com/blog/mostrame-mi-balance-ripio-suma-un-servidor-mcp-para-operar-con-ia",
+      "https://www.ripio.com/es/institucional"
+    ],
+    "notes": "Ripio operates in Argentina, Mexico, Colombia, Uruguay, Brazil and Spain through different local entities (Ripio's institutional page); the MCP's own country list is not published. Launch date is the date of Ripio's blog post. Crypto-assets are high risk.",
+    "notes_es": "Ripio opera en Argentina, México, Colombia, Uruguay, Brasil y España mediante distintas entidades locales (página institucional de Ripio); no publica la lista de países del MCP. La fecha es la de la publicación del blog de Ripio. Los criptoactivos son de alto riesgo.",
+    "affiliate_url": "",
+    "last_checked": "2026-10-20",
+    "aliases": [
+      "ripio trade",
+      "ripio mcp"
+    ],
+    "source_http_status": "200",
+    "licence": {
+      "legal_entity": "Ripio (group; local entities per country)",
+      "regulator": "—",
+      "es_status": "not_found",
+      "es_authorised": "no",
+      "basis_en": "No Ripio entity in the ESMA MiCA register; not found in the CNMV registers. Ripio says its Spanish company, Ripiotech SL, is registered with the Banco de España (no. D845) in the pre-MiCA register of virtual-currency exchange and custody providers",
+      "basis_es": "Ninguna entidad de Ripio figura en el registro MiCA de ESMA ni en los registros de la CNMV. Ripio indica que su sociedad española, Ripiotech SL, está inscrita en el Banco de España (n.º D845) en el registro previo a MiCA de proveedores de cambio y custodia de monedas virtuales",
+      "register_url": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica",
+      "mica_status": "not_listed",
+      "mica_entity": "",
+      "cfd": false,
+      "cfd_only": false,
+      "leveraged": false,
+      "note_en": "",
+      "note_es": "",
+      "authorisation_checked": "2026-10-20",
+      "regulator_es": "—",
+      "legal_entity_es": "Ripio (group; local entities per country)",
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "cnv_psav",
+          "entity": "Moonbird SRL (PSAV 36); OTC Investment Solutions SA (PSAV 37)",
+          "register_no": "PSAV 36, 37",
+          "register_url": "https://www.cnv.gov.ar/SitioWeb/RegistrosPublicos/PSAV",
+          "note_en": "Registered as virtual-asset service providers (5 Jun 2024). Per the CNV wording Ripio publishes, the registration is for anti-money-laundering control (UIF) and does not imply a licence or supervision by the CNV.",
+          "note_es": "Inscritas como proveedores de servicios de activos virtuales (05-06-2024). Según el texto de la CNV que publica Ripio, la inscripción es a efectos del control como sujeto obligado ante la UIF y no implica licencia ni supervisión de la CNV.",
+          "source": "https://www.ripio.com/es/institucional",
+          "checked": "2026-10-20"
+        },
+        "mx": {
+          "status": "crypto_not_cnbv",
+          "entity": "Moonbird México, S.A. de C.V.",
+          "register_no": "",
+          "register_url": "https://www.gob.mx/cnbv",
+          "note_en": "Crypto platform. We found no CNBV or Banxico authorisation as a financial entity (bank, casa de bolsa or fintech institution); in 2019 the CNBV said crypto exchanges can operate outside the financial perimeter it regulates (they report under anti-money-laundering rules).",
+          "note_es": "Plataforma cripto. No hemos encontrado autorización de la CNBV ni del Banxico como entidad financiera (banco, casa de bolsa o institución de tecnología financiera); en 2019 la CNBV indicó que los exchanges cripto pueden operar fuera del ámbito financiero que regula (reportan bajo la normativa contra el lavado de dinero).",
+          "source": "https://www.ripio.com/es/institucional",
+          "checked": "2026-10-20"
+        }
+      }
+    },
+    "hq_es": "Argentina",
+    "assistants_es": [
+      "Claude",
+      "Claude Code",
+      "ChatGPT",
+      "VS Code"
+    ],
+    "date_modified": "2026-10-20",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "id": "bitso",
+    "name": "Bitso",
+    "type": "crypto_exchange",
+    "hq": "Mexico",
+    "integration": [
+      "api"
+    ],
+    "official": false,
+    "assistants": [
+      "Any agent that can call a REST API"
+    ],
+    "capability": "place_orders",
+    "limits": "Official REST Trading API (v3, HMAC-signed API keys) for orders, conversions and margin trading. No official agent/MCP product found (no MCP server card on bitso.com); MCP servers for Bitso exist but are community-built.",
+    "limits_es": "API REST de trading oficial (v3, claves API firmadas con HMAC) para órdenes, conversiones y trading con margen. No se encontró producto oficial para agentes/MCP (bitso.com no publica ficha de servidor MCP); hay servidores MCP para Bitso, pero son de la comunidad.",
+    "availability": {
+      "spain": "no",
+      "eu": "unknown",
+      "us": "unknown",
+      "ar": "account_only",
+      "mx": "account_only"
+    },
+    "source_url": "https://docs.bitso.com/bitso-api/docs/api-overview",
+    "evidence_urls": [
+      "https://bitso.com/ar/vlegal/registro-comision-nacional-de-valores/"
+    ],
+    "notes": "Capability reflects the developer API, not a consumer agent feature. Bitso's site carries a notice that the platform is not authorised to provide crypto-asset services in Spain. Margin trading is leveraged and high risk.",
+    "notes_es": "La capacidad refleja la API para desarrolladores, no una función de agentes para clientes. La web de Bitso incluye un aviso de que la plataforma no está autorizada para prestar servicios de criptoactivos en España. El trading con margen es apalancado y de alto riesgo.",
+    "affiliate_url": "",
+    "launch_date": "unknown",
+    "last_checked": "2026-10-20",
+    "aliases": [
+      "bitso alpha",
+      "bitso api"
+    ],
+    "source_http_status": "200",
+    "licence": {
+      "legal_entity": "Bitso (group; local entities per country)",
+      "regulator": "—",
+      "es_status": "not_found",
+      "es_authorised": "no",
+      "basis_en": "No Bitso entity in the ESMA MiCA register; not found in the CNMV registers. Bitso's own site says the platform is not authorised to provide crypto-asset services in Spain",
+      "basis_es": "Ninguna entidad de Bitso figura en el registro MiCA de ESMA ni en los registros de la CNMV. La propia web de Bitso indica que la plataforma no está autorizada para prestar servicios de criptoactivos en España",
+      "register_url": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica",
+      "mica_status": "not_listed",
+      "mica_entity": "",
+      "cfd": false,
+      "cfd_only": false,
+      "leveraged": true,
+      "note_en": "",
+      "note_es": "",
+      "authorisation_checked": "2026-10-20",
+      "regulator_es": "—",
+      "legal_entity_es": "Bitso (group; local entities per country)",
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "cnv_psav",
+          "entity": "The Badger Technology Company Limited (Bitso International)",
+          "register_no": "PSAV 51",
+          "register_url": "https://www.cnv.gov.ar/SitioWeb/RegistrosPublicos/PSAV",
+          "note_en": "Registered as a virtual-asset service provider (19 Jul 2024). Per the CNV wording Bitso publishes, the registration is for anti-money-laundering control and does not imply a licence or supervision by the CNV.",
+          "note_es": "Inscrita como proveedor de servicios de activos virtuales (19-07-2024). Según el texto de la CNV que publica Bitso, la inscripción es a efectos de control contra el lavado de activos y no implica licencia ni supervisión de la CNV.",
+          "source": "https://bitso.com/ar/vlegal/registro-comision-nacional-de-valores/",
+          "checked": "2026-10-20"
+        },
+        "mx": {
+          "status": "crypto_not_cnbv",
+          "entity": "",
+          "register_no": "",
+          "register_url": "https://www.gob.mx/cnbv",
+          "note_en": "Crypto platform. We found no CNBV or Banxico authorisation as a financial entity (bank, casa de bolsa or fintech institution); in 2019 the CNBV said crypto exchanges can operate outside the financial perimeter it regulates. We did not confirm the name of Bitso's Mexican operating company.",
+          "note_es": "Plataforma cripto. No hemos encontrado autorización de la CNBV ni del Banxico como entidad financiera (banco, casa de bolsa o institución de tecnología financiera); en 2019 la CNBV indicó que los exchanges cripto pueden operar fuera del ámbito financiero que regula. No hemos confirmado el nombre de la sociedad mexicana que opera Bitso.",
+          "source": "https://www.elfinanciero.com.mx/economia/exchanges-de-criptomonedas-podran-seguir-operando-aclara-la-cnbv/",
+          "checked": "2026-10-20"
+        }
+      }
+    },
+    "hq_es": "México",
+    "assistants_es": [
+      "Cualquier agente capaz de llamar a una API REST"
+    ],
+    "date_modified": "2026-10-20",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "id": "webull-mexico",
+    "name": "Webull México",
+    "type": "broker",
+    "hq": "Mexico",
+    "integration": [
+      "mcp_local",
+      "api",
+      "skill"
+    ],
+    "official": true,
+    "assistants": [
+      "Claude Desktop",
+      "Claude Code",
+      "Cursor",
+      "Any MCP client"
+    ],
+    "capability": "place_orders",
+    "limits": "Official open-source local MCP (webull-inc/webull-openapi-mcp) supports the Mexico region (developer.webull.com.mx): you run it with your OpenAPI App Key/Secret and 2FA. It can preview, place, modify and cancel stock orders, with risk controls (order value and quantity caps, symbol whitelist). Webull's hosted Cloud MCP for ChatGPT/Claude is US-only for now.",
+    "limits_es": "MCP local oficial y de código abierto (webull-inc/webull-openapi-mcp) compatible con la región México (developer.webull.com.mx): lo ejecutas con tu App Key/Secret de OpenAPI y 2FA. Puede previsualizar, colocar, modificar y cancelar órdenes de acciones, con controles de riesgo (límites de importe y cantidad por orden, lista blanca de símbolos). El Cloud MCP alojado de Webull para ChatGPT/Claude es, por ahora, solo para EE. UU.",
+    "availability": {
+      "spain": "no",
+      "eu": "no",
+      "us": "no",
+      "ar": "unknown",
+      "mx": "yes"
+    },
+    "source_url": "https://github.com/webull-inc/webull-openapi-mcp",
+    "evidence_urls": [
+      "https://www.webull.com.mx/open-api",
+      "https://www.webull.com.mx/policy",
+      "https://www.wallstreetes.com/news/webull-cloud-mcp-ya-prepara-ordenes-desde-asistentes-de-ia"
+    ],
+    "notes": "Webull's Mexican business, separate from the Webull US/EU entry. Webull México's OpenAPI page mentions MCP, Skills and CLI, and its legal page lists an 'AI Tools Risk Disclosure'. Per Wall Street en Español (Sep 2026), the Cloud MCP is not yet available in Latin America. Requires OpenAPI access; setup is technical.",
+    "notes_es": "Negocio mexicano de Webull, distinto de la ficha de Webull EE. UU./UE. La página de OpenAPI de Webull México menciona MCP, Skills y CLI, y su página legal incluye un aviso de riesgos de herramientas de IA ('AI Tools Risk Disclosure'). Según Wall Street en Español (septiembre de 2026), el Cloud MCP todavía no está disponible en América Latina. Requiere acceso a OpenAPI; la instalación es técnica.",
+    "affiliate_url": "",
+    "launch_date": "unknown",
+    "last_checked": "2026-10-20",
+    "aliases": [
+      "webull mx",
+      "webull mexico",
+      "vifaru"
+    ],
+    "source_http_status": "200",
+    "licence": {
+      "legal_entity": "Vifaru, S.A. de C.V., Casa de Bolsa (Mexico)",
+      "regulator": "CNBV (Mexico)",
+      "es_status": "not_found",
+      "es_authorised": "no",
+      "basis_en": "Mexican brokerage (casa de bolsa). No authorisation to serve Spain found in the CNMV registers",
+      "basis_es": "Casa de bolsa mexicana. No consta autorización para operar en España en los registros de la CNMV",
+      "register_url": "https://www.cnmv.es/portal/consultas/busquedaporentidad?lang=es",
+      "mica_status": "n_a",
+      "mica_entity": "",
+      "cfd": false,
+      "cfd_only": false,
+      "leveraged": false,
+      "note_en": "",
+      "note_es": "",
+      "authorisation_checked": "2026-10-20",
+      "regulator_es": "CNBV (México)",
+      "legal_entity_es": "Vifaru, S.A. de C.V., Casa de Bolsa (México)",
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "cnbv_casa_de_bolsa",
+          "entity": "Vifaru, S.A. de C.V., Casa de Bolsa",
+          "register_no": "",
+          "register_url": "https://www.gob.mx/cnbv",
+          "note_en": "Casa de bolsa; Webull México says it is regulated by authorities such as the CNBV and Banco de México. US securities for Mexican clients are handled by Webull Financial LLC (SEC/FINRA), per Webull México.",
+          "note_es": "Casa de bolsa; Webull México indica que está regulada por autoridades como la CNBV y el Banco de México. Los valores de EE. UU. para clientes mexicanos los gestiona Webull Financial LLC (SEC/FINRA), según Webull México.",
+          "source": "https://www.webull.com.mx/policy",
+          "checked": "2026-10-20"
+        }
+      }
+    },
+    "hq_es": "México",
+    "assistants_es": [
+      "Claude Desktop",
+      "Claude Code",
+      "Cursor",
+      "Cualquier cliente MCP"
+    ],
+    "date_modified": "2026-10-20",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "id": "zesty",
+    "name": "Zesty",
+    "type": "broker",
+    "hq": "Chile",
+    "integration": [
+      "mcp_hosted"
+    ],
+    "official": true,
+    "assistants": [
+      "Claude",
+      "ChatGPT",
+      "Cursor",
+      "Grok"
+    ],
+    "capability": "place_orders",
+    "limits": "Hosted MCP (https://mcp.zestyfinance.com/mcp) with OAuth sign-in. The agent proposes and you confirm every order; configurable budget and notifications; no withdrawal tools. US stocks (market, limit, stop, trailing stop and bracket orders), Chilean shares (limit orders), CLP/USD exchange and recurring plans that you confirm.",
+    "limits_es": "MCP alojado (https://mcp.zestyfinance.com/mcp) con inicio de sesión OAuth. El agente propone y tú confirmas cada orden; presupuesto y notificaciones configurables; sin herramientas de retiro. Acciones de EE. UU. (órdenes a mercado, limitadas, stop, trailing stop y bracket), acciones chilenas (limitadas), cambio CLP/USD y planes recurrentes que confirmas.",
+    "availability": {
+      "spain": "unknown",
+      "eu": "unknown",
+      "us": "unknown",
+      "ar": "unknown",
+      "mx": "unknown"
+    },
+    "source_url": "https://www.zestyfinance.com/conecta-tu-agente",
+    "evidence_urls": [
+      "https://help.zestyfinance.com/es/articles/15937625-como-conectar-tu-agente-de-ia-a-zesty",
+      "https://help.zestyfinance.com/es/articles/16027818-como-conectar-chatgpt-a-zesty",
+      "https://help.zestyfinance.com/es/articles/15937681-quien-opera-y-custodia-mis-inversiones"
+    ],
+    "notes": "Chilean investment app. Zesty SpA is listed in the CMF register of financial service providers (order routing, Chile's Fintech Law); Chilean shares are held via Vector Capital Corredores de Bolsa SpA (CMF) and US shares via Alpaca Securities LLC (SEC/FINRA, SIPC), per Zesty. Tested by Zesty with Claude, ChatGPT (developer mode), Cursor and Grok. Not in the Argentina/Mexico pilot scope; listed for regional context.",
+    "notes_es": "App de inversión chilena. Zesty SpA figura en el Registro de Prestadores de Servicios Financieros de la CMF (enrutamiento de órdenes, Ley Fintech de Chile); las acciones chilenas se custodian vía Vector Capital Corredores de Bolsa SpA (CMF) y las de EE. UU. vía Alpaca Securities LLC (SEC/FINRA, SIPC), según Zesty. Probado por Zesty con Claude, ChatGPT (modo desarrollador), Cursor y Grok. Fuera del piloto Argentina/México; se incluye como contexto regional.",
+    "affiliate_url": "",
+    "launch_date": "unknown",
+    "last_checked": "2026-10-20",
+    "aliases": [
+      "zesty finance",
+      "zestyfinance"
+    ],
+    "source_http_status": "200",
+    "licence": {
+      "legal_entity": "Zesty SpA (Chile)",
+      "regulator": "CMF (Chile)",
+      "es_status": "not_found",
+      "es_authorised": "no",
+      "basis_en": "Chilean order-routing firm in the CMF register (Fintech Law). No authorisation to serve Spain found in the CNMV registers",
+      "basis_es": "Enrutador de órdenes chileno inscrito en la CMF (Ley Fintech). No consta autorización para operar en España en los registros de la CNMV",
+      "register_url": "https://www.cnmv.es/portal/consultas/busquedaporentidad?lang=es",
+      "mica_status": "n_a",
+      "mica_entity": "",
+      "cfd": false,
+      "cfd_only": false,
+      "leveraged": false,
+      "note_en": "",
+      "note_es": "",
+      "authorisation_checked": "2026-10-20",
+      "regulator_es": "CMF (Chile)",
+      "legal_entity_es": "Zesty SpA (Chile)",
+      "mica_entity_es": "",
+      "latam": {
+        "ar": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        },
+        "mx": {
+          "status": "unknown",
+          "entity": "",
+          "register_no": "",
+          "register_url": "",
+          "note_en": "",
+          "note_es": "",
+          "source": "",
+          "checked": ""
+        }
+      }
+    },
+    "hq_es": "Chile",
+    "assistants_es": [
+      "Claude",
+      "ChatGPT",
+      "Cursor",
+      "Grok"
+    ],
+    "date_modified": "2026-10-20",
     "license": "CC-BY-4.0"
   }
 ]

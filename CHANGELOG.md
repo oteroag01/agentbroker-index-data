@@ -2,11 +2,16 @@
 
 Dated changes to the providers tracked. Each entry is backed by the source linked in `data/changelog.json`.
 
-## Dataset 2026-10-19
-- 64 providers. Licence and authorisation checks dated 2026-10-19. ESMA MiCA register: 373 CASPs.
+## Dataset 2026-10-20
+- 68 providers. Licence and authorisation checks dated 2026-10-20. ESMA MiCA register: 373 CASPs.
 - Added `date_modified` (content-change date), `cfd_only` and `license` fields. The data is now licensed CC BY 4.0.
 
 ## Provider events (newest first)
+- 2026-10-20: Correction: IOL's MCP is not confirmation-only. Its documentation describes three modes: read-only, confirm each operation (single-use link) and 'Automático', which executes after validation. ([source](https://mcp.invertironline.com/documentacion-tecnica))
+- 2026-10-20: Added Ripio (Argentina/LATAM crypto exchange): hosted MCP with read-only, operate and full presets; the full preset includes withdrawals. ([source](https://apidocs.ripio.com/static/mcp/overview))
+- 2026-10-20: Added Bitso (Mexico): official trading API with margin; no official MCP found. ([source](https://docs.bitso.com/bitso-api/docs/api-overview))
+- 2026-10-20: Added Webull México: official local MCP for the Mexico region; the hosted Cloud MCP is US-only. ([source](https://github.com/webull-inc/webull-openapi-mcp))
+- 2026-10-20: Added Zesty (Chile): hosted MCP where you confirm every order; no withdrawals. ([source](https://www.zestyfinance.com/conecta-tu-agente))
 - 2026-10-19: Revolut X's revx CLI documents stop (conditional) and take-profit/stop-loss orders. ([source](https://github.com/revolut-engineering/revolut-x-api/blob/master/README.md))
 - 2026-10-19: MetaMask docs: switching an Agent Wallet to Beast Mode now needs 2FA approval; Beast Mode has no allowlists or outflow limit. ([source](https://docs.metamask.io/agent-wallet/reference/trading-modes/))
 - 2026-10-19: Bitpanda archives its self-hosted GitHub MCP (bitpanda-labs/bitpanda-mcp, no longer maintained); the official hosted MCP servers (Public API and Fusion) remain and now document optional server-side daily trading limits per API key. ([source](https://github.com/bitpanda-labs/bitpanda-mcp))
@@ -22,7 +27,7 @@ Dated changes to the providers tracked. Each entry is backed by the source linke
 - 2026-10: TradeStation drops its $10k minimum and paid-AI requirement for MCP access. ([source](https://www.stockbrokers.com/guides/ai-agent-brokers))
 - 2026-09-09: NinjaTrader announces an MCP server (beta) for futures trading with Claude and ChatGPT. ([source](https://ninjatrader.com/news/ninjatrader-launches-ninjatrader-innovation-lab-to-power-dedicated-futures-focused-ai-tools-for-retail-traders/))
 - 2026-09: tastytrade releases its official MCP server. ([source](https://www.stockbrokers.com/guides/ai-agent-brokers))
-- 2026-08-27: IOL invertironline (Argentina) launches a hosted MCP for ChatGPT, Claude, Gemini and Grok; every operation needs your confirmation. ([source](https://www.invertironline.com/mcp))
+- 2026-08-27: IOL invertironline (Argentina) launches a hosted MCP for ChatGPT, Claude, Gemini and Grok, with read-only, confirm-each-operation and automatic modes. ([source](https://www.invertironline.com/mcp))
 - 2026-08-25: Scalable Capital launches Agentic Investing: first EU broker letting ChatGPT/Claude place orders (with approval). ([source](https://fensory.com/best/agentic-trading-platforms-non-us))
 - 2026-08-20: Binance launches Agent OS with an MCP server and agentic sub-accounts. ([source](https://www.prnewswire.com/news-releases/binance-introduces-agent-os-to-connect-ai-applications-to-financial-infrastructure-302856306.html))
 - 2026-08-06: MetaMask Agent Wallet launches (self-custodial, Guard Mode). ([source](https://metamask.io/news/introducing-metamask-agent-wallet))

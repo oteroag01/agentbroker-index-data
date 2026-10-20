@@ -53,7 +53,7 @@
     "title_en": "eToro launches Agent Portfolios (beta): ring-fenced portfolios for AI agents.",
     "title_es": "eToro lanza Agent Portfolios (beta): carteras aisladas para agentes.",
     "source_url": "https://www.etoro.com/news-and-analysis/etoro-updates/agent-portfolios-let-your-ai-agent-trade-for-you/",
-    "source_http_status": "200"
+    "source_http_status": "503"
   },
   {
     "date": "2026-04-27",
@@ -146,8 +146,8 @@
   {
     "date": "2026-08-27",
     "provider_id": "iol",
-    "title_en": "IOL invertironline (Argentina) launches a hosted MCP for ChatGPT, Claude, Gemini and Grok; every operation needs your confirmation.",
-    "title_es": "IOL invertironline (Argentina) lanza un MCP alojado para ChatGPT, Claude, Gemini y Grok; cada operación requiere tu confirmación.",
+    "title_en": "IOL invertironline (Argentina) launches a hosted MCP for ChatGPT, Claude, Gemini and Grok, with read-only, confirm-each-operation and automatic modes.",
+    "title_es": "IOL invertironline (Argentina) lanza un MCP alojado para ChatGPT, Claude, Gemini y Grok, con modos de solo lectura, confirmación de cada operación y automático.",
     "source_url": "https://www.invertironline.com/mcp",
     "source_http_status": "200"
   },
@@ -181,7 +181,7 @@
     "title_en": "eToro launches MCP connectors for Claude, ChatGPT, Grok and Grok Bot (read-only or read-and-act; every action needs approval; not in the US, Australia or Singapore).",
     "title_es": "eToro lanza conectores MCP para Claude, ChatGPT, Grok y Grok Bot (solo lectura o lectura y acción; cada acción requiere aprobación; no disponible en EE. UU., Australia ni Singapur).",
     "source_url": "https://www.etoro.com/news-and-analysis/press-releases/your-ai-already-runs-your-day-now-it-knows-your-portfolio/",
-    "source_http_status": "200"
+    "source_http_status": "503"
   },
   {
     "date": "2026-10-19",
@@ -189,7 +189,7 @@
     "title_en": "Revolut X's revx CLI documents stop (conditional) and take-profit/stop-loss orders.",
     "title_es": "La CLI revx de Revolut X documenta órdenes stop (condicionales) y take-profit/stop-loss.",
     "source_url": "https://github.com/revolut-engineering/revolut-x-api/blob/master/README.md",
-    "source_http_status": "200"
+    "source_http_status": "429"
   },
   {
     "date": "2026-10-19",
@@ -269,6 +269,46 @@
     "title_en": "Added Composer (US only): official API; its earlier official MCP repository no longer loads.",
     "title_es": "Añadido Composer (solo EE. UU.): API oficial; el repositorio de su MCP oficial anterior ya no carga.",
     "source_url": "https://help.composer.trade/article/236-getting-started-with-your-composer-api",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-10-20",
+    "provider_id": "iol",
+    "title_en": "Correction: IOL's MCP is not confirmation-only. Its documentation describes three modes: read-only, confirm each operation (single-use link) and 'Automático', which executes after validation.",
+    "title_es": "Corrección: el MCP de IOL no es solo con confirmación. Su documentación describe tres modos: solo lectura, confirmar cada operación (enlace de un solo uso) y 'Automático', que ejecuta tras validar.",
+    "source_url": "https://mcp.invertironline.com/documentacion-tecnica",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-10-20",
+    "provider_id": "ripio",
+    "title_en": "Added Ripio (Argentina/LATAM crypto exchange): hosted MCP with read-only, operate and full presets; the full preset includes withdrawals.",
+    "title_es": "Añadido Ripio (exchange cripto de Argentina/LATAM): MCP alojado con perfiles de solo lectura, operar y completo; el completo incluye retiros.",
+    "source_url": "https://apidocs.ripio.com/static/mcp/overview",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-10-20",
+    "provider_id": "bitso",
+    "title_en": "Added Bitso (Mexico): official trading API with margin; no official MCP found.",
+    "title_es": "Añadido Bitso (México): API de trading oficial con margen; sin MCP oficial.",
+    "source_url": "https://docs.bitso.com/bitso-api/docs/api-overview",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-10-20",
+    "provider_id": "webull-mexico",
+    "title_en": "Added Webull México: official local MCP for the Mexico region; the hosted Cloud MCP is US-only.",
+    "title_es": "Añadido Webull México: MCP local oficial para la región México; el Cloud MCP alojado es solo para EE. UU.",
+    "source_url": "https://github.com/webull-inc/webull-openapi-mcp",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-10-20",
+    "provider_id": "zesty",
+    "title_en": "Added Zesty (Chile): hosted MCP where you confirm every order; no withdrawals.",
+    "title_es": "Añadido Zesty (Chile): MCP alojado en el que confirmas cada orden; sin retiros.",
+    "source_url": "https://www.zestyfinance.com/conecta-tu-agente",
     "source_http_status": "200"
   }
 ]

@@ -6,10 +6,10 @@ Qué brokers, bancos y exchanges cripto permiten que un agente de IA (ChatGPT, C
 
 | | |
 |---|---|
-| Proveedores | 64 (40 con producto oficial para agentes de IA) |
+| Proveedores | 68 (43 con producto oficial para agentes de IA) |
 | Autorizados en España | 38 (comprobado en los registros de la CNMV, el Banco de España y ESMA) |
 | Registro MiCA provisional de ESMA | 373 CASP autorizados (revisado 2026-10-19) |
-| Versión de los datos | 2026-10-19 (última revisión 2026-10-19) |
+| Versión de los datos | 2026-10-20 (última revisión 2026-10-20) |
 
 ## Archivos
 - `data/providers.json`: registros completos.
@@ -26,7 +26,8 @@ Qué brokers, bancos y exchanges cripto permiten que un agente de IA (ChatGPT, C
 | `official` | true si lo publica el propio proveedor |
 | `capability` | Lo máximo que puede hacer el agente |
 | `limits / limits_es` | Salvaguardas (aprobación por orden, límites, permisos) |
-| `availability` | Disponibilidad en España / UE / EE. UU. |
+| `availability` | Disponibilidad en España / UE / EE. UU. / Argentina (ar) / México (mx) |
+| `licence.latam` | Registro local en Argentina / México (CNV, CNBV); una inscripción PSAV no es una licencia |
 | `licence` | Entidad, regulador, autorización en España (CNMV/BdE/ESMA), MiCA, CFD |
 | `source_url, evidence_urls, source_http_status` | Fuentes primarias y su estado HTTP |
 | `last_checked` | Fecha de la última revisión |
@@ -45,5 +46,5 @@ Qué brokers, bancos y exchanges cripto permiten que un agente de IA (ChatGPT, C
 Datos con licencia [CC BY 4.0](LICENSE): cita "AgentBroker Index (agentbrokerindex.com)", enlaza la licencia e indica si hiciste cambios.
 
 ```
-AgentBroker Index (2026). Datos abiertos de AgentBroker Index: acceso de agentes de IA a brokers, bancos y exchanges cripto (versión 2026-10-19). https://agentbrokerindex.com/es/ . Licencia CC BY 4.0.
+AgentBroker Index (2026). Datos abiertos de AgentBroker Index: acceso de agentes de IA a brokers, bancos y exchanges cripto (versión 2026-10-20). https://agentbrokerindex.com/es/ . Licencia CC BY 4.0.
 ```
