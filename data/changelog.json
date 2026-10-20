@@ -53,7 +53,7 @@
     "title_en": "eToro launches Agent Portfolios (beta): ring-fenced portfolios for AI agents.",
     "title_es": "eToro lanza Agent Portfolios (beta): carteras aisladas para agentes.",
     "source_url": "https://www.etoro.com/news-and-analysis/etoro-updates/agent-portfolios-let-your-ai-agent-trade-for-you/",
-    "source_http_status": "503"
+    "source_http_status": "200"
   },
   {
     "date": "2026-04-27",
@@ -181,7 +181,7 @@
     "title_en": "eToro launches MCP connectors for Claude, ChatGPT, Grok and Grok Bot (read-only or read-and-act; every action needs approval; not in the US, Australia or Singapore).",
     "title_es": "eToro lanza conectores MCP para Claude, ChatGPT, Grok y Grok Bot (solo lectura o lectura y acción; cada acción requiere aprobación; no disponible en EE. UU., Australia ni Singapur).",
     "source_url": "https://www.etoro.com/news-and-analysis/press-releases/your-ai-already-runs-your-day-now-it-knows-your-portfolio/",
-    "source_http_status": "503"
+    "source_http_status": "200"
   },
   {
     "date": "2026-10-19",
@@ -189,7 +189,7 @@
     "title_en": "Revolut X's revx CLI documents stop (conditional) and take-profit/stop-loss orders.",
     "title_es": "La CLI revx de Revolut X documenta órdenes stop (condicionales) y take-profit/stop-loss.",
     "source_url": "https://github.com/revolut-engineering/revolut-x-api/blob/master/README.md",
-    "source_http_status": "429"
+    "source_http_status": "200"
   },
   {
     "date": "2026-10-19",

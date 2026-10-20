@@ -4,6 +4,7 @@ Dated changes to the providers tracked. Each entry is backed by the source linke
 
 ## Dataset 2026-10-20
 - 68 providers. Licence and authorisation checks dated 2026-10-20. ESMA MiCA register: 373 CASPs.
+- Argentina + Mexico pilot: `availability.ar` / `availability.mx` and `licence.latam` (CNV / CNBV registration); CSV columns `availability_ar`, `availability_mx`, `ar_*`, `mx_*`, `latam_checked`.
 - Added `date_modified` (content-change date), `cfd_only` and `license` fields. The data is now licensed CC BY 4.0.
 
 ## Provider events (newest first)

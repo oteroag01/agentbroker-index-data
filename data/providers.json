@@ -931,7 +931,7 @@
     "aliases": [
       "e toro"
     ],
-    "source_http_status": "503",
+    "source_http_status": "200",
     "licence": {
       "legal_entity": "eToro (Europe) Ltd",
       "regulator": "CySEC (Cyprus)",

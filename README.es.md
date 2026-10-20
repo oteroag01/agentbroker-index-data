@@ -1,6 +1,6 @@
 # AgentBroker Index: datos abiertos
 
-Qué brokers, bancos y exchanges cripto permiten que un agente de IA (ChatGPT, Claude, Grok, clientes MCP) consulte tu cuenta, prepare órdenes o las ejecute, y si cada proveedor está autorizado para operar con clientes en España. Cada registro enlaza a sus fuentes.
+Qué brokers, bancos y exchanges cripto permiten que un agente de IA (ChatGPT, Claude, Grok, clientes MCP) consulte tu cuenta, prepare órdenes o las ejecute, y si cada proveedor está autorizado para operar con clientes en España. Desde el 20-10-2026 incluye también un **piloto para Argentina y México**: disponibilidad allí y registro local de cada proveedor (CNV en Argentina, CNBV en México). Cada registro enlaza a sus fuentes.
 
 [English](README.md) · Web: https://agentbrokerindex.com/es/ · Licencia: [CC BY 4.0](LICENSE)
 
@@ -9,6 +9,7 @@ Qué brokers, bancos y exchanges cripto permiten que un agente de IA (ChatGPT, C
 | Proveedores | 68 (43 con producto oficial para agentes de IA) |
 | Autorizados en España | 38 (comprobado en los registros de la CNMV, el Banco de España y ESMA) |
 | Registro MiCA provisional de ESMA | 373 CASP autorizados (revisado 2026-10-19) |
+| Argentina / México (piloto) | 3 proveedores con datos de Argentina y 3 con datos de México (IOL invertironline, Ripio, Bitso, Webull México) |
 | Versión de los datos | 2026-10-20 (última revisión 2026-10-20) |
 
 ## Archivos
@@ -37,6 +38,7 @@ Qué brokers, bancos y exchanges cripto permiten que un agente de IA (ChatGPT, C
 ## Método
 - **Fuentes:** cada dato sale de la documentación, nota de prensa o condiciones del propio proveedor, o de un registro oficial.
 - **Autorización:** se comprueba a mano en la CNMV, el Banco de España y ESMA. La fecha está en `licence.authorisation_checked`.
+- **Argentina / México:** registro local tal como lo publica cada proveedor y, cuando existe, el registro de la CNV o la CNBV (`licence.latam.*.checked`). Una inscripción PSAV en la CNV es a efectos de prevención del lavado de activos y **no** es una licencia; las plataformas cripto en México se marcan `crypto_not_cnbv`, nunca como «autorizadas». Guías: https://agentbrokerindex.com/es/latinoamerica/argentina/ y https://agentbrokerindex.com/es/latinoamerica/mexico/.
 - **Revisión:** semanal. `date_modified` solo cambia cuando cambia el contenido.
 - **CFD:** los proveedores de CFD están marcados (`licence.cfd`, `licence.cfd_only`). Los CFD son de alto riesgo; la mayoría de las cuentas minoristas pierden dinero con ellos.
 

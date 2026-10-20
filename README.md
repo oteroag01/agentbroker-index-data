@@ -1,6 +1,6 @@
 # AgentBroker Index: open dataset
 
-Which brokers, banks and crypto exchanges let an AI agent (ChatGPT, Claude, Grok, MCP clients) read your account, draft orders or place orders, and whether each one is authorised to serve customers in Spain. Each record links to its sources.
+Which brokers, banks and crypto exchanges let an AI agent (ChatGPT, Claude, Grok, MCP clients) read your account, draft orders or place orders, and whether each one is authorised to serve customers in Spain. Since 2026-10-20 it also covers an **Argentina + Mexico pilot**: availability there and each provider's local registration (CNV in Argentina, CNBV in Mexico). Each record links to its sources.
 
 [Español](README.es.md) · Website: https://agentbrokerindex.com/ · Licence: [CC BY 4.0](LICENSE)
 
@@ -10,6 +10,7 @@ Which brokers, banks and crypto exchanges let an AI agent (ChatGPT, Claude, Grok
 | Capability | place_orders 40, none 21, read_only 5, draft_orders 2 |
 | Authorised to serve Spain | 38 (checked against CNMV, Banco de España and ESMA registers) |
 | ESMA interim MiCA register | 373 authorised CASPs (checked 2026-10-19) |
+| Argentina / Mexico (pilot) | 3 providers with Argentina data, 3 with Mexico data (IOL invertironline, Ripio, Bitso, Webull México) |
 | Data version | 2026-10-20 (records last re-checked 2026-10-20) |
 
 ## Files
@@ -38,6 +39,7 @@ Which brokers, banks and crypto exchanges let an AI agent (ChatGPT, Claude, Grok
 ## Method
 - **Sources:** every fact comes from the provider's own docs, press release or terms, or from an official register. Third-party sources are named in `notes`.
 - **Licence status:** checked by hand against the CNMV, Banco de España and ESMA registers. The date is in `licence.authorisation_checked`.
+- **Argentina / Mexico:** local registration as each provider publishes it, plus the CNV or CNBV register where one exists (`licence.latam.*.checked`). A CNV PSAV (virtual-asset) registration is anti-money-laundering only and is **not** a licence; Mexican crypto platforms are marked `crypto_not_cnbv`, never "authorised". Guides: https://agentbrokerindex.com/es/latinoamerica/argentina/ and https://agentbrokerindex.com/es/latinoamerica/mexico/.
 - **Updates:** records are re-checked weekly. `date_modified` changes only when the content changes, which a content fingerprint detects.
 - **CFD providers** are flagged (`licence.cfd`, `licence.cfd_only`). CFDs are high risk; most retail accounts lose money with them.
 
