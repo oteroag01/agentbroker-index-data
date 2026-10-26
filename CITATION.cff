@@ -6,8 +6,8 @@ abstract: "Sourced records of which brokers, banks and crypto exchanges let AI a
 authors:
   - name: "AgentBroker Index"
     website: "https://agentbrokerindex.com/"
-version: "2026-10-20"
-date-released: "2026-10-20"
+version: "2026-10-26"
+date-released: "2026-10-26"
 license: CC-BY-4.0
 url: "https://agentbrokerindex.com/"
 repository: "https://github.com/oteroag01/agentbroker-index-data"

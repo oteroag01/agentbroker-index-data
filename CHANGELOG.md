@@ -2,13 +2,14 @@
 
 Dated changes to the providers tracked. Each entry is backed by the source linked in `data/changelog.json`.
 
-## Dataset 2026-10-20
+## Dataset 2026-10-26
 - 68 providers. Licence and authorisation checks dated 2026-10-20. ESMA MiCA register: 373 CASPs.
-- Asset types: `assets` (14 asset keys, agent = trade/read/no/unknown, platform, source, notes), `fractional`, `fractional_meta`, `assets_checked`; CSV columns `assets_trade`, `assets_read`, `assets_no`, `fractional`, `assets_checked`, `asset_<key>`. 41 of 43 official providers have sourced cells; 431 cells unconfirmed.
+- Asset types: `assets` (14 asset keys, agent = trade/read/no/unknown, platform, source, notes), `fractional`, `fractional_meta`, `assets_checked`; CSV columns `assets_trade`, `assets_read`, `assets_no`, `fractional`, `assets_checked`, `asset_<key>`. 42 of 43 official providers have sourced cells; 405 cells unconfirmed.
 - Argentina + Mexico pilot: `availability.ar` / `availability.mx` and `licence.latam` (CNV / CNBV registration); CSV columns `availability_ar`, `availability_mx`, `ar_*`, `mx_*`, `latam_checked`.
 - Added `date_modified` (content-change date), `cfd_only` and `license` fields. The data is now licensed CC BY 4.0.
 
 ## Provider events (newest first)
+- 2026-10-21: Interactive Brokers launches Autonomous Trading: eligible clients can let a connected AI submit stock and equity-option orders without approving each one, inside a funded AI Partition. Planned for IB LLC (US and the countries it serves), UK, Australia and Singapore, not for IB Ireland, so in Spain the agent still only drafts instructions. ([source](https://www.interactivebrokers.com/en/general/about/mediaRelations/10-21-26.php))
 - 2026-10-20: Correction: IOL's MCP is not confirmation-only. Its documentation describes three modes: read-only, confirm each operation (single-use link) and 'Automático', which executes after validation. ([source](https://mcp.invertironline.com/documentacion-tecnica))
 - 2026-10-20: Added Ripio (Argentina/LATAM crypto exchange): hosted MCP with read-only, operate and full presets; the full preset includes withdrawals. ([source](https://apidocs.ripio.com/static/mcp/overview))
 - 2026-10-20: Added Bitso (Mexico): official trading API with margin; no official MCP found. ([source](https://docs.bitso.com/bitso-api/docs/api-overview))
@@ -25,6 +26,7 @@ Dated changes to the providers tracked. Each entry is backed by the source linke
 - 2026-10-19: Added Phantom MCP server (self-custody; the agent gets its own dedicated wallet). ([source](https://docs.phantom.com/phantom-mcp-server))
 - 2026-10-19: Added Senpi (AI agent for Hyperliquid perpetuals, connectors for Claude, ChatGPT and Grok). ([source](https://senpi.ai/connectors))
 - 2026-10-19: Added Composer (US only): official API; its earlier official MCP repository no longer loads. ([source](https://help.composer.trade/article/236-getting-started-with-your-composer-api))
+- 2026-10-19: Binance launches AI Pro, its own in-app AI agent: it turns a plain-language idea into a strategy, paper-tests it and, once you approve it, runs it in an isolated AI Strategy Account (spot and USDS-M futures; no withdrawals to external addresses). It is not an MCP connection for outside assistants. ([source](https://www.prnewswire.com/news-releases/binance-launches-binance-ai-pro-bringing-conversational-ai-strategy-building-to-users-302912585.html))
 - 2026-10-08: eToro launches MCP connectors for Claude, ChatGPT, Grok and Grok Bot (read-only or read-and-act; every action needs approval; not in the US, Australia or Singapore). ([source](https://www.etoro.com/news-and-analysis/press-releases/your-ai-already-runs-your-day-now-it-knows-your-portfolio/))
 - 2026-10: TradeStation drops its $10k minimum and paid-AI requirement for MCP access. ([source](https://www.stockbrokers.com/guides/ai-agent-brokers))
 - 2026-09-09: NinjaTrader announces an MCP server (beta) for futures trading with Claude and ChatGPT. ([source](https://ninjatrader.com/news/ninjatrader-launches-ninjatrader-innovation-lab-to-power-dedicated-futures-focused-ai-tools-for-retail-traders/))

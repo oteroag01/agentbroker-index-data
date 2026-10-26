@@ -9,9 +9,9 @@ Qué brokers, bancos y exchanges de crypto dejan que un agente de IA (ChatGPT, C
 | Proveedores | 68 (43 con producto oficial para agentes de IA) |
 | Autorizados en España | 38 (comprobado en los registros de la CNMV, el Banco de España y ESMA) |
 | Registro MiCA provisional de ESMA | 373 CASP autorizados (revisado 2026-10-19) |
-| Argentina / México (piloto) | 3 proveedores con datos de Argentina y 3 con datos de México (IOL invertironline, Ripio, Bitso, Webull México) |
-| Tipos de activo (nuevo) | 41 de 43 entidades oficiales con al menos un activo con fuente; 431 de 602 casillas siguen sin confirmar |
-| Versión de los datos | 2026-10-20 (última revisión 2026-10-20) |
+| Argentina / México (piloto) | 4 proveedores con datos de Argentina y 4 con datos de México (Interactive Brokers, IOL invertironline, Ripio, Bitso, Webull México) |
+| Tipos de activo (nuevo) | 42 de 43 entidades oficiales con al menos un activo con fuente; 405 de 602 casillas siguen sin confirmar |
+| Versión de los datos | 2026-10-26 (última revisión 2026-10-26) |
 
 ## Archivos
 - `data/providers.json`: registros completos.
@@ -54,5 +54,5 @@ Qué brokers, bancos y exchanges de crypto dejan que un agente de IA (ChatGPT, C
 Datos con licencia [CC BY 4.0](LICENSE): cita "AgentBroker Index (agentbrokerindex.com)", enlaza la licencia e indica si hiciste cambios.
 
 ```
-AgentBroker Index (2026). Datos abiertos de AgentBroker Index: acceso de agentes de IA a brokers, bancos y exchanges de crypto (versión 2026-10-20). https://agentbrokerindex.com/es/ . Licencia CC BY 4.0.
+AgentBroker Index (2026). Datos abiertos de AgentBroker Index: acceso de agentes de IA a brokers, bancos y exchanges de crypto (versión 2026-10-26). https://agentbrokerindex.com/es/ . Licencia CC BY 4.0.
 ```

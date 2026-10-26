@@ -272,6 +272,14 @@
     "source_http_status": "200"
   },
   {
+    "date": "2026-10-19",
+    "provider_id": "binance",
+    "title_en": "Binance launches AI Pro, its own in-app AI agent: it turns a plain-language idea into a strategy, paper-tests it and, once you approve it, runs it in an isolated AI Strategy Account (spot and USDS-M futures; no withdrawals to external addresses). It is not an MCP connection for outside assistants.",
+    "title_es": "Binance lanza AI Pro, su propio agente de IA dentro de la app: convierte una idea explicada con tus palabras en una estrategia, la prueba en simulado y, cuando la apruebas, la ejecuta en una subcuenta aislada (AI Strategy Account) con spot y futuros USDS-M, sin retiradas a direcciones externas. No es una conexión MCP para asistentes externos.",
+    "source_url": "https://www.prnewswire.com/news-releases/binance-launches-binance-ai-pro-bringing-conversational-ai-strategy-building-to-users-302912585.html",
+    "source_http_status": "200"
+  },
+  {
     "date": "2026-10-20",
     "provider_id": "iol",
     "title_en": "Correction: IOL's MCP is not confirmation-only. Its documentation describes three modes: read-only, confirm each operation (single-use link) and 'Automático', which executes after validation.",
@@ -309,6 +317,14 @@
     "title_en": "Added Zesty (Chile): hosted MCP where you confirm every order; no withdrawals.",
     "title_es": "Añadido Zesty (Chile): MCP en la nube en el que confirmas cada orden; sin retiros.",
     "source_url": "https://www.zestyfinance.com/conecta-tu-agente",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-10-21",
+    "provider_id": "interactive-brokers",
+    "title_en": "Interactive Brokers launches Autonomous Trading: eligible clients can let a connected AI submit stock and equity-option orders without approving each one, inside a funded AI Partition. Planned for IB LLC (US and the countries it serves), UK, Australia and Singapore, not for IB Ireland, so in Spain the agent still only drafts instructions.",
+    "title_es": "Interactive Brokers lanza Autonomous Trading: los clientes elegibles pueden dejar que su IA envíe órdenes de acciones y de opciones sobre acciones sin aprobar cada una, dentro de una «AI Partition» con fondos asignados. Está previsto para IB LLC (EE. UU. y los países que atiende), Reino Unido, Australia y Singapur, no para IB Ireland: en España el agente sigue limitado a preparar instrucciones.",
+    "source_url": "https://www.interactivebrokers.com/en/general/about/mediaRelations/10-21-26.php",
     "source_http_status": "200"
   }
 ]
