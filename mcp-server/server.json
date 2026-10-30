@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.agentbrokerindex/agentbroker-index",
+  "title": "AgentBroker Index",
+  "description": "Read-only, sourced data on which brokers, banks and crypto exchanges AI agents can use (EU/Spain).",
+  "repository": {
+    "url": "https://github.com/oteroag01/agentbroker-index-data",
+    "source": "github"
+  },
+  "websiteUrl": "https://agentbrokerindex.com/",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.agentbrokerindex.com/mcp"
+    }
+  ]
+}

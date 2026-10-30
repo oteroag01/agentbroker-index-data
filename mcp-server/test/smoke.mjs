@@ -1,0 +1,37 @@
+// Local smoke test: node test/smoke.mjs [base=http://localhost:8787]
+const BASE = process.argv[2] || "http://localhost:8787";
+let id = 0, fails = 0;
+const rpc = async (method, params) => {
+  const r = await fetch(BASE + "/mcp", { method: "POST", headers: { "content-type": "application/json", accept: "application/json, text/event-stream", "mcp-protocol-version": "2025-06-18" }, body: JSON.stringify({ jsonrpc: "2.0", id: ++id, method, params }) });
+  return { status: r.status, body: r.status === 202 ? null : await r.json() };
+};
+const ok = (cond, msg) => { console.log((cond ? "PASS " : "FAIL ") + msg); if (!cond) fails++; };
+const init = await rpc("initialize", { protocolVersion: "2025-06-18", capabilities: {}, clientInfo: { name: "smoke", version: "0" } });
+ok(init.body.result.protocolVersion === "2025-06-18" && init.body.result.capabilities.tools, "initialize negotiates 2025-06-18");
+const n = await fetch(BASE + "/mcp", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ jsonrpc: "2.0", method: "notifications/initialized" }) });
+ok(n.status === 202, "notification -> 202");
+const tl = await rpc("tools/list", {});
+ok(tl.body.result.tools.length === 5 && tl.body.result.tools.every((t) => t.annotations.readOnlyHint), "tools/list: 5 read-only tools");
+const call = async (name, args) => (await rpc("tools/call", { name, arguments: args })).body.result;
+const s = await call("search_providers", { authorised_in_spain: true, capability: "place_orders", assistant: "ChatGPT", lang: "es" });
+ok(!s.isError && s.structuredContent.total_matches > 0 && s.structuredContent.results.every((p) => p.authorised_in_spain === "yes"), `search_providers ES+ChatGPT+place_orders: ${s.structuredContent.total_matches} matches (${s.structuredContent.results.map((p) => p.id).join(", ")})`);
+const g = await call("get_provider", { id: "ibkr" });
+ok(g.structuredContent.provider.id === "interactive-brokers" && !("affiliate_url" in g.structuredContent.provider) && g.structuredContent.provider.risk_notes.length === 1, "get_provider alias 'ibkr' -> interactive-brokers, no affiliate field, CFD note");
+const d = await call("get_provider", { id: "degiro", lang: "es" });
+ok(d.structuredContent.provider.capability === "none" && d.structuredContent.provider.limits.startsWith("Sin API"), "get_provider degiro ES: none + Spanish limits");
+const c = await call("compare_providers", { ids: ["myinvestor", "Scalable Capital", "nope"] });
+ok(c.structuredContent.compared.length === 2 && c.structuredContent.not_found[0] === "nope", "compare_providers 2 found + 1 not_found");
+const ch = await call("list_changes", { since: "2026-10-01", limit: 5 });
+ok(ch.structuredContent.changes.length > 0 && ch.structuredContent.changes.every((x) => x.date >= "2026-10-01" && x.source_url), `list_changes since 1 Oct: ${ch.structuredContent.total}`);
+const di = await call("dataset_info", {});
+ok(di.structuredContent.providers >= 60 && /CC BY 4.0/.test(di.structuredContent.licence), `dataset_info: ${di.structuredContent.providers} providers`);
+const bad = await rpc("tools/call", { name: "place_order", arguments: {} });
+ok(bad.body.error && bad.body.error.code === -32602, "unknown tool -> -32602");
+const um = await rpc("resources/list", {});
+ok(um.body.error && um.body.error.code === -32601, "unsupported method -> -32601");
+const get = await fetch(BASE + "/mcp");
+ok(get.status === 405, "GET /mcp -> 405 (no SSE)");
+const txt = JSON.stringify([s, g, d, c, ch, di]).toLowerCase();
+ok(!/affiliate_url|ref=|utm_/.test(txt), "no affiliate/referral parameters in any output");
+console.log(fails ? `${fails} FAILED` : "ALL PASSED");
+process.exit(fails ? 1 : 0);

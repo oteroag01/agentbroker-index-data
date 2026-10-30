@@ -13,6 +13,9 @@ Qué brokers, bancos y exchanges de crypto dejan que un agente de IA (ChatGPT, C
 | Tipos de activo (nuevo) | 42 de 43 entidades oficiales con al menos un activo con fuente; 405 de 602 casillas siguen sin confirmar |
 | Versión de los datos | 2026-10-26 (última revisión 2026-10-26) |
 
+## Servidor MCP
+Los asistentes de IA pueden consultar estos datos directamente con un servidor MCP gratuito y de solo lectura en `https://mcp.agentbrokerindex.com/mcp`. En el registro oficial de MCP figura como `com.agentbrokerindex/agentbroker-index`. Código e instrucciones: [mcp-server/](mcp-server/).
+
 ## Archivos
 - `data/providers.json`: registros completos.
 - `data/providers.csv`: los mismos registros, aplanados (UTF-8).

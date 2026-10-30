@@ -1,0 +1,11 @@
+# AgentBroker Index read-only MCP server (Cloudflare Worker). Deployed 30 Oct 2026 after Andru's APPROVE.
+# No secrets, no bindings, no storage: it only reads the public CC BY 4.0 dataset from DATA_BASE.
+name = "agentbroker-index-mcp"
+main = "src/index.js"
+compatibility_date = "2026-10-16"
+workers_dev = false
+routes = [ { pattern = "mcp.agentbrokerindex.com", custom_domain = true } ]
+preview_urls = false
+
+[vars]
+DATA_BASE = "https://agentbrokerindex.com"

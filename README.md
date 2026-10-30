@@ -14,6 +14,9 @@ Which brokers, banks and crypto exchanges let an AI agent (ChatGPT, Claude, Grok
 | Asset types (new) | 42 of 43 official providers with at least one sourced asset cell; 405 of 602 cells still unconfirmed |
 | Data version | 2026-10-26 (records last re-checked 2026-10-26) |
 
+## MCP server
+AI assistants can query this dataset directly through a free, read-only MCP server at `https://mcp.agentbrokerindex.com/mcp`. Its name in the official MCP Registry is `com.agentbrokerindex/agentbroker-index`. Code and setup: [mcp-server/](mcp-server/).
+
 ## Files
 - `data/providers.json`: full records (nested licence object).
 - `data/providers.csv`: the same records, flattened (UTF-8, lists joined with `;` or `|`).
