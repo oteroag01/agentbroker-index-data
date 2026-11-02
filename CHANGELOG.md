@@ -2,13 +2,18 @@
 
 Dated changes to the providers tracked. Each entry is backed by the source linked in `data/changelog.json`.
 
-## Dataset 2026-10-26
+## Dataset 2026-11-02
 - 68 providers. Licence and authorisation checks dated 2026-10-20. ESMA MiCA register: 373 CASPs.
-- Asset types: `assets` (14 asset keys, agent = trade/read/no/unknown, platform, source, notes), `fractional`, `fractional_meta`, `assets_checked`; CSV columns `assets_trade`, `assets_read`, `assets_no`, `fractional`, `assets_checked`, `asset_<key>`. 42 of 43 official providers have sourced cells; 405 cells unconfirmed.
+- Asset types: `assets` (14 asset keys, agent = trade/read/no/unknown, platform, source, notes), `fractional`, `fractional_meta`, `assets_checked`; CSV columns `assets_trade`, `assets_read`, `assets_no`, `fractional`, `assets_checked`, `asset_<key>`. 42 of 44 official providers have sourced cells; 419 cells unconfirmed.
 - Argentina + Mexico pilot: `availability.ar` / `availability.mx` and `licence.latam` (CNV / CNBV registration); CSV columns `availability_ar`, `availability_mx`, `ar_*`, `mx_*`, `latam_checked`.
 - Added `date_modified` (content-change date), `cfd_only` and `license` fields. The data is now licensed CC BY 4.0.
 
 ## Provider events (newest first)
+- 2026-11-02: eToro's setup guide: ChatGPT now connects only on desktop, as a custom MCP server (https://agent.public-api.etoro.com) added under Plugins; Claude connects from its built-in connectors directory. ([source](https://mcp.etoro.app/chatgpt))
+- 2026-11-02: NinjaTrader's MCP documentation drops the beta label: the server is now available to NinjaTrader and Tradovate users. ([source](https://docs.ninjatrader.com/mcp.md))
+- 2026-11-02: Questrade's MCP now lists 14 supported agents (native connectors for Grok Bot and Cursor) and adds Custom Index, Flows and authorized-trader access; every order still needs Push Approval. ([source](https://www.questrade.com/learning/using-questrade/connect-your-questrade-account-to-ai))
+- 2026-11-02: IOL's MCP page adds setup steps for Hermes Agent and now names Gemini Spark (in the Gemini app) as the Gemini route. ([source](https://mcp.invertironline.com/))
+- 2026-10-22: CaixaBank launches an official app inside ChatGPT: product information and comparisons in a conversation, no account access or contracting. Per Expansión, it is the first Spanish bank to do so in its home market. ([source](https://www.caixabank.com/es/actualidad/noticias/caixabank-app-chatgpt-banca-conversacional))
 - 2026-10-21: Interactive Brokers launches Autonomous Trading: eligible clients can let a connected AI submit stock and equity-option orders without approving each one, inside a funded AI Partition. Planned for IB LLC (US and the countries it serves), UK, Australia and Singapore, not for IB Ireland, so in Spain the agent still only drafts instructions. ([source](https://www.interactivebrokers.com/en/general/about/mediaRelations/10-21-26.php))
 - 2026-10-20: Correction: IOL's MCP is not confirmation-only. Its documentation describes three modes: read-only, confirm each operation (single-use link) and 'Automático', which executes after validation. ([source](https://mcp.invertironline.com/documentacion-tecnica))
 - 2026-10-20: Added Ripio (Argentina/LATAM crypto exchange): hosted MCP with read-only, operate and full presets; the full preset includes withdrawals. ([source](https://apidocs.ripio.com/static/mcp/overview))

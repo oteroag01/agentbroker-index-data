@@ -33,7 +33,7 @@
     "notes": "MCP endpoint https://mcp.scalable.capital/mcp; activate under Profile > Security > Agentic Investing. Scalable operates in Germany, Austria, Italy, Spain, France and the Netherlands (per Fensory); the agent feature's own country list is not published. Launch date per Fensory.",
     "notes_es": "URL del MCP: https://mcp.scalable.capital/mcp; se activa en Perfil > Seguridad > Agentic Investing. Scalable opera en España, Alemania, Austria, Italia, Francia y Países Bajos (según Fensory); no publica la lista de países de la función para agentes.",
     "affiliate_url": "",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "scalable",
       "scalable broker"
@@ -192,7 +192,8 @@
     "assistants": [
       "ChatGPT",
       "Claude",
-      "Perplexity"
+      "Perplexity",
+      "Grok"
     ],
     "capability": "read_only",
     "limits": "Public product catalogue only (2,000+ funds, ETFs, portfolios). No access to your account and no order execution; contracting is completed in the MyInvestor app/web.",
@@ -207,12 +208,13 @@
     "launch_date": "2026-06",
     "source_url": "https://www.fundssociety.com/es/noticias/negocio/myinvestor-integra-su-catalogo-de-productos-de-inversion-en-chatgpt-claude-y-perplexity/",
     "evidence_urls": [
-      "https://www.extractobancario.com/2026/06/13/tecnologia/puedes-conectar-myinvestor-a-tu-agente-de-ia-favorita/974/"
+      "https://www.extractobancario.com/2026/06/13/tecnologia/puedes-conectar-myinvestor-a-tu-agente-de-ia-favorita/974/",
+      "https://mcp.myinvestor.es/es"
     ],
     "notes": "Connector URL https://mcp.myinvestor.es/mcp. Reported as the first European investment platform to put its catalogue inside ChatGPT/Claude. Read-only catalogue, not account data.",
     "notes_es": "URL del conector: https://mcp.myinvestor.es/mcp. Primera plataforma europea en integrar su catálogo en ChatGPT/Claude, según la prensa. Catálogo de solo lectura, sin datos de cuenta.",
     "affiliate_url": "",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "my investor",
       "andbank"
@@ -264,7 +266,8 @@
     "assistants_es": [
       "ChatGPT",
       "Claude",
-      "Perplexity"
+      "Perplexity",
+      "Grok"
     ],
     "assets": {
       "stocks": {
@@ -351,7 +354,7 @@
       "source": null
     },
     "assets_checked": "2026-10-20",
-    "date_modified": "2026-10-20",
+    "date_modified": "2026-10-27",
     "license": "CC-BY-4.0"
   },
   {
@@ -384,7 +387,7 @@
     "notes_es": "Los agentes pueden leer cartera, rentabilidad, movimientos y comisiones con la API oficial de solo lectura. El MCP (dacmail/indexa-capital-mcp-server) es de la comunidad, no de Indexa.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "indexa"
     ],
@@ -541,7 +544,7 @@
     "evidence_urls": [],
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "traderepublic",
       "tr"
@@ -699,7 +702,7 @@
     "notes_es": "Estado según guía de terceros; no encontramos integración oficial para IA a 16 oct 2026.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "flatex"
     ],
@@ -854,7 +857,7 @@
     "evidence_urls": [],
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "x-trade brokers",
       "xstation"
@@ -1023,7 +1026,7 @@
     "notes": "Announced 4 Feb 2026 by Trading 212 staff in its official community ('What's new'); the GitHub org trading212-labs links to trading212.com. Works with AgentSkills-compatible tools (Claude Code, OpenClaw, Codex, Cursor); no MCP server and no ChatGPT/Claude.ai app. Spain is served by Trading 212 EU GmbH (BaFin); the skill's own country list is not published. MCP servers for Trading 212 remain community projects. Live-by-default: the skill's README and SKILL.md (checked 19 Oct 2026) say T212_ENV is optional and defaults to \"live\"; the SKILL.md also tells the agent to ask whether you want LIVE or DEMO before making API calls.",
     "notes_es": "Anunciado el 4 feb 2026 por personal de Trading 212 en su comunidad oficial («What's new»); la organización de GitHub trading212-labs enlaza a trading212.com. Funciona con herramientas compatibles con AgentSkills (Claude Code, OpenClaw, Codex, Cursor); sin servidor MCP ni app en ChatGPT/Claude.ai. En España opera Trading 212 EU GmbH (BaFin); la skill no publica lista de países. Los servidores MCP para Trading 212 siguen siendo proyectos de la comunidad. Real por defecto: el README y el SKILL.md de la skill (revisados el 19 oct 2026) indican que T212_ENV es opcional y vale \"live\" por defecto; el SKILL.md también pide al agente que pregunte si quieres LIVE o DEMO antes de llamar a la API.",
     "affiliate_url": "",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "t212",
       "trading212"
@@ -1202,7 +1205,7 @@
     "notes_es": "Solo clientes de desarrollo (no aparecen ChatGPT ni Claude.ai). Fensory lo clasificaba como solo lectura; la página oficial ya incluye lanzar órdenes.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "freedom finance",
       "tradernet",
@@ -1370,7 +1373,7 @@
     "notes_es": "La capacidad refleja la API para desarrolladores, no un acceso para agentes pensado para clientes.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "saxo bank",
       "saxotrader"
@@ -1545,7 +1548,7 @@
     "notes": "Connector URL https://api.ibkr.com/v1/api/mcp-public. 28 Jul 2026: opened to any MCP tool (previously ChatGPT/Claude/Grok marketplaces only). IBKR says AI Integration is not available in India or Japan; Argentina and Mexico are on IBKR's list of countries where residents can open an account. Gemini support 'coming soon' per IBKR.",
     "notes_es": "URL del conector: https://api.ibkr.com/v1/api/mcp-public. El 28 jul 2026 se abrió a cualquier herramienta MCP (antes solo ChatGPT, Claude y Grok). Según IBKR, la integración con IA no está disponible en India ni Japón; Argentina y México figuran en su lista de países cuyos residentes pueden abrir cuenta. IBKR anuncia que Gemini llegará «pronto».",
     "affiliate_url": "",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "ibkr",
       "ib",
@@ -1729,14 +1732,15 @@
     "evidence_urls": [
       "https://www.etoro.com/news-and-analysis/press-releases/your-ai-already-runs-your-day-now-it-knows-your-portfolio/",
       "https://mcp.etoro.app/",
+      "https://mcp.etoro.app/chatgpt",
       "https://builders.etoro.com/products/agent-portfolios",
       "https://www.stockbrokers.com/guides/ai-agent-brokers",
       "https://fensory.com/best/agentic-trading-platforms-non-us"
     ],
-    "notes": "Connectors: eToro says capabilities and availability vary by assistant and jurisdiction, and they are not available to clients in the US, Australia or Singapore; per its setup guides, Claude on the web can take actions while Claude Desktop is look-up only. Agent Portfolios is a beta with gradual rollout.",
-    "notes_es": "Conectores: eToro indica que las funciones y la disponibilidad varían según el asistente y la jurisdicción, y no están disponibles para clientes de EE. UU., Australia ni Singapur; según sus guías, Claude en la web puede ejecutar acciones y Claude Desktop solo consulta. Agent Portfolios es una beta con despliegue gradual.",
+    "notes": "Connectors: eToro says capabilities and availability vary by assistant and jurisdiction, and they are not available to clients in the US, Australia or Singapore; per its setup guides, Claude on the web can take actions while Claude Desktop is look-up only, and ChatGPT works only on desktop, as a custom MCP server (https://agent.public-api.etoro.com) added under Plugins. Agent Portfolios is a beta with gradual rollout.",
+    "notes_es": "Conectores: eToro indica que las funciones y la disponibilidad varían según el asistente y la jurisdicción, y no están disponibles para clientes de EE. UU., Australia ni Singapur; según sus guías, Claude en la web puede ejecutar acciones y Claude Desktop solo consulta, y ChatGPT solo funciona en escritorio, añadiendo en Plugins un servidor MCP personalizado (https://agent.public-api.etoro.com). Agent Portfolios es una beta con despliegue gradual.",
     "affiliate_url": "",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "e toro"
     ],
@@ -1877,7 +1881,7 @@
       "note_es": "Puedes abrir posiciones por importe o por unidades."
     },
     "assets_checked": "2026-10-20",
-    "date_modified": "2026-10-20",
+    "date_modified": "2026-11-02",
     "license": "CC-BY-4.0"
   },
   {
@@ -1908,7 +1912,7 @@
     "evidence_urls": [],
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [],
     "source_http_status": "200",
     "licence": {
@@ -2071,7 +2075,7 @@
     "notes_es": "Lanzada solo para los bancos digitales de BBVA en Italia y Alemania (en italiano y alemán). No disponible en España a la fecha de la fuente.",
     "evidence_urls": [],
     "affiliate_url": "",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "bbva trader",
       "banco bilbao vizcaya"
@@ -2206,47 +2210,51 @@
     "license": "CC-BY-4.0"
   },
   {
-    "id": "santander",
-    "name": "Banco Santander",
+    "id": "caixabank",
+    "name": "CaixaBank",
     "type": "bank",
     "hq": "Spain",
     "integration": [
-      "none"
+      "chatgpt_app"
     ],
-    "official": false,
-    "assistants": [],
-    "capability": "none",
-    "limits": "No official AI-agent integration found (MCP, ChatGPT app or Claude connector). Third-party open-banking MCPs (e.g. mybanx) may offer read-only access.",
-    "limits_es": "No se encontró integración oficial para agentes de IA (MCP, app de ChatGPT o conector de Claude). MCP de open banking de terceros (p. ej. mybanx) pueden ofrecer acceso de solo lectura.",
+    "official": true,
+    "assistants": [
+      "ChatGPT"
+    ],
+    "capability": "read_only",
+    "limits": "Official informational app inside ChatGPT (22 Oct 2026): look up CaixaBank's financial products, compare alternatives and read the bank's content in a conversation. No account actions; contracting stays in CaixaBank's own channels.",
+    "limits_es": "App oficial informativa dentro de ChatGPT (22 oct 2026): consulta los productos financieros de CaixaBank, compara alternativas y lee los contenidos del banco en una conversación. Sin operaciones en la cuenta; la contratación se hace en los canales de CaixaBank.",
     "availability": {
-      "spain": "no",
-      "eu": "no",
+      "spain": "yes",
+      "eu": "unknown",
       "us": "no",
       "ar": "unknown",
       "mx": "unknown"
     },
-    "source_url": "https://www.bancosantander.es/",
+    "launch_date": "2026-10-22",
+    "source_url": "https://www.caixabank.com/es/actualidad/noticias/caixabank-app-chatgpt-banca-conversacional",
     "evidence_urls": [
-      "https://www.mybanx.io/Home/StartWithAIStepByStep"
+      "https://www.caixabank.com/en/headlines/news/caixabank-app-chatgpt-conversational-banking",
+      "https://www.expansion.com/empresas/banca/2026/10/21/6ad7a385e5fdea0a278b456f.html"
     ],
-    "notes": "'None found' = no first-party agent product located in search on 2026-10-16. Re-checked weekly.",
-    "notes_es": "«No encontrado» quiere decir que en la búsqueda del 16 oct 2026 no localizamos una integración oficial para IA. Lo revisamos cada semana.",
+    "notes": "Install it from ChatGPT's app directory (search CaixaBank). CaixaBank's press release does not list countries; Expansión reports it as the first Spanish bank to do this in its home market, open to anyone, client or not, and that the bank shares no user data. Separate from the AI agents inside CaixaBank's own web and app.",
+    "notes_es": "Se instala desde el directorio de apps de ChatGPT (busca CaixaBank). La nota de prensa de CaixaBank no detalla países; según Expansión, es el primer banco español que lo hace en su mercado doméstico, cualquiera puede usarla, sea cliente o no, y el banco no comparte datos de los usuarios. Es distinta de los agentes de IA que CaixaBank tiene en su propia web y app.",
     "affiliate_url": "",
-    "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
-      "santander",
-      "banco santander"
+      "la caixa",
+      "caixa",
+      "imagin"
     ],
     "source_http_status": "200",
     "licence": {
-      "legal_entity": "Banco Santander, S.A.",
+      "legal_entity": "CaixaBank, S.A.",
       "regulator": "Banco de España / CNMV",
       "es_status": "es_entity",
       "es_authorised": "yes",
       "basis_en": "Spanish credit institution (Banco de España; CNMV register for investment services)",
       "basis_es": "Entidad de crédito española (Banco de España; registro CNMV para servicios de inversión)",
-      "register_url": "https://www.cnmv.es/portal/consultas/esi/esisentcredito.aspx?tipo=ECN&numero=49",
+      "register_url": "https://www.cnmv.es/portal/consultas/esi/esisentcredito.aspx?tipo=ECN&numero=2100",
       "mica_status": "n_a",
       "mica_entity": "",
       "cfd": false,
@@ -2256,7 +2264,7 @@
       "note_es": "",
       "authorisation_checked": "2026-10-16",
       "regulator_es": "Banco de España / CNMV",
-      "legal_entity_es": "Banco Santander, S.A.",
+      "legal_entity_es": "CaixaBank, S.A.",
       "mica_entity_es": "",
       "latam": {
         "ar": {
@@ -2282,7 +2290,9 @@
       }
     },
     "hq_es": "España",
-    "assistants_es": [],
+    "assistants_es": [
+      "ChatGPT"
+    ],
     "assets": {
       "stocks": {
         "agent": "unknown",
@@ -2360,12 +2370,12 @@
       "source": null
     },
     "assets_checked": null,
-    "date_modified": "2026-10-16",
+    "date_modified": "2026-11-02",
     "license": "CC-BY-4.0"
   },
   {
-    "id": "caixabank",
-    "name": "CaixaBank",
+    "id": "santander",
+    "name": "Banco Santander",
     "type": "bank",
     "hq": "Spain",
     "integration": [
@@ -2383,7 +2393,7 @@
       "ar": "unknown",
       "mx": "unknown"
     },
-    "source_url": "https://www.caixabank.es/",
+    "source_url": "https://www.bancosantander.es/",
     "evidence_urls": [
       "https://www.mybanx.io/Home/StartWithAIStepByStep"
     ],
@@ -2391,21 +2401,20 @@
     "notes_es": "«No encontrado» quiere decir que en la búsqueda del 16 oct 2026 no localizamos una integración oficial para IA. Lo revisamos cada semana.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
-      "la caixa",
-      "caixa",
-      "imagin"
+      "santander",
+      "banco santander"
     ],
     "source_http_status": "200",
     "licence": {
-      "legal_entity": "CaixaBank, S.A.",
+      "legal_entity": "Banco Santander, S.A.",
       "regulator": "Banco de España / CNMV",
       "es_status": "es_entity",
       "es_authorised": "yes",
       "basis_en": "Spanish credit institution (Banco de España; CNMV register for investment services)",
       "basis_es": "Entidad de crédito española (Banco de España; registro CNMV para servicios de inversión)",
-      "register_url": "https://www.cnmv.es/portal/consultas/esi/esisentcredito.aspx?tipo=ECN&numero=2100",
+      "register_url": "https://www.cnmv.es/portal/consultas/esi/esisentcredito.aspx?tipo=ECN&numero=49",
       "mica_status": "n_a",
       "mica_entity": "",
       "cfd": false,
@@ -2415,7 +2424,7 @@
       "note_es": "",
       "authorisation_checked": "2026-10-16",
       "regulator_es": "Banco de España / CNMV",
-      "legal_entity_es": "CaixaBank, S.A.",
+      "legal_entity_es": "Banco Santander, S.A.",
       "mica_entity_es": "",
       "latam": {
         "ar": {
@@ -2550,7 +2559,7 @@
     "notes_es": "«No encontrado» quiere decir que en la búsqueda del 16 oct 2026 no localizamos una integración oficial para IA. Lo revisamos cada semana.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "sabadell"
     ],
@@ -2707,7 +2716,7 @@
     "notes_es": "«No encontrado» quiere decir que en la búsqueda del 16 oct 2026 no localizamos una integración oficial para IA. Lo revisamos cada semana.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "bankinter broker"
     ],
@@ -2864,7 +2873,7 @@
     "notes_es": "«No encontrado» quiere decir que en la búsqueda del 16 oct 2026 no localizamos una integración oficial para IA. Lo revisamos cada semana.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "ing",
       "ing direct"
@@ -3022,7 +3031,7 @@
     "notes_es": "«No encontrado» quiere decir que en la búsqueda del 16 oct 2026 no localizamos una integración oficial para IA. Lo revisamos cada semana.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "open bank"
     ],
@@ -3179,7 +3188,7 @@
     "notes_es": "«No encontrado» quiere decir que en la búsqueda del 16 oct 2026 no localizamos una integración oficial para IA. Lo revisamos cada semana.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "renta 4",
       "r4"
@@ -3335,7 +3344,7 @@
     "evidence_urls": [],
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "revolut bank"
     ],
@@ -3492,7 +3501,7 @@
     "notes_es": "El conector de terceros (Vinkius) no es un producto de N26.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "number26"
     ],
@@ -3647,7 +3656,7 @@
     "evidence_urls": [],
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "transferwise"
     ],
@@ -3804,7 +3813,7 @@
     "notes_es": "Banco centrado en Reino Unido.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [],
     "source_http_status": "200",
     "licence": {
@@ -3962,7 +3971,7 @@
     "notes_es": "Agregador de terceros: la vía para dar a un agente acceso de lectura a bancos españoles sin producto propio. Precio no verificado de forma independiente.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "mybanx",
       "my banx"
@@ -4130,7 +4139,7 @@
     "evidence_urls": [],
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "bank bridge"
     ],
@@ -4300,7 +4309,7 @@
     "notes_es": "Exchange con sede en España. Usa permisos API mínimos; nunca actives el permiso de retirada.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "bit 2 me",
       "bitcoinforme"
@@ -4499,7 +4508,7 @@
     "notes_es": "Endpoints https://mcp.public.bitpanda.com y https://mcp.fusion.bitpanda.com. Ambos los aloja Bitpanda (no hay que instalar nada; la clave se envía en la cabecera x-api-key); guía de configuración para agentes en bitpanda.com/skill.md. Proveedor europeo con licencia MiCAR (según Fensory). El antiguo repositorio local y de solo lectura bitpanda-labs/bitpanda-mcp está archivado en GitHub (desde ago 2026) y marcado como sin mantenimiento; su README remite al MCP en la nube y a docs.bitpanda.com.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "fusion",
       "bitpanda fusion"
@@ -4682,7 +4691,7 @@
     "notes": "Source post is the UK version; Revolut X serves the UK and EEA (per The Block / Crypto Briefing). Claude connector listed as added July 2026.",
     "notes_es": "La fuente es la versión británica; Revolut X opera en Reino Unido y el EEE (según The Block). Conector de Claude añadido en julio de 2026.",
     "affiliate_url": "",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "revolutx",
       "revolut crypto"
@@ -4881,7 +4890,7 @@
     "notes": "Agent OS; MCP endpoint https://agent.binance.com/mcp/agentic. Spot, margin/futures, convert. Binance does not serve US customers (per Fensory).",
     "notes_es": "Agent OS; URL del MCP: https://agent.binance.com/mcp/agentic. Spot, margen/futuros y convert. Binance no da servicio a clientes de EE. UU. (según Fensory).",
     "affiliate_url": "",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "bnb"
     ],
@@ -5058,7 +5067,7 @@
     "notes": "Launch month per TechCrunch. Scope API keys to exclude withdrawals.",
     "notes_es": "Mes de lanzamiento según TechCrunch. Limita las claves API para excluir retiradas.",
     "affiliate_url": "",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "payward",
       "kraken pro"
@@ -5260,7 +5269,7 @@
     "notes": "Coinbase for Agents; MCP https://agents.coinbase.com/mcp. Spot crypto, US derivatives and eligible US equities. No country list published (per Fensory). Launch month per TechCrunch.",
     "notes_es": "Coinbase for Agents; MCP https://agents.coinbase.com/mcp. Crypto spot, derivados de EE. UU. y acciones de EE. UU. elegibles. Sin lista de países publicada (según Fensory).",
     "affiliate_url": "",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "coinbase advanced",
       "cb"
@@ -5437,7 +5446,7 @@
     "notes_es": "'No disponible en todas las jurisdicciones', según Crypto.com.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "crypto.com",
       "cdc",
@@ -5610,7 +5619,7 @@
     "notes": "Launch date per search summary of OKX materials.",
     "notes_es": "Fecha de lanzamiento según materiales de OKX.",
     "affiliate_url": "",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "okex"
     ],
@@ -5778,7 +5787,7 @@
     "evidence_urls": [],
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "by bit"
     ],
@@ -5947,7 +5956,7 @@
     "notes": "The crypto exchange Gemini, not Google's Gemini model. Billed as first on a regulated US exchange.",
     "notes_es": "El exchange de crypto Gemini, no el modelo de Google.",
     "affiliate_url": "",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "gemini"
     ],
@@ -6117,7 +6126,7 @@
     "notes": "Launch post mentions an Early Access Program with GA 'coming this summer'; status of general availability unclear.",
     "notes_es": "El anuncio menciona un programa de acceso anticipado; disponibilidad general no aclarada.",
     "affiliate_url": "",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "consensys",
       "meta mask"
@@ -6293,7 +6302,7 @@
     "notes": "Platform, not a broker: availability depends on your cTrader broker. FX/CFDs are leveraged products.",
     "notes_es": "Plataforma, no broker: la disponibilidad depende de tu broker cTrader. Forex/CFD son productos apalancados.",
     "affiliate_url": "",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "spotware",
       "c trader"
@@ -6467,7 +6476,7 @@
     "notes_es": "MCP https://agent.robinhood.com/mcp/trading. Solo EE. UU.; crypto restringida por estado.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "hood"
     ],
@@ -6668,7 +6677,7 @@
     "notes": "Native ChatGPT/Claude/Grok connectors since August 2026 (StockBrokers). Consumer agentic product launched to US clients; self-hosted server documents other regions incl. UK (Fensory).",
     "notes_es": "Conectores nativos desde agosto de 2026. Producto para clientes de EE. UU.",
     "affiliate_url": "",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [],
     "source_http_status": "200",
     "licence": {
@@ -6842,7 +6851,7 @@
     "notes_es": "Moomoo API Skills se lanzó en Australia/NZ en abril de 2026 (según Fensory).",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "futu"
     ],
@@ -7018,7 +7027,7 @@
     "notes_es": "Solo mercados de EE. UU.; requiere SSN y dirección en EE. UU.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "public.com"
     ],
@@ -7204,7 +7213,7 @@
     "notes": "First MCP server at a US broker, January 2026 (StockBrokers).",
     "notes_es": "Primer servidor MCP de un broker de EE. UU., enero de 2026.",
     "affiliate_url": "",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "trade station"
     ],
@@ -7370,7 +7379,7 @@
     "notes": "Launched September 2026 (StockBrokers).",
     "notes_es": "Lanzado en septiembre de 2026.",
     "affiliate_url": "",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "tastyworks",
       "tasty"
@@ -7543,7 +7552,7 @@
     "notes_es": "Los no residentes en EE. UU. deben contactar con soporte (según Fensory). Alpaca Europe A.V. está registrada en la CNMV, pero su plataforma europea es B2B: atiende a clientes finales a través de socios autorizados (neobancos, apps de inversión) mediante su Broker API, no directamente. El servidor MCP está documentado para la Trading API de EE. UU.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "alpaca markets"
     ],
@@ -7724,7 +7733,7 @@
     "evidence_urls": [],
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "schwab",
       "thinkorswim",
@@ -7881,7 +7890,7 @@
     "evidence_urls": [],
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "e*trade",
       "e-trade",
@@ -8038,7 +8047,7 @@
     "evidence_urls": [],
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "fidelity"
     ],
@@ -8193,7 +8202,7 @@
     "evidence_urls": [],
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "ally"
     ],
@@ -8348,7 +8357,7 @@
     "evidence_urls": [],
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "merrill",
       "bank of america"
@@ -8504,7 +8513,7 @@
     "evidence_urls": [],
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [],
     "source_http_status": "200",
     "licence": {
@@ -8657,7 +8666,7 @@
     "evidence_urls": [],
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "sofi"
     ],
@@ -8819,7 +8828,7 @@
     "notes": "Swedish investment platform backed by DNB Carnegie; the MCP feature is offered to its customers in Sweden. We found no documentation that Montrose accepts residents of Spain. Activate in Montrose's MCP settings and paste the personal MCP link into your AI tool's custom connector.",
     "notes_es": "Plataforma de inversión sueca respaldada por DNB Carnegie; la función MCP es para sus clientes en Suecia. No hemos encontrado documentación de que Montrose admita residentes en España. Se activa en los ajustes MCP de Montrose y se pega el enlace personal en el conector personalizado del asistente.",
     "affiliate_url": "",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [],
     "source_http_status": "200",
     "licence": {
@@ -8988,7 +8997,7 @@
     "notes_es": "Tradier Brokerage (broker de EE. UU.) admite residentes en España y en la mayoría de países de la UE; Bulgaria, Croacia, Chipre, Letonia y Malta están bloqueados. La página MCP no publica su propia lista de países. Algunos clientes web llevan la clave API en la URL del servidor: trátala como un secreto.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [],
     "source_http_status": "200",
     "licence": {
@@ -9166,8 +9175,8 @@
       "Any MCP client"
     ],
     "capability": "place_orders",
-    "limits": "Beta, not generally available. OAuth 2.1 with per-tool permissions you pick on the consent screen (e.g. Trade = place/modify/cancel). Optional connection risk limits (max exposure, traded volume, per-product/contract allowlist) on top of account-level risk settings. Separate Demo and Live servers. The official trading skills show each order payload and ask for approval; direct tool calls have no documented per-order confirmation.",
-    "limits_es": "Beta, no disponible para todos. OAuth 2.1 con permisos por herramienta que eliges al autorizar (p. ej. Operar = lanzar/modificar/cancelar). Límites de riesgo opcionales por conexión (exposición máxima, volumen, lista de productos/contratos permitidos) además de los de la cuenta. Servidores Demo y Live separados. Las skills oficiales muestran cada orden y piden aprobación; las llamadas directas a herramientas no documentan confirmación por orden.",
+    "limits": "Available to NinjaTrader and Tradovate users (the docs no longer call it a beta). OAuth 2.1 with per-tool permissions you pick on the consent screen (e.g. Trade = place/modify/cancel). Optional connection risk limits (max exposure, traded volume, per-product/contract allowlist) on top of account-level risk settings. Separate Demo and Live servers. The official trading skills show each order payload and ask for approval; for direct tool calls, write tools carry MCP's destructive-action hint, so most clients pause for approval, but the server itself requires no per-order confirmation.",
+    "limits_es": "Disponible para usuarios de NinjaTrader y Tradovate (la documentación ya no lo presenta como beta). OAuth 2.1 con permisos por herramienta que eliges al autorizar (p. ej. Operar = lanzar/modificar/cancelar). Límites de riesgo opcionales por conexión (exposición máxima, volumen, lista de productos/contratos permitidos) además de los de la cuenta. Servidores Demo y Live separados. Las skills oficiales muestran cada orden y piden aprobación; en las llamadas directas, las herramientas de escritura llevan la marca MCP de acción destructiva, así que la mayoría de clientes piden aprobación, pero el servidor no exige confirmar cada orden.",
     "availability": {
       "spain": "unknown",
       "eu": "account_only",
@@ -9183,10 +9192,10 @@
       "https://ninjatrader.com/news/ninjatrader-launches-ninjatrader-innovation-lab-to-power-dedicated-futures-focused-ai-tools-for-retail-traders/",
       "https://ninjatrader.com/news/ninjatrader-expands-into-europe-to-support-the-next-generation-of-retail-futures-traders/"
     ],
-    "notes": "Futures broker. MCP announced 9 Sep 2026 (Innovation Lab). In the EU, NinjaTrader operates via Payward Europe Digital Solutions (CY), launched first in the Netherlands and Germany (Jan 2026) with plans to expand; whether the MCP beta covers EU accounts is not published. Futures are leveraged, high-risk products.",
-    "notes_es": "Broker de futuros. MCP anunciado el 9 sept 2026 (Innovation Lab). En la UE opera a través de Payward Europe Digital Solutions (CY), primero en Países Bajos y Alemania (ene 2026) con planes de ampliarse; no publica si la beta MCP cubre cuentas de la UE. Los futuros son productos apalancados de alto riesgo.",
+    "notes": "Futures broker. MCP announced 9 Sep 2026 (Innovation Lab). In the EU, NinjaTrader operates via Payward Europe Digital Solutions (CY), launched first in the Netherlands and Germany (Jan 2026) with plans to expand; whether the MCP covers EU accounts is not published. Futures are leveraged, high-risk products.",
+    "notes_es": "Broker de futuros. MCP anunciado el 9 sept 2026 (Innovation Lab). En la UE opera a través de Payward Europe Digital Solutions (CY), primero en Países Bajos y Alemania (ene 2026) con planes de ampliarse; no publica si el MCP cubre cuentas de la UE. Los futuros son productos apalancados de alto riesgo.",
     "affiliate_url": "",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "ninja trader"
     ],
@@ -9319,7 +9328,7 @@
       "source": null
     },
     "assets_checked": "2026-10-20",
-    "date_modified": "2026-10-20",
+    "date_modified": "2026-11-02",
     "license": "CC-BY-4.0"
   },
   {
@@ -9356,7 +9365,7 @@
     "notes": "CFD provider: listed for information only, not promoted. Launch date per Capital.com's UAE press release (8 Jun 2026). The MCP pages we found are on Capital.com's international, UK and UAE sites; we found no EU-site page for the MCP, so whether it covers Spanish accounts is not published. Capital.com serves Spain cross-border through Capital Com SV Investments Ltd (CySEC).",
     "notes_es": "Proveedor de CFD: aparece solo a título informativo, no se promociona. Fecha de lanzamiento según la nota de prensa de Capital.com en EAU (8 jun 2026). Las páginas del MCP que encontramos están en las webs internacional, británica y de EAU de Capital.com; no hallamos página del MCP en su web para la UE, así que no consta si cubre cuentas españolas. Capital.com opera en España en libre prestación a través de Capital Com SV Investments Ltd (CySEC).",
     "affiliate_url": "",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "capital.com",
       "capital com",
@@ -9557,7 +9566,7 @@
     "notes_es": "LCX AG (Liechtenstein) indica que no está autorizada conforme a MiCA (solicitud en revisión por la FMA de Liechtenstein) y que no ofrece servicios de criptoactivos a personas en el EEE mientras tanto; los clientes existentes del EEE solo pueden retirar. LCX indica también que no da servicio en Reino Unido ni en EE. UU.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "lcx exchange",
       "liberty dex"
@@ -9704,16 +9713,24 @@
     ],
     "official": true,
     "assistants": [
-      "Claude",
-      "ChatGPT",
-      "Claude Code",
+      "Grok Bot",
       "Cursor",
+      "ChatGPT",
+      "ChatGPT Atlas",
+      "Codex",
+      "Claude",
+      "Claude Code",
+      "OpenCode",
       "VS Code",
-      "Codex CLI"
+      "Hermes Agent",
+      "Notion",
+      "Linear",
+      "Factory",
+      "Conductor"
     ],
     "capability": "place_orders",
-    "limits": "Hosted MCP. Read-only by default; with trading enabled the agent can draft buy, sell, modify and cancel requests, and each one only goes through after you approve it with Questrade Push Approval in the Questrade app. Questrade says the AI cannot place, change or cancel an order on its own.",
-    "limits_es": "MCP en la nube. Solo lectura por defecto; con el trading activado, el agente puede preparar compras, ventas, modificaciones y cancelaciones, y cada una solo se ejecuta cuando la apruebas con Questrade Push Approval en la app de Questrade. Questrade indica que la IA no puede lanzar, modificar ni cancelar una orden por sí sola.",
+    "limits": "Hosted MCP. Read-only by default; with trading enabled the agent can draft buy, sell, modify and cancel requests, and each one only goes through after you approve it with Questrade Push Approval in the Questrade app. Questrade says the AI cannot place, change or cancel an order on its own. The agent can also build a Custom Index and create Flows (plain-language alert and trading rules), each order still needing your approval. Authorized traders can view and draft orders on accounts they trade if the owner enables it, but cannot move money. History covers the last 90 days.",
+    "limits_es": "MCP en la nube. Solo lectura por defecto; con el trading activado, el agente puede preparar compras, ventas, modificaciones y cancelaciones, y cada una solo se ejecuta cuando la apruebas con Questrade Push Approval en la app de Questrade. Questrade indica que la IA no puede lanzar, modificar ni cancelar una orden por sí sola. El agente también puede crear un índice personalizado (Custom Index) y Flows (reglas de alertas y trading en lenguaje natural), y cada orden sigue necesitando tu aprobación. Si el titular lo activa, un operador autorizado puede consultar y preparar órdenes en las cuentas que gestiona, pero no mover dinero. El historial abarca los últimos 90 días.",
     "availability": {
       "spain": "unknown",
       "eu": "unknown",
@@ -9729,7 +9746,7 @@
     "notes_es": "Broker canadiense. URL del MCP: https://mcp.questrade.com/v1/brokerage/mcp. Push Approval requiere la app de Questrade 2.0.0 o posterior. No hemos encontrado información oficial sobre cuentas para residentes en España.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [],
     "source_http_status": "200",
     "licence": {
@@ -9776,12 +9793,20 @@
     },
     "hq_es": "Canadá",
     "assistants_es": [
-      "Claude",
-      "ChatGPT",
-      "Claude Code",
+      "Grok Bot",
       "Cursor",
+      "ChatGPT",
+      "ChatGPT Atlas",
+      "Codex",
+      "Claude",
+      "Claude Code",
+      "OpenCode",
       "VS Code",
-      "Codex CLI"
+      "Hermes Agent",
+      "Notion",
+      "Linear",
+      "Factory",
+      "Conductor"
     ],
     "assets": {
       "stocks": {
@@ -9864,7 +9889,7 @@
       "source": null
     },
     "assets_checked": "2026-10-20",
-    "date_modified": "2026-10-20",
+    "date_modified": "2026-11-02",
     "license": "CC-BY-4.0"
   },
   {
@@ -9881,7 +9906,8 @@
       "Claude",
       "Gemini",
       "Grok",
-      "OpenCode"
+      "OpenCode",
+      "Hermes Agent"
     ],
     "capability": "place_orders",
     "limits": "Hosted remote MCP with OAuth sign-in (27 tools: 15 read-only, 4 validation, 8 operational such as orders, caución, mutual funds and stop-loss/take-profit). Three access modes you choose and can change later through a single-use link: 'Solo lectura' (read tools only), 'Confirmar operaciones' (orders, caución and mutual-fund subscriptions/redemptions only execute when you open a single-use, expiring confirmation link; the direct-execution tools are hidden) and 'Automático' (the MCP executes operations on its own after validating them). Every operation goes through a validation step first.",
@@ -9896,6 +9922,7 @@
     "launch_date": "2026-08-27",
     "source_url": "https://www.invertironline.com/mcp",
     "evidence_urls": [
+      "https://mcp.invertironline.com/",
       "https://mcp.invertironline.com/documentacion-tecnica",
       "https://www.cronista.com/finanzas-mercados/la-ia-empieza-a-operar-en-el-mercado-argentino-asi-es-el-cambio-que-transformara-a-las-sociedades-de-bolsa/",
       "https://www.invertironline.com/tyc-mcp"
@@ -9903,7 +9930,7 @@
     "notes": "Corrected 20 Oct 2026: we had described every operation as needing your confirmation; IOL's technical documentation also offers an 'Automático' mode. IOL's own texts are not consistent: the documentation's tool table and the connector's privacy policy (section 9.5) say no order is placed without your explicit confirmation, while the mode description says 'Automático' executes after validation; we report both. Some operations also require you to accept a sworn statement (DDJJ). Available to all IOL clients from launch (El Cronista). Argentine broker (InvertirOnline S.A.U., ALyC no. 273 registered with the CNV of Argentina). MCP URL https://mcp.invertironline.com. Reported as the first Argentine broker with an MCP; launch date per the Argentine press (late August 2026). IOL has a non-resident section, but we found no statement covering residents of Spain.",
     "notes_es": "Corregido el 20 oct 2026: habíamos indicado que toda operación requería tu confirmación; la documentación técnica de IOL también ofrece un modo 'Automático'. Los textos de IOL no son coherentes entre sí: la tabla de herramientas de la documentación y la política de privacidad del conector (apartado 9.5) dicen que ninguna orden se cursa sin tu confirmación explícita, mientras que la descripción del modo 'Automático' indica que ejecuta tras validar; recogemos ambas. Algunas operaciones requieren además aceptar una declaración jurada (DDJJ). Disponible para todos los clientes de IOL desde el lanzamiento (El Cronista). Broker argentino (InvertirOnline S.A.U., ALyC n.º 273 registrado en la CNV de Argentina). URL del MCP: https://mcp.invertironline.com. Primer broker argentino con MCP según la prensa; fecha de lanzamiento según la prensa argentina (finales de agosto de 2026). IOL tiene una sección para no residentes, pero no hemos encontrado información que cubra a residentes en España.",
     "affiliate_url": "",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "invertironline",
       "invertir online",
@@ -9958,7 +9985,8 @@
       "Claude",
       "Gemini",
       "Grok",
-      "OpenCode"
+      "OpenCode",
+      "Hermes Agent"
     ],
     "assets": {
       "stocks": {
@@ -10045,7 +10073,7 @@
       "source": null
     },
     "assets_checked": "2026-10-20",
-    "date_modified": "2026-10-20",
+    "date_modified": "2026-11-02",
     "license": "CC-BY-4.0"
   },
   {
@@ -10084,7 +10112,7 @@
     "notes_es": "Bitget EU ha solicitado la autorización MiCA en Austria (FMA); a 19 oct 2026 ninguna entidad de Bitget figura en el registro MiCA de ESMA. Los productos apalancados son de alto riesgo.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "bitget agent hub"
     ],
@@ -10260,7 +10288,7 @@
     "notes_es": "Documentación actualizada el 27 abr 2026. La entidad de Gate en la UE (Gate Technology Limited, MFSA) es un PSCA MiCA con pasaporte a España, pero Gate no publica si las herramientas para agentes funcionan con cuentas de esa entidad. Los productos apalancados son de alto riesgo.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "gate.io",
       "gate.com",
@@ -10436,7 +10464,7 @@
     "notes_es": "El repositorio oficial anterior del MCP de Composer (invest-composer/composer-trade-mcp) ya no carga (comprobado el 19 oct 2026); no hemos podido confirmar en una página oficial si se retiró ni cuándo. Composer se unió a SoFi el 23 jun 2026. Composer indica que la operativa real no está disponible fuera de EE. UU. La capacidad refleja la API para desarrolladores, no un acceso para agentes pensado para clientes.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "composer trade",
       "composer by sofi"
@@ -10600,7 +10628,7 @@
     "notes_es": "Software de wallet, no es un broker ni un exchange. Los perpetuos son productos apalancados de alto riesgo.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "phantom wallet"
     ],
@@ -10773,7 +10801,7 @@
     "notes_es": "Software de trading para un exchange descentralizado de perpetuos, no es un broker. Los productos apalancados son de alto riesgo.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "senpi ai"
     ],
@@ -10945,7 +10973,7 @@
     "notes": "Ripio operates in Argentina, Mexico, Colombia, Uruguay, Brazil and Spain through different local entities (Ripio's institutional page); the MCP's own country list is not published. Launch date is the date of Ripio's blog post. Crypto-assets are high risk.",
     "notes_es": "Ripio opera en Argentina, México, Colombia, Uruguay, Brasil y España mediante distintas entidades locales (página institucional de Ripio); no publica la lista de países del MCP. La fecha es la de la publicación del blog de Ripio. Los criptoactivos son de alto riesgo.",
     "affiliate_url": "",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "ripio trade",
       "ripio mcp"
@@ -11112,7 +11140,7 @@
     "notes_es": "La capacidad refleja la API para desarrolladores, no un acceso para agentes pensado para clientes. La web de Bitso incluye un aviso de que la plataforma no está autorizada para prestar servicios de criptoactivos en España. El trading con margen es apalancado y de alto riesgo.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "bitso alpha",
       "bitso api"
@@ -11281,7 +11309,7 @@
     "notes_es": "Negocio mexicano de Webull, distinto de la ficha de Webull EE. UU./UE. La página de OpenAPI de Webull México menciona MCP, Skills y CLI, y su página legal incluye un aviso de riesgos de herramientas de IA ('AI Tools Risk Disclosure'). Según Wall Street en Español (septiembre de 2026), el Cloud MCP todavía no está disponible en América Latina. Requiere acceso a OpenAPI; la instalación es técnica.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "webull mx",
       "webull mexico",
@@ -11460,7 +11488,7 @@
     "notes_es": "App de inversión chilena. Zesty SpA figura en el Registro de Prestadores de Servicios Financieros de la CMF (enrutamiento de órdenes, Ley Fintech de Chile); las acciones chilenas se custodian vía Vector Capital Corredores de Bolsa SpA (CMF) y las de EE. UU. vía Alpaca Securities LLC (SEC/FINRA, SIPC), según Zesty. Probado por Zesty con Claude, ChatGPT (modo desarrollador), Cursor y Grok. Fuera del piloto Argentina/México; se incluye como contexto regional.",
     "affiliate_url": "",
     "launch_date": "unknown",
-    "last_checked": "2026-10-26",
+    "last_checked": "2026-11-02",
     "aliases": [
       "zesty finance",
       "zestyfinance"

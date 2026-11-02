@@ -326,5 +326,45 @@
     "title_es": "Interactive Brokers lanza Autonomous Trading: los clientes elegibles pueden dejar que su IA envíe órdenes de acciones y de opciones sobre acciones sin aprobar cada una, dentro de una «AI Partition» con fondos asignados. Está previsto para IB LLC (EE. UU. y los países que atiende), Reino Unido, Australia y Singapur, no para IB Ireland: en España el agente sigue limitado a preparar instrucciones.",
     "source_url": "https://www.interactivebrokers.com/en/general/about/mediaRelations/10-21-26.php",
     "source_http_status": "200"
+  },
+  {
+    "date": "2026-10-22",
+    "provider_id": "caixabank",
+    "title_en": "CaixaBank launches an official app inside ChatGPT: product information and comparisons in a conversation, no account access or contracting. Per Expansión, it is the first Spanish bank to do so in its home market.",
+    "title_es": "CaixaBank lanza una app oficial dentro de ChatGPT para consultar y comparar sus productos en una conversación, sin acceso a la cuenta ni contratación. Según Expansión, es el primer banco español que da este paso en su mercado doméstico.",
+    "source_url": "https://www.caixabank.com/es/actualidad/noticias/caixabank-app-chatgpt-banca-conversacional",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-11-02",
+    "provider_id": "etoro",
+    "title_en": "eToro's setup guide: ChatGPT now connects only on desktop, as a custom MCP server (https://agent.public-api.etoro.com) added under Plugins; Claude connects from its built-in connectors directory.",
+    "title_es": "Según la guía de eToro, ChatGPT ya solo se conecta en escritorio, como servidor MCP personalizado (https://agent.public-api.etoro.com) añadido en Plugins; Claude se conecta desde su directorio de conectores.",
+    "source_url": "https://mcp.etoro.app/chatgpt",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-11-02",
+    "provider_id": "ninjatrader",
+    "title_en": "NinjaTrader's MCP documentation drops the beta label: the server is now available to NinjaTrader and Tradovate users.",
+    "title_es": "La documentación del MCP de NinjaTrader deja de presentarlo como beta: el servidor ya está disponible para usuarios de NinjaTrader y Tradovate.",
+    "source_url": "https://docs.ninjatrader.com/mcp.md",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-11-02",
+    "provider_id": "questrade",
+    "title_en": "Questrade's MCP now lists 14 supported agents (native connectors for Grok Bot and Cursor) and adds Custom Index, Flows and authorized-trader access; every order still needs Push Approval.",
+    "title_es": "El MCP de Questrade ya admite 14 agentes (con conector nativo para Grok Bot y Cursor) y añade índices personalizados, Flows y acceso para operadores autorizados; cada orden sigue requiriendo Push Approval.",
+    "source_url": "https://www.questrade.com/learning/using-questrade/connect-your-questrade-account-to-ai",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-11-02",
+    "provider_id": "iol",
+    "title_en": "IOL's MCP page adds setup steps for Hermes Agent and now names Gemini Spark (in the Gemini app) as the Gemini route.",
+    "title_es": "La página del MCP de IOL añade los pasos para conectar Hermes Agent y ahora indica Gemini Spark (en la app de Gemini) como vía para Gemini.",
+    "source_url": "https://mcp.invertironline.com/",
+    "source_http_status": "200"
   }
 ]
