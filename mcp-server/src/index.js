@@ -3,7 +3,7 @@
  * Data: the public CC BY 4.0 dataset (providers.json, changelog.json) fetched from DATA_BASE and edge-cached 1 h.
  * Logs nothing about callers. Information only, not financial advice. Never returns affiliate or referral links.
  */
-const VERSION = "0.1.0";
+const VERSION = "0.1.1";
 const PROTOCOLS = ["2025-11-25", "2025-06-18", "2025-03-26"];
 const CAPS = ["place_orders", "draft_orders", "read_only", "none"];
 const TYPES = ["broker", "bank", "neobank", "robo_advisor", "crypto_exchange", "wallet", "platform", "aggregator"];
@@ -200,9 +200,25 @@ const rpcError = (id, code, message) => ({ jsonrpc: "2.0", id: id ?? null, error
 const CORS = { "access-control-allow-origin": "*", "access-control-allow-headers": "content-type, mcp-protocol-version, mcp-session-id, accept", "access-control-allow-methods": "POST, GET, OPTIONS", "access-control-expose-headers": "mcp-protocol-version" };
 const json = (obj, status = 200, extra = {}) => new Response(obj === null ? null : JSON.stringify(obj), { status, headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store", ...CORS, ...extra } });
 
+// Anonymous usage counter (privacy policy): per UTC day, only the tool name or the MCP method name, from a fixed list.
+// No IPs, user agents, arguments, session IDs or anything that identifies a person. Written to D1 (abi-metrics, table hits)
+// after the response via ctx.waitUntil; any error is swallowed so counting can never slow down or break a response.
+// Schema: CREATE TABLE hits (day TEXT, kind TEXT, family TEXT DEFAULT '', ref TEXT DEFAULT '', utm TEXT DEFAULT '', path TEXT DEFAULT '', n INTEGER DEFAULT 0, PRIMARY KEY (day,kind,family,ref,utm,path)) WITHOUT ROWID
+const COUNT_SQL = "INSERT INTO hits (day,kind,family,ref,utm,path,n) VALUES (?1,?2,?3,'','','',1) ON CONFLICT(day,kind,family,ref,utm,path) DO UPDATE SET n = n + 1";
+const COUNTED_METHODS = new Set(["initialize", "tools/list"]);
+function countCall(env, ctx, kind, name) {
+  try {
+    const db = env && env.ABI_METRICS;
+    if (!db || !ctx || !ctx.waitUntil) return;
+    const day = new Date().toISOString().slice(0, 10);
+    ctx.waitUntil(db.prepare(COUNT_SQL).bind(day, kind, name).run().catch(() => {}));
+  } catch (_) {}
+}
+
 async function handleRpc(msg, env, ctx, state) {
   if (!msg || msg.jsonrpc !== "2.0" || typeof msg.method !== "string") return rpcError(msg && msg.id, -32600, "Invalid Request");
   const isNotification = msg.id === undefined || msg.id === null;
+  if (COUNTED_METHODS.has(msg.method)) countCall(env, ctx, "mcp_method", msg.method);
   switch (msg.method) {
     case "initialize": {
       const asked = msg.params && msg.params.protocolVersion;
@@ -219,7 +235,8 @@ async function handleRpc(msg, env, ctx, state) {
     case "tools/list": return rpcResult(msg.id, { tools: TOOLS });
     case "tools/call": {
       const name = msg.params && msg.params.name; const args = (msg.params && msg.params.arguments) || {};
-      if (!TOOL_IMPL[name]) return rpcError(msg.id, -32602, `Unknown tool: ${name}`);
+      if (typeof name !== "string" || !Object.prototype.hasOwnProperty.call(TOOL_IMPL, name)) return rpcError(msg.id, -32602, `Unknown tool: ${name}`);
+      countCall(env, ctx, "mcp_tool", name);   // name is one of the 5 known tools (checked above)
       try {
         state.data = state.data || (await loadData(env, ctx));
         const out = TOOL_IMPL[name](args, state.data);

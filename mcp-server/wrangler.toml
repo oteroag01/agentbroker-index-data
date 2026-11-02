@@ -9,3 +9,10 @@ preview_urls = false
 
 [vars]
 DATA_BASE = "https://agentbrokerindex.com"
+
+# Optional anonymous per-day tool/method counter (no personal data). The live server binds a D1 database here;
+# without the binding the counter is simply skipped. Table schema: see the countCall() comment in src/index.js.
+# [[d1_databases]]
+# binding = "ABI_METRICS"
+# database_name = "abi-metrics"
+# database_id = "<your D1 database id>"

@@ -11,7 +11,7 @@ Free, read-only [MCP](https://modelcontextprotocol.io/) server over the AgentBro
   - `list_changes`: dated changelog entries, each with its source
   - `dataset_info`: counts, last check date, licence
 
-The server can't place orders or touch any account. It stores no requests and has no affiliate links. Every response carries the sources, the check dates, a "not financial advice" notice and the CC BY 4.0 credit.
+The server can't place orders or touch any account. It has no affiliate links and stores no requests: it keeps only an anonymous count of which tools get called each day (day + tool or method name + total, in Cloudflare D1), with no IPs, queries, user agents or session IDs. Every response carries the sources, the check dates, a "not financial advice" notice and the CC BY 4.0 credit.
 
 ## Add it to a client
 Add a remote MCP server or custom connector with the URL `https://mcp.agentbrokerindex.com/mcp`, for example in Claude, ChatGPT developer mode or Cursor.
