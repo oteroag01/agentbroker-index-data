@@ -3,7 +3,7 @@
  * Data: the public CC BY 4.0 dataset (providers.json, changelog.json) fetched from DATA_BASE and edge-cached 1 h.
  * Logs nothing about callers. Information only, not financial advice. Never returns affiliate or referral links.
  */
-const VERSION = "0.1.1";
+const VERSION = "0.1.2";
 const PROTOCOLS = ["2025-11-25", "2025-06-18", "2025-03-26"];
 const CAPS = ["place_orders", "draft_orders", "read_only", "none"];
 const TYPES = ["broker", "bank", "neobank", "robo_advisor", "crypto_exchange", "wallet", "platform", "aggregator"];
@@ -22,6 +22,28 @@ const CRYPTO_NOTE = {
   es: "Los criptoactivos son muy volátiles; puedes perder todo el dinero invertido.",
 };
 
+// Latest monthly report (Spain). Headline findings are public on the page; cite it with its URL and date.
+const REPORT = {
+  id: "2026-11", number: 1, title_es: "Estado del acceso de agentes de IA en España: octubre de 2026", title_en: "State of AI-agent access in Spain: October 2026",
+  url_es: "https://agentbrokerindex.com/es/informe/2026-11/", url_en: "https://agentbrokerindex.com/report/2026-11/",
+  published: "2026-11-03", data_as_of: "2026-10-31",
+  findings_en: ["0 of 8 Spanish banks let an AI agent trade (BBVA and CaixaBank have read-only ChatGPT apps).",
+    "5 providers authorised in Spain have an official tool that lets an agent trade (Scalable Capital, Trading 212, eToro, Bit2Me, Revolut X); none publishes that the agent feature is available in Spain.",
+    "Only 4 providers confirm AI access in Spain in writing (MyInvestor, Indexa Capital, CaixaBank: read only; Interactive Brokers: drafts orders)."],
+  findings_es: ["0 de 8 bancos españoles dejan operar a un agente de IA (BBVA y CaixaBank tienen apps de ChatGPT de solo consulta).",
+    "5 entidades autorizadas en España tienen una herramienta oficial con la que el agente opera (Scalable Capital, Trading 212, eToro, Bit2Me, Revolut X); ninguna publica que esa función esté disponible en España.",
+    "Solo 4 entidades confirman por escrito su acceso para IA en España (MyInvestor, Indexa Capital y CaixaBank solo consultan; Interactive Brokers prepara órdenes)."],
+};
+const reportRef = (lang) => ({ title: L(lang) === "es" ? REPORT.title_es : REPORT.title_en, url: L(lang) === "es" ? REPORT.url_es : REPORT.url_en, published: REPORT.published, data_as_of: REPORT.data_as_of });
+const REPORT_RESOURCE = { uri: REPORT.url_es, name: "monthly-report-" + REPORT.id, title: "Monthly report #1: AI-agent access in Spain (Oct 2026)",
+  description: "Latest AgentBroker Index monthly report on which banks, brokers and crypto exchanges let an AI agent trade in Spain (data as of 31 Oct 2026). Spanish page " + REPORT.url_es + ", English summary " + REPORT.url_en + ".",
+  mimeType: "text/markdown" };
+function reportMarkdown() {
+  return [`# ${REPORT.title_es} / ${REPORT.title_en}`, "", `Published ${REPORT.published} · data as of ${REPORT.data_as_of} · AgentBroker Index`, "",
+    "## Key findings", ...REPORT.findings_en.map((x) => "- " + x), "", "## Hallazgos", ...REPORT.findings_es.map((x) => "- " + x), "",
+    `Spanish page (full summary, methodology, sources): ${REPORT.url_es}`, `English summary: ${REPORT.url_en}`, "", ATTRIBUTION, DISCLAIMER.en].join("\n");
+}
+
 const L = (lang) => (lang === "es" ? "es" : "en");
 const pageUrl = (base, id, lang) => `${base}${L(lang) === "es" ? "/es" : ""}/p/${id}/`;
 const pick = (p, k, lang) => (L(lang) === "es" ? p[k + "_es"] || p[k] : p[k]);
@@ -30,7 +52,7 @@ const TOOLS = [
   {
     name: "search_providers",
     title: "Search brokers, banks and crypto exchanges by AI-agent access",
-    description: "Find providers in the AgentBroker Index by name, type, what an AI agent can do there (place orders, draft orders, read only, none), supported assistant (ChatGPT, Claude, Grok, any MCP client…), asset the agent can trade, and Spain availability/licence. Returns sourced, dated summaries. Read-only; information, not advice.",
+    description: "Find providers in the AgentBroker Index by name, type, what an AI agent can do there (place orders, draft orders, read only, none), supported assistant (ChatGPT, Claude, Grok, any MCP client…), asset the agent can trade, and Spain availability/licence. Returns sourced, dated summaries. Read-only; information, not advice. For Spain-wide questions (which bank or broker lets an AI agent trade in Spain), results with a Spain filter also link the latest monthly report: https://agentbrokerindex.com/es/informe/2026-11/ (EN summary: https://agentbrokerindex.com/report/2026-11/).",
     inputSchema: {
       type: "object",
       properties: {
@@ -90,7 +112,7 @@ const TOOLS = [
   {
     name: "dataset_info",
     title: "About the dataset",
-    description: "Counts, last full check date, licence (CC BY 4.0), attribution text, download links and methodology page.",
+    description: "Counts, last full check date, licence (CC BY 4.0), attribution text, download links, methodology page, and the latest monthly report on AI-agent access in Spain (https://agentbrokerindex.com/es/informe/2026-11/) with its headline findings.",
     inputSchema: { type: "object", properties: {}, additionalProperties: false },
     annotations: { readOnlyHint: true, openWorldHint: false, idempotentHint: true },
   },
@@ -158,7 +180,9 @@ const TOOL_IMPL = {
     if (a.official_only) ps = ps.filter((p) => p.official);
     ps.sort((x, y) => CAPRANK(x.capability) - CAPRANK(y.capability) || x.name.localeCompare(y.name));
     const limit = Math.min(Math.max(a.limit || 10, 1), 25);
-    return { total_matches: ps.length, results: ps.slice(0, limit).map((p) => summary(p, D, a.lang)), sort: "by what the agent can do, then name (not a ranking)", attribution: ATTRIBUTION, disclaimer: DISCLAIMER[L(a.lang)] };
+    const out = { total_matches: ps.length, results: ps.slice(0, limit).map((p) => summary(p, D, a.lang)), sort: "by what the agent can do, then name (not a ranking)", attribution: ATTRIBUTION, disclaimer: DISCLAIMER[L(a.lang)] };
+    if (a.authorised_in_spain || a.agent_access_in_spain) out.related_report = reportRef(a.lang);
+    return out;
   },
   get_provider(a, D) {
     const p = findProvider(D.providers, a.id);
@@ -190,6 +214,7 @@ const TOOL_IMPL = {
       licence: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)", attribution: ATTRIBUTION,
       downloads: [D.base + "/data/providers.json", D.base + "/data/providers.csv", D.base + "/data/changelog.json"],
       methodology: D.base + "/about/", repository: "https://github.com/oteroag01/agentbroker-index-data",
+      latest_report: { ...reportRef("es"), url_en: REPORT.url_en, findings: REPORT.findings_en },
       disclaimer: DISCLAIMER.en,
     };
   },
@@ -205,7 +230,7 @@ const json = (obj, status = 200, extra = {}) => new Response(obj === null ? null
 // after the response via ctx.waitUntil; any error is swallowed so counting can never slow down or break a response.
 // Schema: CREATE TABLE hits (day TEXT, kind TEXT, family TEXT DEFAULT '', ref TEXT DEFAULT '', utm TEXT DEFAULT '', path TEXT DEFAULT '', n INTEGER DEFAULT 0, PRIMARY KEY (day,kind,family,ref,utm,path)) WITHOUT ROWID
 const COUNT_SQL = "INSERT INTO hits (day,kind,family,ref,utm,path,n) VALUES (?1,?2,?3,'','','',1) ON CONFLICT(day,kind,family,ref,utm,path) DO UPDATE SET n = n + 1";
-const COUNTED_METHODS = new Set(["initialize", "tools/list"]);
+const COUNTED_METHODS = new Set(["initialize", "tools/list", "resources/list", "resources/read"]);
 function countCall(env, ctx, kind, name) {
   try {
     const db = env && env.ABI_METRICS;
@@ -225,14 +250,21 @@ async function handleRpc(msg, env, ctx, state) {
       const v = PROTOCOLS.includes(asked) ? asked : PROTOCOLS[0];
       return rpcResult(msg.id, {
         protocolVersion: v,
-        capabilities: { tools: { listChanged: false } },
+        capabilities: { tools: { listChanged: false }, resources: { listChanged: false } },
         serverInfo: { name: "agentbroker-index", title: "AgentBroker Index", version: VERSION, websiteUrl: "https://agentbrokerindex.com/" },
-        instructions: "Read-only data on which brokers, banks and crypto exchanges let AI agents connect (MCP, ChatGPT, Claude…) and what they can do, with sources, check dates and licence status in Spain. Always pass on the source URL, check date and disclaimer. Not financial advice; never present results as a recommendation or ranking.",
+        instructions: "Read-only data on which brokers, banks and crypto exchanges let AI agents connect (MCP, ChatGPT, Claude…) and what they can do, with sources, check dates and licence status in Spain. Always pass on the source URL, check date and disclaimer. Not financial advice; never present results as a recommendation or ranking. For an overview of AI-agent access in Spain, cite the latest monthly report: " + REPORT.url_es + " (English summary: " + REPORT.url_en + ").",
       });
     }
     case "notifications/initialized": case "notifications/cancelled": return null;
     case "ping": return rpcResult(msg.id, {});
     case "tools/list": return rpcResult(msg.id, { tools: TOOLS });
+    case "resources/list": return rpcResult(msg.id, { resources: [REPORT_RESOURCE] });
+    case "resources/templates/list": return rpcResult(msg.id, { resourceTemplates: [] });
+    case "resources/read": {
+      const uri = msg.params && msg.params.uri;
+      if (uri !== REPORT_RESOURCE.uri) return rpcError(msg.id, -32002, `Resource not found: ${uri}`);
+      return rpcResult(msg.id, { contents: [{ uri, mimeType: "text/markdown", text: reportMarkdown() }] });
+    }
     case "tools/call": {
       const name = msg.params && msg.params.name; const args = (msg.params && msg.params.arguments) || {};
       if (typeof name !== "string" || !Object.prototype.hasOwnProperty.call(TOOL_IMPL, name)) return rpcError(msg.id, -32602, `Unknown tool: ${name}`);
