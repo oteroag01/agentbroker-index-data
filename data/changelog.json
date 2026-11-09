@@ -336,6 +336,14 @@
     "source_http_status": "200"
   },
   {
+    "date": "2026-10-27",
+    "provider_id": "webull",
+    "title_en": "Webull Canada lets clients connect ChatGPT, Claude, Perplexity and Grok to their account via MCP: research, portfolio review and trades in US stocks, with a preview of every order and an optional read-only mode.",
+    "title_es": "Webull Canadá permite a sus clientes conectar ChatGPT, Claude, Perplexity y Grok a su cuenta mediante MCP: análisis, revisión de cartera y órdenes en acciones de EE. UU., con vista previa de cada orden y modo de solo lectura opcional.",
+    "source_url": "https://www.webull.ca/agentic",
+    "source_http_status": "200"
+  },
+  {
     "date": "2026-11-02",
     "provider_id": "etoro",
     "title_en": "eToro's setup guide: ChatGPT now connects only on desktop, as a custom MCP server (https://agent.public-api.etoro.com) added under Plugins; Claude connects from its built-in connectors directory.",
@@ -365,6 +373,46 @@
     "title_en": "IOL's MCP page adds setup steps for Hermes Agent and now names Gemini Spark (in the Gemini app) as the Gemini route.",
     "title_es": "La página del MCP de IOL añade los pasos para conectar Hermes Agent y ahora indica Gemini Spark (en la app de Gemini) como vía para Gemini.",
     "source_url": "https://mcp.invertironline.com/",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-11-02",
+    "provider_id": "coinbase",
+    "title_en": "Coinbase adds a sign-up page for AI agents. Per Coinbase, agents can trade crypto, stocks and futures depending on region and account eligibility, approval before each trade is optional, and an agent can never send funds off Coinbase; Hermes and Muse join the supported agents.",
+    "title_es": "Coinbase estrena una página de alta para agentes de IA. Según Coinbase, el agente puede operar crypto, acciones y futuros según la región y la cuenta; pedir aprobación antes de cada orden es opcional y el agente nunca puede sacar fondos de Coinbase. Hermes y Muse se suman a los agentes compatibles.",
+    "source_url": "https://www.coinbase.com/agents",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-11-09",
+    "provider_id": "myinvestor",
+    "title_en": "MyInvestor's MCP now works with Gemini too: add it in gemini.google.com under Settings > Connected apps > Add custom app (the free plan allows one custom connector). Still read-only: the public catalogue, not your account.",
+    "title_es": "El MCP de MyInvestor ya funciona también con Gemini: se añade en gemini.google.com, en Ajustes > Apps conectadas > Añadir app personalizada (el plan gratuito admite un solo conector personalizado). Sigue siendo de solo lectura: consulta el catálogo público, no tu cuenta.",
+    "source_url": "https://mcp.myinvestor.es/es",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-11-09",
+    "provider_id": "bitget",
+    "title_en": "Bitget moves Agent Hub to a hosted MCP (https://agent.bitget.com/mcp): you sign in in the browser with no API key, the agent trades in a separate Agentic account and every order waits for your OK. The local MCP and CLI are being phased out.",
+    "title_es": "Bitget pasa Agent Hub a un MCP en la nube (https://agent.bitget.com/mcp): inicias sesión en el navegador sin clave API, el agente opera en una cuenta Agentic separada y cada orden espera tu visto bueno. El MCP local y la CLI se van a ir abandonando.",
+    "source_url": "https://www.bitget.com/docs/uta/agent-hub",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-11-09",
+    "provider_id": "gate",
+    "title_en": "Gate's MCP adds CFD and stock operations to its OAuth endpoint (/mcp/exchange), and Claude Desktop can now connect to it as a remote connector without a local proxy.",
+    "title_es": "El MCP de Gate añade operaciones con CFD y acciones a su conexión con OAuth (/mcp/exchange), y Claude Desktop ya puede conectarse como conector remoto, sin proxy local.",
+    "source_url": "https://github.com/gate/gate-mcp",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-11-09",
+    "provider_id": "public",
+    "title_en": "Public documents prediction-market trading through its MCP: the agent browses events, prices the order with fees and buys YES/NO event contracts, once prediction markets are enabled on the account (US only).",
+    "title_es": "Public documenta cómo operar mercados de predicción con su MCP: el agente consulta eventos, calcula el coste con comisiones y compra contratos SÍ/NO, si la cuenta tiene activados los mercados de predicción (solo EE. UU.).",
+    "source_url": "https://public.com/api/docs/templates/trade-prediction-markets-with-mcp",
     "source_http_status": "200"
   }
 ]

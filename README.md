@@ -11,8 +11,8 @@ Which brokers, banks and crypto exchanges let an AI agent (ChatGPT, Claude, Grok
 | Authorised to serve Spain | 38 (checked against CNMV, Banco de España and ESMA registers) |
 | ESMA interim MiCA register | 373 authorised CASPs (checked 2026-10-19) |
 | Argentina / Mexico (pilot) | 4 providers with Argentina data, 4 with Mexico data (Interactive Brokers, IOL invertironline, Ripio, Bitso, Webull México) |
-| Asset types (new) | 42 of 44 official providers with at least one sourced asset cell; 419 of 616 cells still unconfirmed |
-| Data version | 2026-11-02 (records last re-checked 2026-11-02) |
+| Asset types (new) | 42 of 44 official providers with at least one sourced asset cell; 418 of 616 cells still unconfirmed |
+| Data version | 2026-11-09 (records last re-checked 2026-11-09) |
 
 ## Files
 - `data/providers.json`: full records (nested licence object).
@@ -55,6 +55,6 @@ Which brokers, banks and crypto exchanges let an AI agent (ChatGPT, Claude, Grok
 Data: [CC BY 4.0](LICENSE). Credit "AgentBroker Index (agentbrokerindex.com)", link to the licence and say if you changed anything. Provider names and trademarks belong to their owners.
 
 ```
-AgentBroker Index (2026). AgentBroker Index dataset: AI-agent access to brokers, banks and crypto exchanges (version 2026-11-02). https://agentbrokerindex.com/ . Licensed CC BY 4.0.
+AgentBroker Index (2026). AgentBroker Index dataset: AI-agent access to brokers, banks and crypto exchanges (version 2026-11-09). https://agentbrokerindex.com/ . Licensed CC BY 4.0.
 ```
 See also [CITATION.cff](CITATION.cff). The canonical, live version is https://agentbrokerindex.com/data/providers.json.
