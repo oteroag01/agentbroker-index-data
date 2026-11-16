@@ -414,5 +414,21 @@
     "title_es": "Public documenta cómo operar mercados de predicción con su MCP: el agente consulta eventos, calcula el coste con comisiones y compra contratos SÍ/NO, si la cuenta tiene activados los mercados de predicción (solo EE. UU.).",
     "source_url": "https://public.com/api/docs/templates/trade-prediction-markets-with-mcp",
     "source_http_status": "200"
+  },
+  {
+    "date": "2026-11-16",
+    "provider_id": "interactive-brokers",
+    "title_en": "Interactive Brokers now lists IB Ireland, the entity that serves Spain, among those where Autonomous Trading is planned (with IB LLC, Australia and Singapore) and says it is not available to IB (U.K.) clients. It is not live in Spain yet: the agent still only drafts instructions there.",
+    "title_es": "Interactive Brokers incluye ahora a IB Ireland, la entidad que atiende a los clientes de España, entre las que tendrán Autonomous Trading (junto a IB LLC, Australia y Singapur) y lo descarta para los clientes de IB (U.K.). En España aún no está activo: el agente sigue limitado a preparar instrucciones.",
+    "source_url": "https://www.interactivebrokers.com/en/trading/ai-integrations.php",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-11-16",
+    "provider_id": "etoro",
+    "title_en": "eToro adds an official Perplexity connector: Perplexity joins Claude, ChatGPT, Grok and Grok Bot as an assistant you can connect to your eToro account.",
+    "title_es": "eToro añade un conector oficial para Perplexity, que se suma a Claude, ChatGPT, Grok y Grok Bot entre los asistentes que puedes conectar a tu cuenta.",
+    "source_url": "https://builders.etoro.com/",
+    "source_http_status": "200"
   }
 ]
