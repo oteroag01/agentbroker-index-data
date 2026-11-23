@@ -2,13 +2,15 @@
 
 Dated changes to the providers tracked. Each entry is backed by the source linked in `data/changelog.json`.
 
-## Dataset 2026-11-16
+## Dataset 2026-11-23
 - 68 providers. Licence and authorisation checks dated 2026-10-20. ESMA MiCA register: 401 CASPs.
 - Asset types: `assets` (14 asset keys, agent = trade/read/no/unknown, platform, source, notes), `fractional`, `fractional_meta`, `assets_checked`; CSV columns `assets_trade`, `assets_read`, `assets_no`, `fractional`, `assets_checked`, `asset_<key>`. 42 of 44 official providers have sourced cells; 418 cells unconfirmed.
 - Argentina + Mexico pilot: `availability.ar` / `availability.mx` and `licence.latam` (CNV / CNBV registration); CSV columns `availability_ar`, `availability_mx`, `ar_*`, `mx_*`, `latam_checked`.
 - Added `date_modified` (content-change date), `cfd_only` and `license` fields. The data is now licensed CC BY 4.0.
 
 ## Provider events (newest first)
+- 2026-11-23: Coinbase now offers two ways in from ChatGPT: an official Coinbase plugin (US users only) that shows a confirmation card before each order, and a custom MCP connection for automated trading without approving each order. Supertake joins the supported agents. ([source](https://docs.cdp.coinbase.com/coinbase-for-agents/overview))
+- 2026-11-23: Capital.com's Spain page now says CFDs are not available to new clients residing in Spain; it offers them stocks and ETFs instead. Its official MCP covers CFDs. ([source](https://capital.com/espana))
 - 2026-11-16: Interactive Brokers now lists IB Ireland, the entity that serves Spain, among those where Autonomous Trading is planned (with IB LLC, Australia and Singapore) and says it is not available to IB (U.K.) clients. It is not live in Spain yet: the agent still only drafts instructions there. ([source](https://www.interactivebrokers.com/en/trading/ai-integrations.php))
 - 2026-11-16: eToro adds an official Perplexity connector: Perplexity joins Claude, ChatGPT, Grok and Grok Bot as an assistant you can connect to your eToro account. ([source](https://builders.etoro.com/))
 - 2026-11-09: MyInvestor's MCP now works with Gemini too: add it in gemini.google.com under Settings > Connected apps > Add custom app (the free plan allows one custom connector). Still read-only: the public catalogue, not your account. ([source](https://mcp.myinvestor.es/es))

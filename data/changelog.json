@@ -430,5 +430,21 @@
     "title_es": "eToro añade un conector oficial para Perplexity, que se suma a Claude, ChatGPT, Grok y Grok Bot entre los asistentes que puedes conectar a tu cuenta.",
     "source_url": "https://builders.etoro.com/",
     "source_http_status": "200"
+  },
+  {
+    "date": "2026-11-23",
+    "provider_id": "coinbase",
+    "title_en": "Coinbase now offers two ways in from ChatGPT: an official Coinbase plugin (US users only) that shows a confirmation card before each order, and a custom MCP connection for automated trading without approving each order. Supertake joins the supported agents.",
+    "title_es": "Coinbase ofrece ahora dos vías desde ChatGPT: un plugin oficial (solo usuarios de EE. UU.) que muestra una tarjeta para confirmar cada orden y una conexión MCP personalizada para operar de forma automática, sin aprobar cada orden. Supertake se suma a los agentes compatibles.",
+    "source_url": "https://docs.cdp.coinbase.com/coinbase-for-agents/overview",
+    "source_http_status": "200"
+  },
+  {
+    "date": "2026-11-23",
+    "provider_id": "capital-com",
+    "title_en": "Capital.com's Spain page now says CFDs are not available to new clients residing in Spain; it offers them stocks and ETFs instead. Its official MCP covers CFDs.",
+    "title_es": "La página de Capital.com para España indica ahora que los CFD no están disponibles para nuevos clientes residentes en España, a los que ofrece acciones y ETF. Su MCP oficial cubre CFD.",
+    "source_url": "https://capital.com/espana",
+    "source_http_status": "200"
   }
 ]
